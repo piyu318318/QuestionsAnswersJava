@@ -1,0 +1,22 @@
+1)Can we overload static methods? 
+ans : The answer is ‘Yes’. We can have two or more static methods with the same name, but differences in input parameters. For example, consider the following Java program.
+// filename Test.java
+public class Test {
+    public static void foo() {
+        System.out.println("Test.foo() called ");
+    }
+    public static void foo(int a) {
+        System.out.println("Test.foo(int) called ");
+    }
+    public static void main(String args[])
+    {
+        Test.foo();
+        Test.foo(10);
+    }
+}
+
+
+2)CAn we override Static methods ?
+ans: Static methods are bonded at compile time using static binding. Therefore, we cannot override static methods in Java
+
+3)
