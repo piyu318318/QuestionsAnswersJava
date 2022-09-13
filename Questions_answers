@@ -408,7 +408,111 @@ public class RunnableDemo {
 40)can we call start method two times in java  
 ans : No. After starting a thread, it can never be started again. If you does so, an IllegalThreadStateException is thrown.
 
-41)
+41)What are methods object class has?
+->clone(), equals(), toString(), hashCode(), notify(), notifyall(), wait()
+
+42)how can you achieve abstraction (oops) concept in java ?
+->1st way is use abstract class in java 
+2nd way is to implement interfaces.
+
+abstract class :
+if any one of method of a class is abstract then that class mustt be declared as a abstract.
+abstract class can have abstract method as well as its own methods also means non abstract methods ,static methods etc.
+abstract class cannot be instantiate.
+it can have constructors as well as static methods.
+you have to override all the abstract methods of abstract class.
+
+
+interfaces :
+in interfaces methods are default public and abstract and variables are public static final.
+all the methods you have declared in interface must be override in a class which is implemented.
+we cannot instantiate the interfaces.
+we cannot create the object  of interface.
+it cannot have constructors.
+It is 100% abstaction.
+using interfaces we can achieve multiple inheritance.
+
+43)diff in static method and nonstatic method :
+
+static methods belongs to the class not to the object.
+we cannot use non static data members(variables) inside a static method.static method, the method can only access only static data members
+static methods are called using classname.methodname();
+static methods are indipendent of objects.
+
+nonstatic method
+nonstatic methods are belongs to the objects.
+to call nonstatic methods we have to use obj.methodname();
+
+
+44)how many constructors a one class can have ?
+-> many constructors if we use constructor overloading.(65535 constructors can create of single class)
+
+45)can one constructor call from another constructor?
+->yes we can call one constructor from another constructor using super keyword.
+Within same class: It can be done using this() keyword for constructors in the same class
+From base class: by using super() keyword to call the constructor from the base class.
+
+46)how to call any constructor in java ?
+->  by creating an object.
+
+47)what is use of private keyword?
+-> a data member of member function is private then we cannot use that member outside of that class.
+
+48)what are the 4 pillers oop should have ?
+->encapsulation,abstraction,polymorphism, inheritance
+
+49)what is polymorphism ?
+-> polymorphism means one acton havinf many operations. or one single name having many forms.
+real life  : Another excellent real time example of polymorphism is your smartphone. The smartphone can act as phone, camera, music player and what not, 
+taking different forms and hence polymorphism.
+
+50 )how can you achieve polymorphism ?
+-> runtime polymorphism = method overrding
+static polymorphism = method oveloading and constructor oveloading'
+
+51)why multiple inheritance is not allowed in java?
+->in java 
+
+class A
+{
+	int n=10;
+}
+class B
+{
+	int n=20;
+}
+
+class C extends A ,B
+{
+}
+the class C will get confused which n to be used  thats why java doesnt support multiple inheritance.
+
+52)what are the primitive datatypes in java?
+->byte,short,int,float,double,char,long,boolean
+primitive datatpyes means we cannot further divide like array ,String  etc.
+
+53)why java dont use pointers ?
+->	a)pointers are unsafe 
+	b)increases complexity of program
+	c)JVM is the one who is responsible for implicit memory allocation.
+	
+54)what is use of byte code?
+->byte code makes code completely machine indipendent.
+
+55)whhy Strings are immutable?
+->Stirng pool requires string to be immutable otherwise shared reference can be  changed  shared from anywhere.
+security bcoz string is shared on different area like file system,networking connection.
+
+56)what is marker interface ?
+->
+
+
+
+
+
+
+
+
 
 
 
