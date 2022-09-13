@@ -504,8 +504,19 @@ primitive datatpyes means we cannot further divide like array ,String  etc.
 security bcoz string is shared on different area like file system,networking connection.
 
 56)what is marker interface ?
-->
+->A marker inertface can be defined as an inteface having no data member and member function.In simple terms an emptyy innterface is called as marker interface.
+example of marker interface : a)Clonable b)Serializable c)RandomAccess
 
+57)Serializable inteface in java?
+->By implementing Serializable our object can be saved to the file or can travel across network.
+
+58)Can we override a private or static method in java ?
+-> no we cannot override a private method or static method in java we can overload a static method.
+
+59)finally block always execute ?
+yes finally block always execute except in System.exit() and Syste crash
+
+60)
 
 
 
