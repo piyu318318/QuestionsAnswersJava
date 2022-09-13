@@ -352,11 +352,63 @@ class HashCodeMethod
 }
 
 
-39)Stream class in java
+39)How we can creates threads in java?
+There are two ways to create thread in java 1)extending Thread class 3)implementing the runanble interfaces.
+After extending the Thread class we have to override the run() method after overriding method we can write our own logic in run method.
+we have to use start() method to start that thread.
+
+class MyThread extends Thread {
+ 
+    // Method 1
+    // Run() method for our thread
+    public void run()
+    {
+ 
+        // Print statement
+        System.out.println(
+            "Thread is running created by extending to parent Thread class");
+    }
+ 
+    // Method 2
+    // Main driver method
+    public static void main(String[] args)
+    {
+ 
+        // Creating object of our thread class inside main()
+        // method
+        MyThread myThread = new MyThread();
+       
+        // Starting the thread
+        myThread.start();
+    }
+}
 
 
+using Runnable inteface :
+public class RunnableDemo {
+ 
+    public static void main(String[] args)
+    {
+        System.out.println("Main thread is- "
+                        + Thread.currentThread().getName());
+        Thread t1 = new Thread(new RunnableDemo().new RunnableImpl());
+        t1.start();
+    }
+ 
+    private class RunnableImpl implements Runnable {
+ 
+        public void run()
+        {
+            System.out.println(Thread.currentThread().getName()
+                             + ", executing run() method!");
+        }
+    }
+}
 
+40)can we call start method two times in java  
+ans : No. After starting a thread, it can never be started again. If you does so, an IllegalThreadStateException is thrown.
 
+41)
 
 
 
