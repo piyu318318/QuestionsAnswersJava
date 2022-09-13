@@ -114,6 +114,193 @@ class Main
         ABC obj = new ABC();   // ABC obj is reference variable refers to object
     }
 }
-        
+  
+18)explain java string pool ?
+String Pool is a storage area in Java heap. String allocation, like all object allocation, proves to be a costly affair in both the cases of time and memory.
+The JVM performs some steps while initializing string literals to increase performance and decrease memory overhead.          
+example : String s1= "India"; Stirng s2 ="India";  for s1 it creates memory in string pool and s2 will also refer to "India" bcoz both are the same content 
+if s3="piyush" s3 will point to the "piyush"
+if you create 100 string as india for 100 strings it wont allocate memory all 100 strings will refer to the same "India"
+
+class StringPool
+{
+	public static void main(String[] args) 
+	{
+
+		String s1 ="piyush";	//piyush will get allocate in  string pool and s1 refer s1	
+		String s2 ="piyush";	//as piyush is same s2 will refer to piyush it will be shallow copy
+		String s3 ="piyush";	//as piyush is same s3 will refer to piyush it will be shallow copy
+		String s4 ="piyush";	//as piyush is same s4 will refer to piyush	it will be shallow copy
+		String s5 ="piyush";	//same 	
+		String s6 ="piyush";		
+		String s7 ="piyush";//alll this refering to piyush 
+		String s8="india";//it will check if india is in the string poool s8 will refer to india
+		
+		if(s1==s2)
+		{
+			System.out.println("Same");//return not same  bcoz s1 refering piyush and s8 refering india
+		}	
+		if(s1 == s8)
+		{
+			System.out.println("Not Same");//return not same  bcoz s1 refering piyush and s8 refering india
+		}
+	}	
+}
+
+19)What is an Exception?
+An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions. 
+When an error occurs within a method, the method creates an object and hands it off to the runtime system
+try block : Java try block is used to enclose the code that might throw an exception.
+catch block : catch block willl catch the exception which is thrown by try block
+types of exception in java 
+1)ArithmeticException
+2)ArrayIndexOutOfBoundsException
+3)FileNotFoundException
+4)IOException
+5)NullPointerException
+Thowable class is a superclass of Eception class
+		There are two types  of exception 
+		a)built in exception b)User define exception
+		
+user defined exception program 
+class MyException extends Exception {
+}
+ 
+// A Class that uses above MyException
+class Demo extends Exception
+{
+	public mahexcep(String s)
+	{
+		super(s);
+	}	
+}
+
+public class Exception1
+{
+	public static void main(String[] args) 
+	{
+		try
+		{
+			throw new mahexcep("piyush");
+		}
+		catch
+		{
+			  System.out.println("Caught");
+		}
+	}		
+}
+
+checked Exception = These are the exceptions that are checked at compile time. eg IOException if we  used Scanner class or BufferedReader
+unchecked Exception = These are the exceptions that are not checked at compile time. example ArithmaticException
+
+21)what is final keyword in java ?
+final keyword  as variable wont alllow to modify value of  variable in java.
+final keyword also use to prevent method overriding.
+
+22)what will happen if you dont decared main method as a static ?
+as main method is invoked by JVM . the program will get compile but when you goes to run the program it will throw error 
+ClassWithoutStaticMain please define main method as public static void main(String args[[)
+
+23)what is String args[] ?
+if you are taking command line argument in java program it will take as a string array[] so we define String args[] String is type of command line args[] is a array.
+
+24)what is JDK ?             
+JDK in Java is an abbreviation for Java Development Kit. It is a bundle of software development tools and supporting libraries combined with the 
+Java Runtime Environment (JRE) and Java Virtual Machine (JVM).
+
+25)can constructor return a value ? 
+constructor don't have a return datatype as methods has. but  constructor implicitly returns current instance of a class .
+It is not possible use explicit return type of a constructor .
+
+26)is constructor inherited ? NO constructor cannot inherited a class can be inherited.
+
+27)can you make constructor final ? no constructor cannot be final.
+
+28) Can constructor override ? No
+
+29)Can constructor override ? yes
+
+30)method override possible in same class ? :NO method overriding is allow in two different classes.
+
+31)can we overload a constructor ? yes we can overload a constructor. by changing number of argumnetts but we cat override a constructor.
+
+32)this keyword in java ? 
+this keyword is use to refer the current instance variable in java if local variable and instance variable are same then to remove the ambiguity we use "this" key word .
+this is also used to Invoke current class constructor and Invoke current class method.
+
+33)what is super keyword in java ?
+-> the term super keyword is used to 1) call immidiate parent class constructor  2)call immediate parent class method 3)refer parent class instance variable.
+
+34)what is method overloading in java ?
+the process to create multiple method signatures using one method name is called method overloading. method overloading is also called as static binding.
 
 
+35) Life cycle of thread ?
+Life Cycle of a thread
+New Thread: When a new thread is created, it is in the new state. The thread has not yet started to run when the thread is in this state. When a thread lies in the new state, its code is yet to be run and hasn’t started to execute.
+Runnable State: A thread that is ready to run is moved to a runnable state. In this state, a thread might actually be running or it might be ready to run at any instant of time. It is the responsibility of the thread scheduler to give the thread, time to run. 
+A multi-threaded program allocates a fixed amount of time to each individual thread. Each and every thread runs for a short while and then pauses and relinquishes the CPU to another thread so that other threads can get a chance to run. When this happens, all such threads that are ready to run, waiting for the CPU and the currently running thread lie in a runnable state.
+Blocked/Waiting state: When a thread is temporarily inactive, then it’s in one of the following states: 
+Blocked
+Waiting
+Timed Waiting: A thread lies in a timed waiting state when it calls a method with a time-out parameter. A thread lies in this state until the timeout is completed or until a notification is received. For example, when a thread calls sleep or a conditional wait, it is moved to a timed waiting state.
+Terminated State: A thread terminates because of either of the following reasons: 
+Because it exits normally. This happens when the code of the thread has been entirely executed by the program.
+Because there occurred some unusual erroneous event, like segmentation fault or an unhandled exception.
+
+36)can Abstract we create constructor of an abstract class?
+abstract class ABC
+{
+	ABC(int a)
+	{
+		System.out.println("Parameterized Constructor of an abstract class a="+ x);
+	}
+}
+
+class ConstructorOfAbstractClass extends ABC
+{	
+	ConstructorOfAbstractClass()
+	{
+		super(20);
+		System.out.println("Class Constructor");
+	}
+
+	public static void main(String[] args) 
+	{
+		ConstructorOfAbstractClass obj = new ConstructorOfAbstractClass();
+	}
+}
+
+
+35)can we oveload static method : yes we can overload static methods but we cannot override the static methods in java . to avoid overriding we use final,static keyword
+
+
+36)what is inner class in java ?
+/A class within a class is called as innnerclass in java.
+//In Java, it is also possible to nest classes (a class within a class). 
+/*The purpose of nested classes is to group classes that belong together, which makes your code more
+ readable and maintainable.*/
+
+class ABC
+{
+	int x=10;
+
+	class XYZ
+	{
+		int y=20;
+		int z=x+=y; //can acess the x bcoz XYZ is in the scope of class ABC
+	}
+}
+
+class InnerClass
+{
+	public static void main(String[] args) 
+	{
+		ABC outer = new ABC();
+		ABC.XYZ inner = outer.new XYZ();
+
+		System.out.println(inner.y+outer.x);
+		System.out.println(inner.z);
+
+	}
+}
