@@ -1,3 +1,4 @@
+
 1)Can we overload static methods? 
 ans : The answer is ‘Yes’. We can have two or more static methods with the same name, but differences in input parameters. For example, consider the following Java program.
 // filename Test.java
@@ -16,7 +17,103 @@ public class Test {
 }
 
 
-2)CAn we override Static methods ?
+2)Can we override Static methods ?
 ans: Static methods are bonded at compile time using static binding. Therefore, we cannot override static methods in Java
 
-3)
+3)what is JIT:
+ans : just in time compiler .it increases  efficiency of  the interpreter  by compiling bytecode in the runtime.
+
+4)what is class loader ?
+class loader is a one of integered part of JVM it loads the class
+
+5)types of memory in java ?
+class memory ,  heap memory ,   stack memory
+
+6)what is the defauls value of local variable in java ?
+-> for local variables default value is garbage value and for reference variablel default value is null.
+
+7)Define copy constructor 
+A copy constructor in java is a constructor that initializes an object through another object oof the same class.
+
+8)What is serializable and why use it?
+Image result for what is serializable in java
+Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file.
+
+9)what is object cloning?
+An ability to recreate an object completely similar to an existing object is known as object cloninig in java.
+Java provides clone() method to clone an existing object offerring same functionality of the original object.
+
+10)Java is not completely object oriented programming language ?
+Java is not considered as 100% objject oriented programming language because it still make use of eight or more primitive data types like int,float,double etc.
+
+11)DEfine wrapper class in java?
+The wrapper classes in Java are used to convert primitive types ( int , char , float , etc) into corresponding objects.
+boxing  =   primitive -> objects
+unboxing  = objects  -> primitive
+
+12)what is sinleton class in java? 
+singletin class is a class of which we can create only one object . to achieve singletom class we make constructor of a class private , then particular class 
+can generate only one single object.
+Making private connstructor you can create singleton class.
+class SingleTonclass
+{
+	private SingleTonclass()
+	{
+		System.out.println("piyush");
+	}
+	
+	private static SingleTonclass instance;//create instance variable
+
+	public static SingleTonclass getinstance()//will return the instance 
+	{
+		if(instance == null)
+			instance = new SingleTonclass(); //allocate memory for first object means created first obj  
+
+		return instance;
+	}
+}
+
+class Main
+{
+	public static void main(String[] args) 
+	{
+		SingleTonclass obj1 = SingleTonclass.getinstance();//static method 
+		SingleTonclass obj2 = SingleTonclass.getinstance();//will not get created
+
+	}
+}
+
+15)what are  packages ?
+packages are bundle of classes and interfaces along with necessary libraries and JAR files.
+what are  packages = packages are bundle of classes and interfaces along with necessary libraries and JAR files use of packages are helps in reusabiltity
+packages works like a container.
+syntax to create package : package packname;
+syntax to import package import packname;
+
+16)can you implement pointers in java ?
+java virtual machine takes care of memory management implicitly. java major motto was to keep programming simple . 
+So, accessing memory directly through pointers is not recommended action . Hence pointers are eliminated from java.
+
+17)difference instance variable and local variable ?
+instance variable are declared inside a class and scope is to only specific object. 
+local variables can be anywhere inside a method or constructor or a specific block of a code where the variables are declared.
+
+class ABC
+{
+    String str;  //instance variable
+    ABC(String str)  //local variable
+    {
+        this.str = str;
+    }
+}
+
+class Main 
+{
+    public static void main(String args[])
+    {
+        ABC obj = new ABC();   // ABC obj is reference variable refers to object
+    }
+}
+        
+
+
