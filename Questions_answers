@@ -55,6 +55,8 @@ unboxing  = objects  -> primitive
 singletin class is a class of which we can create only one object . to achieve singletom class we make constructor of a class private , then particular class 
 can generate only one single object.
 Making private connstructor you can create singleton class.
+
+//example 1
 class SingleTonclass
 {
 	private SingleTonclass()
@@ -196,6 +198,7 @@ unchecked Exception = These are the exceptions that are not checked at compile t
 21)what is final keyword in java ?
 final keyword  as variable wont alllow to modify value of  variable in java.
 final keyword also use to prevent method overriding.
+we can make final class as well. if we declare final as  class we cannot extend that class.
 
 22)what will happen if you dont decared main method as a static ?
 as main method is invoked by JVM . the program will get compile but when you goes to run the program it will throw error 
@@ -516,7 +519,14 @@ example of marker interface : a)Clonable b)Serializable c)RandomAccess
 59)finally block always execute ?
 yes finally block always execute except in System.exit() and Syste crash
 
-60)
+60)How can you make class immutable?
+a)declare class as a final 
+b)make all foeld private 
+c)dont provide setters methods.
+d)make all firls fields as a final so that it cannot be modified again.
+e)initialize all fields via constructors performing a  deep copy.
+f)perform cloning of objects in getters mmethods to return a copy rather than returning actual object reference.
+
 
 
 
