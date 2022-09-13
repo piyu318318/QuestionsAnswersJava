@@ -318,6 +318,43 @@ if you have multiple thread go for the StringBuffer and if you have single threa
 
 38)what is hashcode in java?
 ->
+hashcode is an integer which represent internal address  of an object.
+Hashcode differes one object to another object.
+Hashcode acts like an identity for an object.
+mostly hashcode is used to store,remove,search in set and map collections.
+In object class we have a method hashcode(). we only have to override to check hashcode.
+class Emp
+{
+	String name;
+	Emp(String name)
+	{
+		this.name = name;
+	}
+}
+
+
+class HashCodeMethod
+{
+	public static void main(String[] args) 
+	{
+		Emp e1 = new Emp("piyush");
+		Emp e2 = new Emp("piyush");
+
+		if(e1.equals(e2)) //hashcode of e1 is diiff from e2 so Hashcode differes one object to another object.
+			System.out.println("equal string");
+		else
+			System.out.println("not equal string");
+
+		System.out.println(e1.hashCode()); //hashcode is diiff from e2 
+		System.out.println(e2.hashCode()); //hashcode is diiff from e1
+
+	}	
+}
+
+
+39)Stream class in java
+
+
 
 
 
