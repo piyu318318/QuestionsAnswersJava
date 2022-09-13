@@ -304,3 +304,24 @@ class InnerClass
 
 	}
 }
+
+
+37) what is diff between StringBuffered and StringBuilder ?
+->String class is immutable in java. to overcome immutability  StringBuffer and StringBuilder is use both are immutable.
+StringBuffer = StringBuffer class is a class which provides String mutability StringBuffer are safe for use of multiple thread. 
+if your application is working with multiple thread and you dont want to affect one thread operation affect other thread operation.
+means if one String is accessing StringBuffer other thread will have eto. it means there is synchronization between the
+StringBuilder = StringBuilder class is a class which provides String mutability StringBuffer are not safe  for use of multiple thread.
+StringBuilder doesnt provide synchronization.
+
+if you have multiple thread go for the StringBuffer and if you have single thread go for the StringBuilder
+
+38)what is hashcode in java?
+->
+
+
+
+
+
+
+
