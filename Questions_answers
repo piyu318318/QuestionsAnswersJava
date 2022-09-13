@@ -51,7 +51,7 @@ The wrapper classes in Java are used to convert primitive types ( int , char , f
 boxing  =   primitive -> objects
 unboxing  = objects  -> primitive
 
-12)what is sinleton class in java? 
+12)what is singleton class in java? 
 singletin class is a class of which we can create only one object . to achieve singletom class we make constructor of a class private , then particular class 
 can generate only one single object.
 Making private connstructor you can create singleton class.
