@@ -155,6 +155,10 @@ relationships  or links between entities that have something  to do with each ot
       
  22)Acid properties ?
   use link ->    https://www.geeksforgeeks.org/acid-properties-in-dbms/
+  Atomicity =  Either or all changes are performed or none of them (either or all)
+  Consistancy = Data is in consistant state when transaction starts and when it ends.
+  Isolation = Transaction run concurently appear to serialize.
+  Durability =  After transaction successfully completes changes to data ppersists and are not undone wvwn in the event of a system failure.
   
   23)what is trigger,cursor ,functions ,views?
     do it from notebook.
@@ -301,6 +305,9 @@ relationships  or links between entities that have something  to do with each ot
   51)varchar and varchar2 difference ?
      varchar is ANSI standerd and varchar2 is Oracle standered.
   
+    
+   52)Triggers 
+   trigger is a special type of stored procedure that automatically runs when an event occurs in database server. 
 
 
 
