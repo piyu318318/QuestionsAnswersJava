@@ -94,16 +94,145 @@ In terms of data security, the SQL server is much more secure than the MySQL ser
       one table can have only one cluser index.
       one table can have many one non - cluser index.
    
-  14)write a query to display the current date?
+14)write a query to display the current date?
         select getdate();
 
 15)what is denormalization ?
   ->increases th performance of entire infrastructure as it inr=troduce redundancy into a table.
   adds retundatnt data into table by incoporating database queries and combine data from various tables into single table.
   
- 16)what is entity ?
-  A person,place or thing in the real world about data can be stored in a database. Tables stores data that represents one type of entity.
+16)what are entities and relationships ?
+->A person,place or thing in the real world about data can be stored in a database. Tables stores data that represents one type of entity.
+relationships  or links between entities that have something  to do with each other.  
+
+17)what is an index ? 
+ ->index basically refers to performance tuning method.
+  It allows faster retrieval of records from the table and creates an entry for each value.
+  creating indexes :
+  CREATE INDEX index_name
+  ON table_name (column1, column2, ...);
   
-  17)
+  create unique index 
+  CREATE UNIQUE INDEX index_name
+  ON table_name (column1, column2, ...);
+  
+  we can also drop the indexes.
+  DROP INDEX index_name ON table_name;
+ 
+18)Explain diff types of index?
+  index table we use when we have huge tables. to ease retrieval data we uses indexes.
+  Unique index : Unique index is mainly used when you do not want any dublicate values to be present in the column.
+  Cluster index : This index reorders the physical order of the table and searches based on the key values. each table can obly have one cluster index.
+  Non clusterindex :  Non cluster index does not alter the physical order of the table and maintains the logical order of the table each table can have many non-cluster index.
+    
+19)what is normalization ?
+    normalization is the process of organizing data to avoid dublication and retundancy.
+
+20)diff betwn drop and truncate ?
+    
+   Drop :
+    removes a table and it cannot be rolledback from the database. it drops the data in the table  as well as structure of table.
+    DDL command
+    Syntax : drop table tablename;
+      
+  Truncate :
+  removes all rows and it cannot be rolledback from the database. 
+   DDL command
+   syntax :
+   truncate tablename;
+
+
+21)diff types of normalization.
+  ->
+  1)In 1NF we remove the multivalues attribute.Data must be atomic.
+  2)In 2nf :  To be in second normal form, a relation must be in first normal form and relation must not contain any partial dependency. 
+    A relation is in 2NF if it has No Partial Dependency, i.e., no non-prime attribute  is dependent on any proper subset of any candidate key of the table.
+  3)3nf :A relation is in third normal form, if there is no transitive dependency for non-prime attributes as well as it is in second normal form.
+    A relation is in 3NF if at least one of the following condition holds in every non-trivial function dependency X –> Y:
+    If A->B and B->C are two FDs then A->C is called transitive dependency.
+      
+ 22)Acid properties ?
+  use link ->    https://www.geeksforgeeks.org/acid-properties-in-dbms/
+  
+  23)what is trigger,cursor ,functions ,views?
+    do it from notebook.
+      
+  24)what are aggregate functions in sql ?
+       MIN, MAX, COUNT, SUM, and AVG.
+      
+  25)what are the different operators avialable in SQL ?
+    ->Arithmatic operators , bitwise operators , comparison operators, compound operators , Logical operators.
+      
+  26)Are NULL values same as that of zero or a  blank space ?
+    ->NULL values represents a value which is unavailable,unknown , assigned or not applicable where as zero is a number and blank space is character.
+  
+   27)cross join and natural join difference ?
+    ->
+      cross join -> produces the cross product or cartesian product of two tables.
+      natural join ->Based on all columns having same name and data types in both the tables.
+      
+    28)what is subquery in sql ?
+      subquery is query inside another qiuery is called as subquery.
+      there are two types of subquery 
+      corrlated subquery and non-corrlated subquery.
       
       
+     29)can u list the ways to get the count of records in a table?
+      -> select * from table1;
+        select count(*) from table1;
+    
+    30)write a sql query to find the names of employees that begin with 'A' ?
+       select * from emp where ename like "A%";
+    
+    31)what is the need for group function in sql ? 
+      avg,count,max,min,sum,variance are group functions.
+      group functions need is group functions works on set of row and return one result per group.
+      
+     32)What is relationship and diff types ?
+      ->Relations are entities that have something to do with each  other .
+        Relationships are defined as connection between 2 tables in a database .
+        Types of relationship 
+        1)one to one :  One family lives in one house, and the house contains one family.
+        2)one to many : 1 dept have many emp.
+        3)Many to one : Many studets have one classroom.
+        4)Many to Many : Many emp have many department.
+          
+     
+    33)what is main difference bewn 'between' and 'in' operator ?
+    ->between = used to display rows based on a range of values in a row.
+          select * from emp where salary between 10000 and 30000.
+    ->in : used to check for values contained in a specific set of values 
+           select * from student where rollno in (2,12,20);
+    
+    34)what are clauses in sql ?
+      
+
+      
+  
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
