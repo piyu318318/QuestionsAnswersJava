@@ -333,7 +333,7 @@ relationships  or links between entities that have something  to do with each ot
       merge join is used  when pprojections of the joined tables are sorted on join columns.
       
       
-      57)what is data indipendennce ?
+  57)what is data indipendennce ?
       data independence =  we make data independent from user . part of here data abstraction comes here . the main purpose of user is to access the data stored 
       in database. the data should be available 24 hr , I sca access data from any place, any time this is demand of user.  we hide all the details of data like 
       which indexes we have used , what are the primary key, foreign keys used in the database all details hide from user. logical view = the logical structure we 
@@ -341,7 +341,15 @@ relationships  or links between entities that have something  to do with each ot
       physical schema = how the data actually stored we hide from the user.
       it imples that application is indipendent of the storage structure and data access strategies of data.
 
-
+ 58)What is Normalization and what are different types of Normalization?
+The process of organizing data to avoid duplication and redundancy is known as Normalization.
+First Normal Form (1NF) :- A relation is 1NF if it contains atomic values or singled valued attributes
+Second Normal Form(2NF) :- A relation will be 2NF, if it is 1NF and if all non-prime attributes are fully functional dependent on the primary key
+                           In simpler words, if all the non-prime attributes are dependent only on a primary key then it is said to be in no partial
+                           dependency
+Third Normal Form(3NF) :- A relation in in 3Nf, it is in 2NF and if there is no transitive dependency for non prime attributes 
+Boyce-Codd Normal Form (BCNF) :- If for every functional dependency LHS is super key.
+      
 
 
 
