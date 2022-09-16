@@ -29,7 +29,7 @@ class loader is a one of integered part of JVM it loads the class
 5)types of memory in java ?
 class memory ,  heap memory ,   stack memory
 
-6)what is the defauls value of local variable in java ?
+6)what is the defauls value of local variable in java ? 
 -> for local variables default value is garbage value and for reference variablel default value is null.
 
 7)Define copy constructor 
