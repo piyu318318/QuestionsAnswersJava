@@ -62,8 +62,10 @@ for the actions to be  done with the data.
  default= constrains defines a set of default values for column when no value is specified. eg sal float(20) default 10000
  Primary key =
    
- 9)Which is better MySQL or SQL?
-In terms of data security, the SQL server is much more secure than the MySQL server. In SQL, external processes (like third-party apps) 
+ 9)Which is better MySQL(NOSQL) or SQL?
+ SQL  works on relational data.->tabular data
+ NOSQl works on non-relational data ->document data
+ In terms of data security, the SQL server is much more secure than the MySQL server. In SQL, external processes (like third-party apps) 
  cannot access or manipulate the data directly. While in MySQL, one can easily manipulate or modify the database files during run time using binaries
  
  10)what is unique key  and primary key diff ?
@@ -291,14 +293,14 @@ relationships  or links between entities that have something  to do with each ot
     where name like 'a_%';last letter must be a
       
     50)second highest salary
-    
     first way.
     select name,max(salary) from emp where salary < (select max(salary) from emp));
     second way.
     select name,max(salary) from emp where salary <> (select max(salary) from emp);
 
-
-
+  51)varchar and varchar2 difference ?
+     varchar is ANSI standerd and varchar2 is Oracle standered.
+  
 
 
 
