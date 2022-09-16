@@ -62,7 +62,38 @@ for the actions to be  done with the data.
  default= constrains defines a set of default values for column when no value is specified. eg sal float(20) default 10000
  Primary key =
    
-  9)whatt is difference between SQL and MYSQL?
-  ->
+ 9)Which is better MySQL or SQL?
+In terms of data security, the SQL server is much more secure than the MySQL server. In SQL, external processes (like third-party apps) 
+ cannot access or manipulate the data directly. While in MySQL, one can easily manipulate or modify the database files during run time using binaries
+ 
+ 10)what is unique key  and primary key diff ?
+   unique key
+   unique key identifies a single row in a table. 
+   unique key can be many in one table. 
+   null values are allowed 
+   dublicate values are not allowed.
    
+   primary key :
+    primary key can identifies a single row in a table.
+    unique key can be only one in one  table.
+    Dont allow null values.
+    dublicate values are not allowed.
+      
+ 1!)what is foreign key ?
+ -> foreign key maintains the referencial integrity by enforcing a link between data in two tables.
+      fooreign key in child table references the primary key in the parent table.
+ 
+ 12)what is data intigrity ?
+ -> defines the accuracy of data , consistency of data stored in databasse. it also defines the integrity constraints to enforce nusiness rule on data. 
+   in short data integrity defines the accuracy and data consistancy of a data.
+      
+ 13)what is the cluster and non cluster index in sql?
+    -> 
+      cluster index is used for easy retrieval of data from the database and it is faster.
+      non - cluster index is used for easy retrieval of data from the database and it is slower.
+      one table can have only one cluser index.
+      one table can have many one non - cluser index.
    
+  14)
+      
+      
