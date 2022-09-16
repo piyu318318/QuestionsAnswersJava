@@ -310,11 +310,36 @@ relationships  or links between entities that have something  to do with each ot
    trigger is a special type of stored procedure that automatically runs when an event occurs in database server. 
 
 
+  53)what is different levels of abstraction ?
+    physical level = it is the first level which describes the how the data is stored
+    logical level = this describes what data is stored in the database and and what is the relation betwn data points
+    view level = it descibes only a part of a entire database
+   
+   54)ALl keys :
+    composite key is a combination of two more columns two identify each tuple uniquely.
+    candidate key is a set of attributes which can uniquely identify a tuple
+    primary key = an attribute which has unique records is called primary key
+    super key is set of attribute which can identify every tuple.
+    uniqe key is a same as a primary key but unique allows null values
+    
+    55)one tier,  two tier and three tier architectures.
+      A single-tier architecture is an architecture in which the entire application resides on the user's machine.
+      in two tiers client direclty communicate with database
+      in three tier architecture application is the extra layer
+      in three tier architecture client communicates with an application to make the system more secure and accisible
 
-
-
-
-
+    56))what is hash join and merge join ?
+      hash join is used when  you have to join large tables.
+      merge join is used  when pprojections of the joined tables are sorted on join columns.
+      
+      
+      57)what is data indipendennce ?
+      data independence =  we make data independent from user . part of here data abstraction comes here . the main purpose of user is to access the data stored 
+      in database. the data should be available 24 hr , I sca access data from any place, any time this is demand of user.  we hide all the details of data like 
+      which indexes we have used , what are the primary key, foreign keys used in the database all details hide from user. logical view = the logical structure we 
+      have used in the database eg tables, no of tables, names of tables , structure of tables, relationship betn tables   we hide this in logical view  and in 
+      physical schema = how the data actually stored we hide from the user.
+      it imples that application is indipendent of the storage structure and data access strategies of data.
 
 
 
