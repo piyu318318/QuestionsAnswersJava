@@ -41,10 +41,10 @@ for the actions to be  done with the data.
    5)what are joins in sql ?
    ->join clause is used to define to combine rows from two or more tables based on related columns between them.
     It is used to merge two tables or retieve data from there.
-    a)innter join
-    b)LeftOuter join
-    c)rightOuter join
-    d)Sekf join.
+    a)innter join = reutrn the those records which have matching values in both table.
+    b)LeftOuter join = returns all the records which have match in  matching values in both table and all the values in left table.
+    c)rightOuter join = returns all the records which have match in  matching values in both table and all the values in right table.
+    d)Sekf join.  
     
  6)char and varchar?
  ->char stores character datatype.eg.'c'
@@ -94,6 +94,16 @@ In terms of data security, the SQL server is much more secure than the MySQL ser
       one table can have only one cluser index.
       one table can have many one non - cluser index.
    
-  14)
+  14)write a query to display the current date?
+        select getdate();
+
+15)what is denormalization ?
+  ->increases th performance of entire infrastructure as it inr=troduce redundancy into a table.
+  adds retundatnt data into table by incoporating database queries and combine data from various tables into single table.
+  
+ 16)what is entity ?
+  A person,place or thing in the real world about data can be stored in a database. Tables stores data that represents one type of entity.
+  
+  17)
       
       
