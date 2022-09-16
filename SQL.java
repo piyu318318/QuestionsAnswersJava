@@ -205,11 +205,97 @@ relationships  or links between entities that have something  to do with each ot
            select * from student where rollno in (2,12,20);
     
     34)what are clauses in sql ?
-      
+       select
+       where
+       group by
+       having = mostly used with group  by clause
+       from 
+       order by
+       group by 
+       limit 
+       top
 
+35)having clause and where clause diff ?
+   having clause:
+   can be usef with select statement. it is moslty used in group by clause.
+   where clause:
+   where clause is applied to each row brfore they are part of the GROUP BY function in a query.
+    
+     
+36)List the ways in which dynamic SQl can be executed ?
+    ->1)Usig exec 2)write a  querry with parameter 3)using sp_executesql
+   
+37)what are the various levels of constraints ?
+->column level constraints. 
+  table level constraints.
+
+38)List some case manupilation function in SQl ?
+ ->LOWER = functions returns a string in lower case.
+   UPPER = functions returns a string in upper case.
+   INITCAP = functions returns the string with the first letter in uppercase.
+     
+ 39)what are the different set operators in SQL ?
+-> UNION = returns the data in A as well as data in table B with dublicates.
+   INTERSECT = returns common Data in table A and Table B no dublicates.
+   MINUS A-B = 
+     
+   40)what are aggregate functions?
+  -> aggregate functions are used to evaluate mathematical calculations and returns a single value 
+    value.These calculations are done from the columns in a table.
+     max(),count(),min(),max(),avg(),sum()
+     scaler functions: scaler functions return a single value based on the input value.
+     UCASE(),NOW()
+       
+    41)how can you fetch a alternate records from a table ?
+       for even
+      -> select sid from (select rowno, sid form student )where mod(rowno,2)=0;
+        for odd 
+       select sid from (select rowno,sid from student) where mod(rowno,2)=1;
+   42)Name  the operator which is used in the query for pattern matching ?
+      a)% = it matches zero or more character.
+     ->select * from student where sname like "a%";
+      b)_ = matches exactly one character.
+     ->select * from student where sname like "piyush_";
+   
+    43)how can you fetch firsr 5 characters of the string ?
+     ->select substring(studentname,1,5) from student;
+
+    44)
+      SQL=  It is a query language that allows you to issue a single query or execute  a single INSERT/UPDATE/DELETE.
+      PLSQL = is Oracle "Procedural language" SQL which allows you to write full program (loops,variable etc)to accomplish multiple operations INSERT/UPDATE/DELETE.
       
-  
+    45)what are views ?
+    ->A view is a virtual table which consist of a subset of data contained in a table .
+      views stores the result set of a query.
+      some views are updatable.
+      CREATE OR REPLACE VIEW V1 AS SELECT * FROM STUDENT ;
+      SELECT V1;
+
+    46)what is auto increament in sql ?
+     ->auto increament allows user to create a unique number to get generated whenever a new record is inserted into the table.
+      this keyword is usually requred whenever primary key is used.
+     
       
+    47)what is data warehouseing ?
+      A data warehouse refers a central repository of data where the data is assembled from multiple source information.
+      
+    48)difference in dbms and rdbms ?
+      dbms = in dbms we can store  document type database,key-value pair database,graph database, relational database(rows and columns).
+      rdbms = if we store database in a relational form or tabular form then it is rdbms.
+        
+    49)pattern matching 
+    where name like 'a%'; start from a 
+    where name like '%a'; end from a
+    where name like '%a%';  
+    where name like '_a%'; second letter must be a
+    where name like 'a_%';last letter must be a
+      
+    50)second highest salary
+    
+    first way.
+    select name,max(salary) from emp where salary < (select max(salary) from emp));
+    second way.
+    select name,max(salary) from emp where salary <> (select max(salary) from emp);
 
 
 
