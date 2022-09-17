@@ -542,6 +542,27 @@ The static method in java is associated with class whereas the non-static method
 
 64)can we oveload a main method ?
 ->yes, we can overload the main() method. But remember that the JVM always calls the original main() method. It does not call the overloaded main() method.
+class MainMethodOverload
+{
+
+	public static void main(int args) 
+	{
+		System.out.println("main method with int arguments .");
+	}
+
+	public static void main(char args) 
+	{
+		System.out.println("main method with char arguments .");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main method with string arguments .");
+		MainMethodOverload.main(1);//calling the main( int args)
+		MainMethodOverload.main('a');/calling the main (char args)
+
+	}
+}
 
 65)what is use of JVM?
 Java Virtual Machine, or JVM, loads, verifies and executes Java bytecode. It is known as the interpreter or the core of Java programming language 
@@ -555,9 +576,12 @@ JRE = JRE stands for java runtime environment.It provides an environment to exec
 java program.
 JVM= JVM stands for Java virtual machine it is software in the form of interpreter which is written in c language through which we can execute java program.
 
-67)
+67)A main method without static ?
+->The code will not get execute bcoz main method is called by the jvm it should which is outside the class so it should br the static.
+if we write  program main method without static then it will throw an error and "define main mehtod as public static void main(String args[])" like this.
+even it wont get compile.
 
-
+68)
 
 
 
