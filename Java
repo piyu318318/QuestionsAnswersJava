@@ -579,7 +579,7 @@ JVM= JVM stands for Java virtual machine it is software in the form of interpret
 67)A main method without static ?
 ->The code will not get execute bcoz main method is called by the jvm it should which is outside the class so it should br the static.
 if we write  program main method without static then it will throw an error and "define main mehtod as public static void main(String args[])" like this.
-even it wont get compile.
+even it wont get compile means byte code wont get generate.
 
 68)
 
