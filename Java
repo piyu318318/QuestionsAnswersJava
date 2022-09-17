@@ -581,7 +581,11 @@ JVM= JVM stands for Java virtual machine it is software in the form of interpret
 if we write  program main method without static then it will throw an error and "define main mehtod as public static void main(String args[])" like this.
 even it wont get compile means byte code wont get generate.
 
-68)
+68)Difference in array and ArrayList ?
+->array is fixed length and ArrayList is dynamic.
+we can add and remove the elements in arraylist.
+
+
 
 
 
