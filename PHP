@@ -1,0 +1,11 @@
+
+**php is server side scripting language **
+
+1)what is php ?
+->
+a)PHP stands for Hypertext preprocessors.
+b)php is server side scripting language ebedded into HTML generally used for dynamic web development. 
+c)it can work with 20 different databases such as MYSQL , postgresSQL
+
+2)
+
