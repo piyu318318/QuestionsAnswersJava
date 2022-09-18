@@ -184,7 +184,22 @@ function_destruct()
 PDO in php is used to connection with the database.
 
 
-**** Project part starts here 
+******************************************************************** Project part starts here ****************************************************************************
+
+All schemas/tables in projects :
+1)Admin :Teacher is admin .
+2)Student :details of student
+3)Course : multiple courses 
+4)Examimation :description of exam means examp time.exam descitoopn, exam data etc.
+5)QuestionPaper : Quetions of perticular examination
+6)stu_ans :stores student answeers
+7)Exam_attempt : checks examp attempted or not.
+8)Result :one student can view 1 result and teacher can view many students result.
+
+
+
+
+
 
 require('top.php'); //includes index page.
 
