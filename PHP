@@ -133,6 +133,59 @@ The data send by get method is not displayed in the url so its secure than $_GET
 POST does not have any restriction on data size to be sent.
 POST can be used to send ASCII as well as binary data.example image, audio video.
 
+18)How to connect database using PHP script ?
+->
+$servername ="localhost";
+$username = "username";
+$password = "password";
+//create connection 
+$conn = new mysqli($servername,$username,$password);
+//check connection
+if($conn->connect_error)
+  die("connections failed");
+else
+  echo "successfully connected ";
+  
+  
+19)final class and final mehtod ?
+final class cannot be extended and 
+final mehtod cannot be overriden.
+
+20)== and ===
+== : checks the value of rwo operand and 
+=== : check the value as well as datatype.
+
+21)require() and include()
+require() : if requre file not found it will throw a fatal error and stops the code execution.
+<?php
+  require 'piyush.php';
+?>
+
+include() : If an essential file not found , it will produce a warning and execute remaining script.
+<?php
+  include 'piyush.php';
+?>
+
+
+22)_construct() function and _destruct() function in php ?
+_construct() : a constructor is automatically invoked when a new obj of a class is created.
+
+function_construct()
+{
+
+}
+_destruct() : destruct function automatically invoked when an object of a class is destructed.
+function_destruct()
+{
+
+}
+
+
+23)PDO connection in php ?
+PDO in php is used to connection with the database.
+
+24)
+
 
 
 
