@@ -585,7 +585,18 @@ even it wont get compile means byte code wont get generate.
 ->array is fixed length and ArrayList is dynamic.
 we can add and remove the elements in arraylist.
 
+69)Streams in java ?
 
+FileInputStream and FileOutputStream
+In Java, FileInputStream and FileOutputStream are byte streams that read and write data in binary format, exactly 8-bit bytes. They are descended from the 
+abstract classes InputStream and OutputStream which are the super types of all byte streams.
+
+ByteArrayInputStream and ByteArrayOutputStream
+A ByteArrayInputStream contains an internal buffer that contains bytes that may be read from the stream.
+ByteArrayOutputStream contains an internal buffer that contains bytes that may be write the stream.
+
+InputStreamReader 
+An InputStreamReader is a bridge from byte streams to character streams. It reads bytes and decodes them into characters using a specified charset.
 
 
 
