@@ -1,0 +1,25 @@
+
+
+1)linkedlist 
+
+a)contact list in phone. 
+b) In an Image Viewer, the next and the previous images are linked; hence they can be accessed by the previous and the next button.
+
+2)cicular linkedlist 
+
+a)after last song first song starts playing 
+
+3)Doubly linkedlist 
+A music player which has next and previous buttons
+
+
+4)stack:
+a)washing dishes in hotel and placing one over another.
+b)watch clothes in cupboard.
+c)Stacks are be used for systematic Memory Management. It is used in many virtual machines like JVM.
+d)histry of calculator.
+
+5)Queue
+a)A line in a temple to take darshan/
+b)A ticket line.
+
