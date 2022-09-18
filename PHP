@@ -48,6 +48,63 @@ Resource
 6)echo and print diff ?
 ->
 echo :
+It can output multiple strings.
+no returns value.
+as it doesnt return value it is faster than print.
+
+print :
+It can output single string.
+returns value 1.
+as returns value  it is slower than echo.
+
+
+7)Rules naming variable in php?
+->
+variable must be begin with _ underscore or letter.
+variable must declared using $.
+variables can include numbers but not special characters.
+
+8)How to check a defined variables is null or not ?
+isset() function is used to check a defined variables is null or not.
+$x=10;
+if(isset(x))
+  echo "x is not null";
+else
+echo "x is null";
+
+9)How are objects in php are passed ?
+->objects in PHP always paseed by value not by reference.
+example 
+class Fruit
+{
+}
+$apple =  new Fruit(); //object1
+$mango =  new Fruit();//object2
+
+
+9)How to display outpupt directly to the browser ?
+->  "<?=" "?>" are used to display an output directly to the browser.
+
+10)Is multiple inheritance supported in PHP?
+->PHP  only supports Single level inheritance.
+PHP doesn't support multiple inheritance but by using Interfaces in PHP we can achieve multiple inheritanc.
+
+11)loops in php ?
+while loop.
+Do while loop.
+for loop.
+foreach loop.
+
+12)How to concate two strings ?
+$str1 = "piyush"
+$str2 = "dixit"
+echo $str1." ".$str2;
+
+
+13)
+ func_num_args : Returns the number of arguments passed to the function
+ The func_get_arg() : function is an inbuilt function in PHP which is used to get a mentioned value from the argument passed as the parameters.
+
 
 
 
