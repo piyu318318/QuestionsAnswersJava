@@ -7,5 +7,56 @@ a)PHP stands for Hypertext preprocessors.
 b)php is server side scripting language ebedded into HTML generally used for dynamic web development. 
 c)it can work with 20 different databases such as MYSQL , postgresSQL
 
-2)
+3)List of super global variables in php ?
+->
+$_GET
+$_POST
+$_REQUEST
+$_SERVER
+$_COCCKIE
+$_SESSION
+$_FILES
+
+
+2)What is session in php ?
+-> 
+we store the information of user on the server temporary. this temp information is stored in sesseion store which is in server.
+90 per session is used in login pages.
+we ask the username and password. in this case we create a session which tells that user is still looged in a session .
+when user logged out from the session we destroy the session.
+Session variables are set with the PHP global variable: $_SESSION.
+A session is started with the session_start() function.
+A session is is removed by  session_unset() function. and then we detroy session using session_destroy() function.
+
+3)what are Cocckie ?
+->coockies are used to store an information of user in client machine only / browser.
+example flipkart we cart the products so that in future i can purchase it. here this information of cart is stored in user browsers.
+
+4)Is php case sensitive ?
+->php is partially case sensitive bcoz variables in php are case sensitive while funcions and use defined sensitive are not.
+
+5)Data types in php ?
+Integer
+Float 
+String 
+Boolean 
+Array a)assosiative array(key value pair) and b)indexed array 
+Object
+NULL
+Resource
+
+6)echo and print diff ?
+->
+echo :
+
+
+
+
+
+
+
+
+
+
+
 
