@@ -62,9 +62,9 @@ for the actions to be  done with the data.
  default= constrains defines a set of default values for column when no value is specified. eg sal float(20) default 10000
  Primary key =
    
- 9)Which is better MySQL(NOSQL) or SQL?
+ 9)Which is better MYSQL or SQL?
  SQL  works on relational data.->tabular data
- NOSQl works on non-relational data ->document data
+ MYSQL works on non-relational data ->document data
  In terms of data security, the SQL server is much more secure than the MySQL server. In SQL, external processes (like third-party apps) 
  cannot access or manipulate the data directly. While in MySQL, one can easily manipulate or modify the database files during run time using binaries
  
