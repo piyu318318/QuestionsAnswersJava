@@ -351,6 +351,43 @@ Third Normal Form(3NF) :- A relation in in 3Nf, it is in 2NF and if there is no 
 Boyce-Codd Normal Form (BCNF) :- If for every functional dependency LHS is super key.
       
 
+59)SDLC (System developement life cycle) or waterfall model 
+->
+Planning phase : (we gather all the requiremnent)
+The prime focus of this phase is to gather the essential requirements from the customer. This information gets collected by the business analyst from their 
+target customer(s) and plans the BRS (Business requirement Specification) for the development of the product. The team of all the designers and BA will do 
+brainstorming to extract all the requirements and plan accordingly for the new system to be developed? Some popular questions that this meeting picks up are - 
+Who will use the product? What must be the output data by the product?
+
+Defining /Analysis phase :
+When the BRS documentation is done, there are another set of employees like Human Resource (HR), Finance Analyst, Architect, 
+a Business analyst as well as Project manager will sit jointly discuss as well as analyze how to proceed and whether it is feasible and possible in the allotted budget
+Such decisions are taken depending on the cost, resources, time, etc. Documentation is made, which is the SRS (Software Requirement Specification) document, which 
+contains a detailed explanation of product requirements, right from design to development.
+
+Designing: (main part here we give documentation to the customer)
+no major role of the customer here .
+here client check for the project modules , their relationship, ERD ,DFD.
+Designing phase also thinks how frint end should be of, how it should be get designed etc.
+In this phase, the requirement gathered in the SRS document is used as an input and software architecture that is used for
+implementing system development is derived.
+
+
+coding :
+all this frontend ,erd ,dfd all these work will have to be implemented . in coding phase we implement what we have designed..
+which language we have to use in the front end , backend 
+
+Testing :
+Testing starts once the coding is complete and the modules are released for testing. In this phase, the developed software is tested thoroughly and any 
+defects found are assigned to developers to get them fixed.
+Retesting, regression testing is done until the point at which the software is as per the customer’s expectation. Testers refer SRS document to make sure 
+that the software is as per the customer’s standa
+
+Maintainance : (technical support )
+After the deployment of a product on the production environment, maintenance of the product i.e. if any issue comes up and needs to be fixed or 
+any enhancement is to be done is taken care by the developers
+
+
 
 
 
