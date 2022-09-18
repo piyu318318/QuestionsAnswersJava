@@ -180,15 +180,37 @@ function_destruct()
 
 }
 
-
 23)PDO connection in php ?
 PDO in php is used to connection with the database.
 
-24)
+
+**** Project part starts here 
+
+require('top.php'); //includes index page.
+
+date = is used to take system date.
+$today=date("Y-m-d");//current date
+
+header = wwill get redirected to specified php page.
+header('location:exam.php');
+
+//A written query will get prepare in sql.
+$statement = $conn->prepare($sql);
+$statement->execute($data); // will execute the data 
 
 
+mysqli_query :
+mysqli_query() / mysqli_query() function performs a query against a database.
+mysqli_query(connection, query);
+
+mysqli_num_rows = return number of rows.
 
 
+mysqli_real_escape_string — Escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection
+$id=mysqli_real_escape_string($conn,$_GET['exam_id']);
+
+$row=mysqli_fetch_assoc();//returns assosiaticve array.
+$row=mysqli_fetch_assoc();
 
 
 
