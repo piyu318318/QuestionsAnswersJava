@@ -39,12 +39,15 @@ for the actions to be  done with the data.
   
     
    5)what are joins in sql ?
+   refer = https://www.google.com/search?q=natural+join&pws=0&gl=us&sxsrf=ALiCzsYxyHGCpLfAibm42NYjkHi54c4PCQ:1663508939157&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjLr5jbvZ76AhVU23MBHYJoDl0Q_AUoAXoECAEQAw&biw=1366&bih=625&dpr=1#imgrc=iZ_gNLFC2b4AVM
+      join is always = cross product + some condition.
    ->join clause is used to define to combine rows from two or more tables based on related columns between them.
     It is used to merge two tables or retieve data from there.
-    a)innter join = reutrn the those records which have matching values in both table.
-    b)LeftOuter join = returns all the records which have match in  matching values in both table and all the values in left table.
-    c)rightOuter join = returns all the records which have match in  matching values in both table and all the values in right table.
-    d)Sekf join.  
+    a)natural join = when you want to equalize common attributes of in that case we use natural join. example eid in emp table and eid in dept table.
+    b)inner join = reutrn the those records which have matching values in both table.
+    c)LeftOuter join = It gives matching rows and the rows which are in left table but not in right table.
+    d)rightOuter join = It gives matching rows and the rows which are in right table but not in left table.
+     
     
  6)char and varchar?
  ->char stores character datatype.eg.'c'
