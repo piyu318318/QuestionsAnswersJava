@@ -351,7 +351,7 @@ Third Normal Form(3NF) :- A relation in in 3Nf, it is in 2NF and if there is no 
 Boyce-Codd Normal Form (BCNF) :- If for every functional dependency LHS is super key.
       
 
-59)SDLC (System developement life cycle) or waterfall model 
+59)SDLC (System developement life cycle) 
 ->
 Planning phase : (we gather all the requiremnent)
 The prime focus of this phase is to gather the essential requirements from the customer. This information gets collected by the business analyst from their 
@@ -388,7 +388,13 @@ After the deployment of a product on the production environment, maintenance of 
 any enhancement is to be done is taken care by the developers
 
 
-
+60)waterfall model 
+First, Requirement gathering and analysis is done. Once the requirement is freeze then only the System Design can start. Herein, the SRS document created is the output for the Requirement phase and it acts as an input for the System Design.
+In System Design Software architecture and Design, documents which act as an input for the next phase are created i.e. Implementation and coding.
+In the Implementation phase, coding is done and the software developed is the input for the next phase i.e. testing.
+In the testing phase, the developed code is tested thoroughly to detect the defects in the software. Defects are logged into the defect tracking tool and are retested once fixed. Bug logging, Retest, Regression testing goes on until the time the software is in go-live state.
+In the Deployment phase, the developed code is moved into production after the sign off is given by the customer.
+Any issues in the production environment are resolved by the developers which come under maintenance.
 
 
 
