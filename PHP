@@ -106,9 +106,32 @@ echo $str1." ".$str2;
  The func_get_arg() : function is an inbuilt function in PHP which is used to get a mentioned value from the argument passed as the parameters.
 
 
+14)what are super global variables in php ?
+->The functions which are predefine in php are called as super global variables in php.
+because they are alwways accic=sible from any function , file or class regardless their scope.
+
+15)types  comments in php ?
+->1)single line ->//
+multiple line ->/* ---------*/
+
+16)diff $variable and $$variable ?
+$variable = used to store a data.
+$$variable = used to refer a data stores in  variable $variable.
+
+17)Diff btwe get and pot ?
+->
+both get and post are used to send a data client to server. 
+
+$_GET
+The data send by get method is displayed in the url so not secure.
+GET  have any restriction on data size to be sent.
+GET can be used to send only ASCII data. only charcters. 
 
 
-
+$_POST
+The data send by get method is not displayed in the url so its secure than $_GET.
+POST does not have any restriction on data size to be sent.
+POST can be used to send ASCII as well as binary data.example image, audio video.
 
 
 
