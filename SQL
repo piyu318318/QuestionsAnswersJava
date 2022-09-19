@@ -244,18 +244,19 @@ relationships  or links between entities that have something  to do with each ot
    INITCAP = functions returns the string with the first letter in uppercase.
      
  39)what are the different set operators in SQL ?
--> UNION = returns the data in A as well as data in table B with dublicates.
-   INTERSECT = returns common Data in table A and Table B no dublicates.
-   MINUS A-B = 
+-> UNION = selects the all the tuples from the realations A and B and removes dublicate.
+   INTERSECT = selects the common tuples from the two relations.
+   MINUS  or set difference A-B = removes the common tuples from relation. relation containing those tuples in in A but not in B.
+   UNION ALL = selects all tuple from relations A and B and doesnt remove dublicate tuples. 
      
    40)what are aggregate functions?
-  -> aggregate functions are used to evaluate mathematical calculations and returns a single value 
+  -> aggregate functions are used to evaluate mathematical calculations and returns a single value. 
     value.These calculations are done from the columns in a table.
-     max(),count(),min(),max(),avg(),sum()
-     scaler functions: scaler functions return a single value based on the input value.
-     UCASE(),NOW()
+    max(),count(),min(),max(),avg(),sum()
+    scaler functions: scaler functions return a single value based on the input value.
+    UCASE(),NOW()
        
-    41)how can you fetch a alternate records from a table ?
+   41)how can you fetch a alternate records from a table ?
        for even
       -> select sid from (select rowno, sid form student )where mod(rowno,2)=0;
         for odd 
@@ -400,8 +401,11 @@ In the Deployment phase, the developed code is moved into production after the s
 Any issues in the production environment are resolved by the developers which come under maintenance.
 
 
+61)Differnece between UNION and UNION ALL.
+UNION ALL keeps all of the records from each of the original data sets, UNION removes any duplicate records. UNION first performs a sorting operation 
+and eliminates of the records that are duplicated across all columns before finally returning the combined data set.
 
-
+62)
 
 
 
