@@ -1,0 +1,204 @@
+
+
+Assignment 2
+select * from book_name from book where author="KORTH";
+select book_name from book order by book_name;
+select * from student order by stud_name;
+select * from student order by stud_name desc;
+select book_name from book where book_no in (select book_no from iss_rec where mem_no in(select mem_no from membership where stud_no in (select stud_no from student where stud_no=5)));
+
+
+
+Departmnet-Employee
+select ename,max(salary),min(salary) from employee group by (desg);
+select (e.ename) from employee e , department d
+where e.deptno=d.deptno and d.loc="pune";
+select e.ename from employee e ,department d
+where e.deptno=d.deptno and
+e.desg="Accountant" and d.loc="Nashik";
+select * from employee where deptno in(select deptno from department order by deptno);  or    select * from employee e,department d where e.deptno = d.deptno order by d.deptno
+select ename from employee where DOJ<"2015-09-13";
+select ename from employee where desg in (select desg from employee where empno=7369);
+******To find second highest or maximum salary in the table******
+select max(salary) from employee where salary<(select max(salary) from employee);
+select ename from employee limit 2;
+prints seconds lowest salary
+select min(salary) from employee where salary>(select min(salary) from employee);
+
+
+Actor movie
+
+select m.mname from  movie m, movie_actor ma,actor a
+where a.ano=ma.ano
+and m.mno = ma.mno and
+m.release_year between 1965  and 1980 and m.mname like "k%";
+
+select m.mname from movie m,actor a,movie_actor ma
+where m.mno=ma.mno and
+a.ano=ma.ano
+order by a.ano;
+
+select count(m.mname) from movie m,actor a,movie_actor ma  where
+ma.mno = m.mno and
+a.ano= ma.ano and a.aname="Salman";
+
+
+select m.mname from movie m , actor a, movie_actor ma
+where m.mno = ma.mno and
+a.ano=ma.ano having count(a.aname)>5;
+
+
+book author 
+select b.name from book b, author a,book_author ba where
+ba.book_no = b.book_no and
+ba.author_no = a.author_no order by ba.year desc;
+
+select name from book where pubname="Tata McgrawHill";
+
+select b.name from book b,author a, book_author ba
+where ba.book_no = b.book_no and
+ba.author_no = a.author_no and a.aname="KORTH";
+
+
+select b.name ,a.aname, ba.year from book b,author a,book_author ba where
+ba.book_no = b.book_no and
+a.author_no = ba.author_no and
+b.book_no=101 and ba.year=2019;
+
+select count(d.donor_no) as no_of_donors_doneted_blood_on_11th_april_2008 from donor d, blood b
+where b.donor_no=d.donor_no and
+b.DateOfColl="2008-04-11";
+
+select d.name,d.city from donor d, blood b
+where
+b.donor_no=d.donor_no and
+b.RHFactor="-ve";
+
+
+select sum(b.quantity) from blood b, donor d
+where d.donor_no= b.donor_no and
+b.DateOfColl="2007-01-31";
+
+select b.blood_grp from blood b, donor d  where
+b.donor_no = d.donor_no order by d.donor_no;
+
+
+select o.o_name, p.description from property p, owner o where
+o.o_name = p.o_name group by p.description;
+
+property_owner
+select o.o_name, p.description, d.d_name from property p,district d, owner o
+    -> where p.o_name=o.o_name and
+    -> p.d_code = d. d_code;
+    
+select p.description from property p , district d
+ where p.d_code=d.d_code and
+ d.d_name="Nashik";
+ 
+ select sum(p.area) from property p, district d, owner o
+    -> where p.o_name= o.o_name and
+    -> p.d_code = d.d_code and
+    -> o.o_name ="Mr. Dev" and d.d_name="Sangli";
+    
+    
+    
+    select sum(p.area)as total_area,o.o_name from property p, district d, owner o
+    -> where p.o_name= o.o_name and
+    ->  p.d_code = d.d_code and
+    ->  o.o_name ="Mr. Dev" and d.d_name="Sangli"
+    
+    
+    select p.description,p.area,d.tax_rate from property p,district d,owner o
+where d.d_code= p.d_code and
+p.o_name=o.o_name order by d. d_code;
+
+
+
+country_population
+
+select name from country where con_code in(select con_code from population where  population_count in(select max(population_count) from population));
+
+select c.name,p.population_count from country c,population p
+where c.con_code=p.con_code and
+c.capital="Tokyo";
+
+select name from country where con_code in(select con_code from population where population_count in (select min(population_count) from population));
+
+select p.population_count from population p ,country c
+    -> where c.con_code= p.con_code order by c.con_code;
+    
+    
+machine_part table
+update machine set mcost = mcost + (mcost*10/100);
+
+select p.pname from part p,machine m
+where p.mno = m.mno and
+m.mcost<66;
+
+select m.name from machine m,part p
+where p.mno=m.mno ;
+
+select m.mno , count(p.pno) from machine m,part p where m.mno = p.pno group by name;
+
+
+teacher_student
+select s.name from student s,teacher t,stu_tea st
+    -> where t.tno=st.tno and
+    -> s.rollno = st.rollno and
+    -> t.tname="Mr.XXX"  having count(st.rollno)>2;
+    
+select s.name from student s,teacher t,stu_tea st
+where t.tno=st.tno and
+s.rollno = st.rollno and
+t.tname="Mr.YYY" and s.marks>80;
+
+
+select s.name from student s,teacher t,stu_tea st
+where s.rollno = st.rollno and
+t.tno=st.tno and st.subject="Python";
+
+select st.class, count(st.class) from student s, teacher t ,stu_tea st
+where s.rollno = st.rollno and
+t.tno=st.tno group by(class);
+
+select p.pname from player p,game g,game_player gp
+where p.pname=gp.pname and g.gname=gp.gname group by(gp.gname) having count(gp.gname)>2;
+
+select g.gname from game g,player p,game_player gp
+where p.pname= gp.pname and g.gname=gp.gname group by(g.gname) having count(g.gname)>2;
+
+select c.name from country c,population p where
+c.con_code = p. con_code order by (p.population_count) desc limit 1;
+
+car_driver
+
+select d.dname from driver d,car c , car_driver cd where c.cno=cd.cno and d.dno = cd.dno and c.year =2015;
+select d.dname from driver d,car c , car_driver cd where c.cno=cd.cno and d.dno = cd.dno and d.dcity="Pune";
+select d.dadd ,c.year from car c,driver d,car_driver cd where c.cno=cd.cno and d.dno=cd.dno and c.cname ="WagonR";
+select d.dname,c.owner_name from car c,driver d, car_driver cd where c.cno=cd.cno and d.dno = cd.dno and d.dcity ="Pune" and d.dadd="Akurdi";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
