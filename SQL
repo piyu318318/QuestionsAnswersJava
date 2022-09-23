@@ -405,7 +405,7 @@ Any issues in the production environment are resolved by the developers which co
 UNION ALL keeps all of the records from each of the original data sets, UNION removes any duplicate records. UNION first performs a sorting operation 
 and eliminates of the records that are duplicated across all columns before finally returning the combined data set.
 
-62)
+62) 
 
 
 
