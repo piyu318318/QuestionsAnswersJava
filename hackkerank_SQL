@@ -13,4 +13,13 @@ select  city from station where city like "a%" or  city like "e%" or  city like 
 Q)Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
 select distinct(city) from station where city like "%a"or city like "%e" or city like "%i" or city like "%o" or city like "%u" ;
 
+Q)starting city name vowel and ending also with vowel with no dublicate.
+SELECT DISTINCT city FROM station WHERE city REGEXP "^[aeiou].*[aeiou]$"; 
+
+Q)Query the list of CITY names from STATION that do not start with vowels. Your result cannot contain duplicates.
+select distinct(city) from station where city like "b%" or city like "c%" or city like "d%"  or city like "f%" or city like "g%" or city like "h%" or city like "j%" or city like "k%" or city like "l%" or city like "m%" or city like "n%" or city like "p%" or city like "q%" or city like "r%" or city like "s%" or city like "t%" or city like "v%" or city like "w%" or city like "x%" or city like "y%" or city like "z%" ;
+
+Q)Query the list of CITY names from STATION that do not end with vowels. Your result cannot contain duplicates.
+SELECT DISTINCT CITY FROM STATION WHERE UPPER(SUBSTR(CITY, LENGTH(CITY), 1)) NOT IN ('A','E','I','O','U') AND LOWER(SUBSTR(CITY, LENGTH(CITY),1)) NOT IN ('a','e','i','o','u');
+
 Q)
