@@ -1,0 +1,16 @@
+Q)select distinct(city) from station where mod(id,2) =0 order by city
+
+Q)
+select city,length(city) from station order by length(city),city limit 1;
+
+select city,length(city) from station order by length(city) desc,city  limit 1; 
+  
+Q)select city who are starting with vowel.
+select city from station where substr(city,1,1)='a' or substr(city,1,1)='e' or substr(city,1,1)='i' or  substr(city,1,1)='o' or substr(city,1,1)='u';
+or
+select  city from station where city like "a%" or  city like "e%" or  city like "i%" or  city like "o%" or  city like "u%";
+
+Q)Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
+select distinct(city) from station where city like "%a"or city like "%e" or city like "%i" or city like "%o" or city like "%u" ;
+
+Q)
