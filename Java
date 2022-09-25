@@ -465,7 +465,7 @@ From base class: by using super() keyword to call the constructor from the base 
 ->encapsulation,abstraction,polymorphism, inheritance
 
 49)what is polymorphism ?
--> polymorphism means one acton havinf many operations. or one single name having many forms.
+-> polymorphism means one acton having many operations. or one single name having many forms.
 real life  : Another excellent real time example of polymorphism is your smartphone. The smartphone can act as phone, camera, music player and what not, 
 taking different forms and hence polymorphism.
 
