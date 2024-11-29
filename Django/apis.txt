@@ -1,0 +1,2 @@
+install django using command -> pip install django
+star project using command ->django-admin startproject imdb 
