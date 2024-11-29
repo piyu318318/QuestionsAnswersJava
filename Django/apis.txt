@@ -5,21 +5,25 @@ start project using command ->django-admin startproject imdb
 now go to project folder imdb  and create api app folder
 create API folders using command -> python manage.py startapp imdb_apis
 
-then install below all liabraries
+##################################################################################
+then install below all libraries
 pip install djangorestframework
 pip install markdown       # Markdown support for the browsable API.
 pip install django-filter  # Filtering support
 
 
+##################################################################################
+INSTALLED_APPS = The INSTALLED_APPS setting in Django is a list of all the applications that are enabled in your Django project. Each entry in the list represents an app that Django will
+recognize and make available for use in the project.
 After installing libraries then add a command to the settings.py
 INSTALLED_APPS = [
-    "rest_framework",
     ................,
     ................,
-    ................
+    ................,
+    'rest_framework',  # Django Rest Framework (third-party app)
+    'imdb'             # Your custom app for the projec
 ]
-
-
+##################################################################################
 copy imdb/urls.py
 create imdb_apis/urls.py and paste whole code whatever is copied from imdb/urls.py
 urlpatterns = [
@@ -29,3 +33,4 @@ urlpatterns = [
 now in the imdb/urls.py add the -> path('', include('imdb_api.urls')) in the urlpatterns 
 The path('', include('imdb_api.urls')) statement in the main project's urls.py file is used to include and route the URL patterns defined in the imdb_api app
 
+##################################################################################
