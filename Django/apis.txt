@@ -1,4 +1,6 @@
 install Django using command -> pip install django
+create folder -> DjangoRestFramework
+go to folder -> cd DjangoRestFramework
 start project using command ->django-admin startproject imdb 
 create API folders -> python manage.py startapp imdb_apis
 
