@@ -1,3 +1,5 @@
+##################################################################################
+
 install Django using command -> pip install django
 create folder -> DjangoRestFramework
 go to folder -> cd DjangoRestFramework
