@@ -8,6 +8,10 @@ now go to project folder imdb  and create api app folder
 create API folders using command -> python manage.py startapp imdb_apis
 
 ##################################################################################
+Now  in settings.py add in  ALLOWED_HOSTS = [] below line check
+ALLOWED_HOSTS = ["*"]
+Explain -In Django allows the application to accept requests from any host, effectively permitting all domains to access the application. This is typically used in development but should be restricted to specific domains in production for security reasons
+##################################################################################
 then install below all libraries
 pip install djangorestframework
 pip install markdown       # Markdown support for the browsable API.
