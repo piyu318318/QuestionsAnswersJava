@@ -22,3 +22,7 @@ INSTALLED_APPS = [
 
 copy imdb/urls.py
 create imdb_apis/urls.py and paste whole code whatever is copied from imdb/urls.py
+
+now in the imdb/urls.py add the -> path('', include('imdb_api.urls')) in the urlpatterns 
+The path('', include('imdb_api.urls')) statement in the main project's urls.py file is used to include and route the URL patterns defined in the imdb_api app
+
