@@ -36,3 +36,18 @@ now in the imdb/urls.py add the -> path('', include('imdb_api.urls')) in the url
 The path('', include('imdb_api.urls')) statement in the main project's urls.py file is used to include and route the URL patterns defined in the imdb_api app
 
 ##################################################################################
+
+In Django, models are Python classes that represent the structure and behavior of the data in your application. They define the database schema for your project and serve as an abstraction 
+layer for database operations. Django uses these models to create database tables and manage data in an Object-Relational Mapping (ORM) fashion.
+for example i have ceated tables when i migrate it will create tables automatically 
+
+class Users(models.Model):
+    userId = models.AutoField
+    userName = models.CharField(max_length = 50)
+    email = models.CharField(max_length = 50)
+    password  = models.CharField(max_length = 50)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+
+
