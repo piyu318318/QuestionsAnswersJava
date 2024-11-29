@@ -5,3 +5,20 @@ start project using command ->django-admin startproject imdb
 now go to project folder imdb  and create api app folder
 create API folders using command -> python manage.py startapp imdb_apis
 
+then install below all liabraries
+pip install djangorestframework
+pip install markdown       # Markdown support for the browsable API.
+pip install django-filter  # Filtering support
+
+
+After installing libraries then add a command to the settings.py
+INSTALLED_APPS = [
+    "rest_framework",
+    ................,
+    ................,
+    ................
+]
+
+
+copy imdb/urls.py
+create imdb_apis/urls.py and paste whole code whatever is copied from imdb/urls.py
