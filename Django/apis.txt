@@ -88,6 +88,8 @@ class RegisterUser(View):  #inherit the views
     def post(self): #get represet that post
         return HttpResponse("testing piyush")
 
+now simply run the server using command 
+python manage.py runserver
 
 ##################################################################################
 
