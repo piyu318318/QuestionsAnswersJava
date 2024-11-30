@@ -45,13 +45,18 @@ In Django, models are Python classes that represent the structure and behavior o
 layer for database operations. Django uses these models to create database tables and manage data in an Object-Relational Mapping (ORM) fashion.
 for example i have ceated tables when i migrate it will create tables automatically
 
+from django.db import models
+
 class Users(models.Model):
-    userId = models.AutoField
-    userName = models.CharField(max_length = 50)
-    email = models.CharField(max_length = 50)
-    password  = models.CharField(max_length = 50)
+    userId = models.AutoField(primary_key=True)
+    userName = models.CharField(max_length=50)
+    email = models.EmailField(unique=True)
+    password = models.CharField(max_length=128)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.userName
 
 
 
