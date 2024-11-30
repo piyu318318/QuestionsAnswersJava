@@ -61,6 +61,33 @@ python manage.py migrate - Applies the migrations to the database, synchronizing
 python manage.py makemigrations -  Creates new migration files based on the changes detected in your Django models.
 ##################################################################################
 how to implement apis
+in the myproject_apis/urls.py add the url path and import the views.py in it 
+for exmaple read this 
+
+from django.contrib import admin
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('Register/', views.RegisterUser.as_view(), name="home")
+
+]
+
+now to to views.py import the View class from django.views and create class named RegisterUser 
+for example 
+
+from django.shortcuts import render, HttpResponse
+from django.views import View
+# Create your views here.
+class RegisterUser(View):  #inherit the views
+
+    def get(self, request): #get represet that get apis and 
+        return HttpResponse("This is the registration page!")
+
+    def post(self): #get represet that post
+        return HttpResponse("testing piyush")
 
 
+##################################################################################
 
