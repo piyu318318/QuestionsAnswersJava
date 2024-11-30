@@ -3,9 +3,9 @@
 install Django using command -> pip install django
 create folder -> DjangoRestFramework
 go to folder -> cd DjangoRestFramework
-start project using command ->django-admin startproject imdb 
-now go to project folder imdb  and create api app folder
-create API folders using command -> python manage.py startapp imdb_apis
+start project using command ->django-admin startproject myproject
+now go to project folder myproject  and create api app folder
+create API folders using command -> python manage.py startapp myproject_apis
 
 ##################################################################################
 Now  in settings.py add in  ALLOWED_HOSTS = [] below line check
@@ -27,23 +27,23 @@ INSTALLED_APPS = [
     ................,
     ................,
     'rest_framework',  # Django Rest Framework (third-party app)
-    'imdb'             # Your custom app for the projec
+    'myproject'             # Your custom app for the projec
 ]
 ##################################################################################
-copy imdb/urls.py
-create imdb_apis/urls.py and paste whole code whatever is copied from imdb/urls.py
+copy myproject/urls.py
+create myproject_apis/urls.py and paste whole code whatever is copied from myproject/urls.py
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('imdb_api.urls'))
+    path('', include('myproject_api.urls'))
 ]
-now in the imdb/urls.py add the -> path('', include('imdb_api.urls')) in the urlpatterns 
-The path('', include('imdb_api.urls')) statement in the main project's urls.py file is used to include and route the URL patterns defined in the imdb_api app
+now in the myproject/urls.py add the -> path('', include('myproject_api.urls')) in the urlpatterns
+The path('', include('myproject_api.urls')) statement in the main project's urls.py file is used to include and route the URL patterns defined in the myproject_apis app
 
 ##################################################################################
 
-In Django, models are Python classes that represent the structure and behavior of the data in your application. They define the database schema for your project and serve as an abstraction 
+In Django, models are Python classes that represent the structure and behavior of the data in your application. They define the database schema for your project and serve as an abstraction
 layer for database operations. Django uses these models to create database tables and manage data in an Object-Relational Mapping (ORM) fashion.
-for example i have ceated tables when i migrate it will create tables automatically 
+for example i have ceated tables when i migrate it will create tables automatically
 
 class Users(models.Model):
     userId = models.AutoField
@@ -56,9 +56,11 @@ class Users(models.Model):
 
 
 
-After execute commands 
+After execute commands
 python manage.py migrate - Applies the migrations to the database, synchronizing the database schema with the Django models.
 python manage.py makemigrations -  Creates new migration files based on the changes detected in your Django models.
 ##################################################################################
 how to implement apis
+
+
 
