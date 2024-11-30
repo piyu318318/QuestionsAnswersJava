@@ -53,6 +53,9 @@ class Users(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+
+
+
 After execute commands 
 python manage.py migrate - Applies the migrations to the database, synchronizing the database schema with the Django models.
 python manage.py makemigrations -  Creates new migration files based on the changes detected in your Django models.
