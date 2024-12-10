@@ -64,6 +64,7 @@ class Users(models.Model):
 After execute commands
 python manage.py migrate - Applies the migrations to the database, synchronizing the database schema with the Django models.
 python manage.py makemigrations -  Creates new migration files based on the changes detected in your Django models.
+python manage.py runserver 127..0.0.1:8000   - to run the server use command by default its local host and port number is 8000 if you wish you can chaneg this as well
 ##################################################################################
 how to implement apis
 in the myproject_apis/urls.py add the url path and import the views.py in it 
