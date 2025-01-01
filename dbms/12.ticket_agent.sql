@@ -34,14 +34,14 @@ SELECT * FROM agent;
 SELECT * FROM ticket;
 SELECT * FROM ticket_agent;
 
-Which tickets were booked with less than 5 tickets? List the ticket code, passenger name, and agent name.
+Q.Which tickets were booked with less than 5 tickets? List the ticket code, passenger name, and agent name.
 SELECT T.TCODE, T.PASSENGERNAME, A.AGENTNAME
 FROM ticket T
 JOIN ticket_agent TA ON TA.TCODE = T.TCODE
 JOIN agent A ON A.AGENTCODE = TA.AGENTCODE
 WHERE T.NUMBEROFTICKETS < 5; 
 
-How many tickets were booked by the agent 'Mr. XXX' in total?
+Q.How many tickets were booked by the agent 'Mr. XXX' in total?
 SELECT SUM(T.NUMBEROFTICKETS) BOOKED_BY_XXX
 FROM ticket T
 JOIN ticket_agent TA ON TA.TCODE = T.TCODE
@@ -49,14 +49,14 @@ JOIN agent A ON A.AGENTCODE = TA.AGENTCODE
 GROUP BY A.AGENTNAME
 HAVING A.AGENTNAME = 'Mr. XXX';
 
-Which agents names contain the letter 'k'? List the agent code, agent name, and the ticket codes they are associated with.
+Q.Which agents names contain the letter 'k'? List the agent code, agent name, and the ticket codes they are associated with.
 SELECT A.AGENTCODE, A.AGENTNAME, T.TCODE
 FROM agent A
 JOIN ticket_agent TA ON TA.AGENTCODE = A.AGENTCODE
 JOIN ticket T ON T.TCODE = TA.TCODE
 WHERE AGENTNAME LIKE '%k';
 
-List all tickets ordered by booking date in descending order.
+Q.List all tickets ordered by booking date in descending order.
 SELECT T.*
 FROM ticket T
 ORDER BY BOOKINGDATE DESC;

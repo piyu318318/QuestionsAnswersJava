@@ -31,20 +31,20 @@ INSERT INTO movie_actor VALUES(4, 11);
 INSERT INTO movie_actor VALUES(5, 16);
 
 
-What are the names of the movies released between 1965 and 1980 that start with the letter 'K'?
+Q.What are the names of the movies released between 1965 and 1980 that start with the letter 'K'?
 SELECT M.MVNAME
 FROM movie M
 JOIN movie_actor MA ON MA.MOVNO = M.MOVNO
 JOIN actor A ON A.ACTNO = MA.ACTNO
 WHERE (M.RELEASEYEAR BETWEEN 1965 AND 1980) AND M.MVNAME LIKE 'K%';
 
-List the names of the actors along with the movies they acted in and the release year of each movie.
+Q.List the names of the actors along with the movies they acted in and the release year of each movie.
 SELECT A.ACTNAME, M.MVNAME, M.RELEASEYEAR
 FROM movie M 
 JOIN movie_actor MA ON MA.MOVNO = M.MOVNO
 JOIN actor A ON A.ACTNO = MA.ACTNO;
 
-How many movies did Salman act in? Provide the count.
+Q.How many movies did Salman act in? Provide the count.
 SELECT COUNT(*) AS SALMAN_MOVIES
 FROM movie M 
 JOIN movie_actor MA ON MA.MOVNO = M.MOVNO
@@ -52,7 +52,7 @@ JOIN actor A ON A.ACTNO = MA.ACTNO
 WHERE A.ACTNAME = 'Salman';
 
 
-Which movies have more than 5 actors associated with them? Provide the movie names and the count of actors.
+Q.Which movies have more than 5 actors associated with them? Provide the movie names and the count of actors.
 SELECT M.MVNAME, COUNT(*) CNT
 FROM movie M
 JOIN movie_actor MA ON MA.MOVNO = M.MOVNO

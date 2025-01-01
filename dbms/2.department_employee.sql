@@ -17,36 +17,36 @@ INSERT INTO employee VALUES(7370, 'Shyam', 12500, 'Junior Salesman', 180, 5, '20
 INSERT INTO employee VALUES(7371, 'Laxman', 21000, 'Field Executive', 600, 4, '2013/02/21');
 INSERT INTO employee VALUES(7372, 'Lakhan', 30000, 'Regional Manager', 1000, 4, '2015/01/11');
 
-What are the maximum, minimum, and average salaries for each designation in the company?
+Q.What are the maximum, minimum, and average salaries for each designation in the company?
 SELECT E.DESIGNATION, MAX(E.SALARY) MAX_SAL, MIN(E.SALARY) MIN_SAL, AVG(E.SALARY) AVG_SAL
 FROM employee E
 GROUP BY E.DESIGNATION;
 
-Which employees work in the 'Pune' location?
+Q.Which employees work in the 'Pune' location?
 SELECT E.ENAME
 FROM employee E
 JOIN department D ON D.DEPTNO = E.DEPTNO
 WHERE D.LOC = 'Pune';
 
-Which employee holds the designation 'Accountant' in the 'Nasik' location?
+Q.Which employee holds the designation 'Accountant' in the 'Nasik' location?
 SELECT E.*
 FROM employee E
 JOIN department D ON D.DEPTNO = E.DEPTNO
 WHERE D.LOC = 'Nasik' AND E.DESIGNATION = 'Accountant';
 
 
-List the department names along with the names of employees in each department.
+Q.List the department names along with the names of employees in each department.
 SELECT D.DNAME, E.ENAME
 FROM employee E
 JOIN department D ON D.DEPTNO = E.DEPTNO;
 
-Which employees joined the company on or before '2018/12/12'?
+Q.Which employees joined the company on or before '2018/12/12'?
 SELECT E.ENAME
 FROM employee E
 WHERE E.DOJ <= '2018/12/12';
 
 
-Which employees have the same designation as the employee with EMPNO = 7369, excluding employee 7369 itself?
+Q.Which employees have the same designation as the employee with EMPNO = 7369, excluding employee 7369 itself?
 SELECT E.ENAME
 FROM employee E
 WHERE E.DESIGNATION = (SELECT E.DESIGNATION FROM employee E WHERE E.EMPNO = '7369') AND E.EMPNO <> '7369';

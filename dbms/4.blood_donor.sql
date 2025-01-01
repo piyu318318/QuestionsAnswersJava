@@ -24,25 +24,25 @@ INSERT INTO blood VALUES('108', '6', 'A', 326, 'Negative', '1999/09/03');
 SELECT * FROM donor;
 SELECT * FROM blood;
 
-How many donors contributed blood on '2008/04/11'? Provide the count.
+Q.How many donors contributed blood on '2008/04/11'? Provide the count.
 SELECT COUNT(*) AS DONOR_COUNT
 FROM blood
 WHERE DATE_OF_COLLECTION = '2008/04/11';
 
-Which donors have donated blood with blood group 'A' and RH factor 'Negative'? List their names and cities.
+Q.Which donors have donated blood with blood group 'A' and RH factor 'Negative'? List their names and cities.
 SELECT D.NAME, D.CITY
 FROM donor D 
 JOIN blood B ON B.DONOR_NO = D.DONOR_NO
 WHERE B.BLOODGROUP = 'A' AND B.RHFACTOR = 'Negative'
 GROUP BY D.NAME, D.CITY;
 
-What is the total quantity of blood donated for each blood group on '2007/01/31'? Provide the blood group, RH factor, and the sum of the donated quantities.
+Q.What is the total quantity of blood donated for each blood group on '2007/01/31'? Provide the blood group, RH factor, and the sum of the donated quantities.
 SELECT B.BLOODGROUP, B.RHFACTOR, SUM(B.QUANTITY) AS SUM
 FROM blood B
 WHERE B.DATE_OF_COLLECTION = '2007/01/31'
 GROUP BY B.BLOODGROUP, B.RHFACTOR;
 
-Which donors have donated blood, and what is their blood group and RH factor? Provide distinct names, blood group, and RH factor.
+Q.Which donors have donated blood, and what is their blood group and RH factor? Provide distinct names, blood group, and RH factor.
 SELECT DISTINCT(D.NAME), B.BLOODGROUP, B.RHFACTOR
 FROM donor D 
 JOIN blood B ON B.DONOR_NO = D.DONOR_NO;

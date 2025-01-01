@@ -33,25 +33,25 @@ SELECT * FROM game;
 SELECT * FROM players;
 SELECT * FROM game_player;
 
-Which players have participated in more than two games? List the players name and the count of games they are part of.
+Q.Which players have participated in more than two games? List the players name and the count of games they are part of.
 SELECT GP.PNAME, COUNT(GP.GNAME) CNT
 FROM game_player GP
 GROUP BY GP.PNAME
 HAVING CNT > 2;
 
-Which games have more than two coaches? List the game name, captains name, and the count of coaches.
+Q.Which games have more than two coaches? List the game name, captains name, and the count of coaches.
 SELECT GP.GNAME, G.CAPTAIN_NAME, COUNT(GP.COACH_NAME) CNT
 FROM game_player GP
 JOIN game G ON G.GNAME = GP.GNAME
 GROUP BY GP.GNAME
 HAVING CNT > 2;
 
-Which games have more than 5 players?
+Q.Which games have more than 5 players?
 SELECT G.GNAME
 FROM game G
 WHERE G.NO_OF_PLAYERS > 5;
 
-List the players and their corresponding coaches.
+Q.List the players and their corresponding coaches.
 SELECT GP.PNAME, GP.COACH_NAME
 FROM game_player GP;
 

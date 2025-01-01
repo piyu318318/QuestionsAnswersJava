@@ -38,7 +38,7 @@ SELECT * FROM membership;
 SELECT * FROM book;
 SELECT * FROM iss_rec;
 
-Q.What is the book whose author is 'Korth'?
+Q.What is the bookname whose author is 'Korth'?
 SELECT B.BOOK_NAME
 FROM book B
 WHERE AUTHOR = 'Korth';
@@ -48,19 +48,19 @@ SELECT B.BOOK_NAME
 FROM book B
 ORDER BY B.BOOK_NAME;
 
-What are the student names listed in alphabetical order?
+Q.What are the student names listed in alphabetical order?
 SELECT S.STUD_NAME
 FROM student S
 ORDER BY S.STUD_NAME;
 
-How many books has each student issued? List the student names along with the count of books.
+Q.How many books has each student issued? List the student names along with the count of books.
 SELECT S.STUD_NAME, COUNT(*) AS CNT_OF_BOOKS
 FROM student S
 JOIN membership M ON M.STUD_NO = S.STUD_NO
 JOIN iss_rec ISS ON ISS.MEM_NO = M.MEM_NO
 GROUP BY S.STUD_NAME;
 
-Books Issued by Student '5'
+Q.Books Issued by Student '5'
 SELECT B.BOOK_NAME
 FROM book B
 JOIN iss_rec ISS ON ISS.BOOK_NO = B.BOOK_NO

@@ -38,13 +38,13 @@ SELECT * FROM driver;
 SELECT * FROM accident;
 SELECT * FROM car_driver;
 
-Which accidents occurred in the year 2000? List the accident ID, place, and car model involved.
+Q.Which accidents occurred in the year 2000? List the accident ID, place, and car model involved.
 SELECT A.AC_ID, A.PLACE, C.CARMODEL
 FROM accident A 
 JOIN car C ON A.CNO = C.CNO
 WHERE A.YEAR = 2000;
 
-Which drivers were involved in accidents that occurred in Pune? List the drivers name.
+Q.Which drivers were involved in accidents that occurred in Pune? List the drivers name.
 SELECT D.DRVNAME
 FROM driver D
 JOIN car_driver CD ON CD.DRVNO = D.DRVNO
@@ -52,14 +52,14 @@ JOIN car C ON C.CNO = CD.CNO
 JOIN accident A ON A.CNO = C.CNO
 WHERE A.PLACE = 'Pune';
 
-Where did the accidents involving the 'WagonR' occur and in which year?
+Q.Where did the accidents involving the 'WagonR' occur and in which year?
 SELECT A.PLACE, A.YEAR
 FROM accident A 
 JOIN car C ON C.CNO = A.CNO
 WHERE C.CARMODEL = 'WagonR';
 
 
-Which driver and car owner were involved in the accident on 'Pune Nagar Road'? List the driver's name and car owner's name.
+Q.Which driver and car owner were involved in the accident on 'Pune Nagar Road'? List the driver's name and car owner's name.
 SELECT D.DRVNAME, C.OWNERNAME
 FROM driver D 
 JOIN car_driver CD ON CD.DRVNO = D.DRVNO

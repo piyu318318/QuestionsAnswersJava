@@ -27,19 +27,19 @@ INSERT INTO book_author VALUES('105', '5', 2021);
 SELECT * FROM book;
 SELECT * FROM author;
 
-What are the books listed in descending order of their publishing year?
+Q.What are the books listed in descending order of their publishing year?
 SELECT B.BOOK_NAME
 FROM book B
 JOIN book_author BA ON BA.BOOK_NO = B.BOOK_NO
 ORDER BY BA.PUBLISHINGYEAR DESC;
 
 
-Which books were published by 'Tata McGraw Hill'? Provide their names.
+Q.Which books were published by 'Tata McGraw Hill'? Provide their names.
 SELECT B.BOOK_NAME, B.PUBNAME
 FROM book B
 WHERE B.PUBNAME = 'Tata McGraw Hill';
 
-Which book was written by 'Korth'? Provide the book name.
+Q.Which book was written by 'Korth'? Provide the book name.
 SELECT B.BOOK_NAME, A.AUTHOR_NAME
 FROM book B
 JOIN book_author BA ON BA.BOOK_NO = B.BOOK_NO
@@ -47,7 +47,7 @@ JOIN author A ON A.AUTHOR_NO = BA.AUTHOR_NO
 WHERE A.AUTHOR_NAME = 'Korth';
 
 
-What is the name of the book, the authors name, and the publisher for the book with BOOK_NO = '101' and publishing year 2019?
+Q.What is the name of the book, the authors name, and the publisher for the book with BOOK_NO = '101' and publishing year 2019?
 SELECT B.BOOK_NAME, A.AUTHOR_NAME, B.PUBNAME
 FROM book B
 JOIN book_author BA ON BA.BOOK_NO = B.BOOK_NO

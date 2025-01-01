@@ -30,25 +30,25 @@ SELECT * FROM owner;
 SELECT * FROM district;
 SELECT * FROM property;
 
-Which properties are located in various districts, and what is the district name associated with each property? List the property owners name, description, and district name.
+Q.Which properties are located in various districts, and what is the district name associated with each property? List the property owners name, description, and district name.
 SELECT P.ONAME, P.DESCRIPTION, D.DNAME
 FROM property P
 JOIN district D ON D.DCODE = P.DCODE;
 
-Which properties are located in Nashik? Provide the details of those properties.
+Q.Which properties are located in Nashik? Provide the details of those properties.
 SELECT P.*
 FROM property P 
 JOIN district D ON D.DCODE = P.DCODE
 WHERE D.DNAME = 'Nashik';
 
 
-What is the area of the property owned by 'Mr Dev' located in 'Sangli'? 
+Q.What is the area of the property owned by 'Mr Dev' located in 'Sangli'? 
 SELECT P.AREA
 FROM property P 
 JOIN district D ON D.DCODE = P.DCODE
 WHERE P.ONAME = 'Mr Dev' AND D.DNAME = 'Sangli';
 
-List the district name, property owners name, property description, property area, and tax rate for all properties.
+Q.List the district name, property owners name, property description, property area, and tax rate for all properties.
 SELECT D.DNAME, P.ONAME,  P.DESCRIPTION,  P.AREA, D.TAX_RATE
 FROM district D 
 JOIN property P ON P.DCODE = D.DCODE;

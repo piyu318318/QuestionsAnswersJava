@@ -34,7 +34,7 @@ SELECT * FROM student;
 SELECT * FROM teacher;
 SELECT * FROM student_teacher;
 
-Which teachers have more than two students? List the teachers name and the count of students associated with them.
+Q.Which teachers have more than two students? List the teachers name and the count of students associated with them.
 SELECT S.NAME, COUNT(*) CNT
 FROM student S 
 JOIN student_teacher ST ON ST.ROLLNO = S.ROLLNO
@@ -42,20 +42,20 @@ JOIN teacher T ON T.TNO = ST.TNO
 GROUP BY T.TNAME
 HAVING CNT > 2;
 
-Which students in the 'TY' class have marks greater than 75 and are taught by 'Mr YYY'?
+Q.Which students in the 'TY' class have marks greater than 75 and are taught by 'Mr YYY'?
 SELECT S.NAME
 FROM student S 
 JOIN student_teacher ST ON S.ROLLNO = ST.ROLLNO
 JOIN teacher T ON T.TNO = ST.TNO
 WHERE ST.CLASS = 'TY' AND S.MARKS > 75 AND T.TNAME = 'Mr YYY';
 
-Who is the teacher teaching the subject 'Python'?
+Q.Who is the teacher teaching the subject 'Python'?
 SELECT T.TNAME
 FROM teacher T
 WHERE T.SUBJECT = 'Python';
 
 
-How many students are in each class? Provide the class name and the student count.
+Q.How many students are in each class? Provide the class name and the student count.
 SELECT ST.CLASS, COUNT(*) CNT
 FROM student_teacher ST
 GROUP BY ST.CLASS;

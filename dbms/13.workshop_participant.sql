@@ -30,21 +30,21 @@ SELECT * FROM workshop;
 SELECT * FROM participant;
 SELECT * FROM workshop_participant;
 
-Which participants attended workshops that had more than 2 speakers? List the participant name and the workshop title.
+Q.Which participants attended workshops that had more than 2 speakers? List the participant name and the workshop title.
 SELECT P.PARTICIPANTNAME, W.TITLE
 FROM participant P
 JOIN workshop_participant WP ON WP.PARTICIPANTID = P.PARTICIPANTID
 JOIN workshop W ON W.WORKSHOPID = WP.WORKSHOPID
 WHERE W.NUMBEROFSPEAKERS > 2;
 
-Which participants attended workshops designated for 'Senior Managers' or 'Junior Managers'? List the participant ID, name, and workshop ID.
+Q.Which participants attended workshops designated for 'Senior Managers' or 'Junior Managers'? List the participant ID, name, and workshop ID.
 SELECT P.PARTICIPANTID, P.PARTICIPANTNAME, W.WORKSHOPID
 FROM participant P
 JOIN workshop_participant WP ON WP.PARTICIPANTID = P.PARTICIPANTID
 JOIN workshop W ON W.WORKSHOPID = WP.WORKSHOPID
 WHERE W.DESIGNATION = 'Senior Managers' OR W.DESIGNATION = 'Junior Managers';
 
-Which workshops had a fee between 5000 and 8000? List the workshop ID, title, and participant ID for those workshops.
+Q.Which workshops had a fee between 5000 and 8000? List the workshop ID, title, and participant ID for those workshops.
 SELECT W.WORKSHOPID, W.TITLE, P.PARTICIPANTID 
 FROM workshop W
 JOIN workshop_participant WP ON WP.WORKSHOPID = W.WORKSHOPID

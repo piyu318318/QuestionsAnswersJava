@@ -18,7 +18,7 @@ INSERT INTO population VALUES('104', '4', 15);
 INSERT INTO population VALUES('105', '5', 1);
 
 
-Which country has the highest population? Provide the countrys name.
+Q.Which country has the highest population? Provide the countrys name.
 SELECT C.NAME
 FROM country C
 JOIN population P ON P.CON_CODE = C.CON_CODE
@@ -26,20 +26,20 @@ ORDER BY P.POPULATION DESC
 LIMIT 1;
 
 
-What is the population of the country whose capital is 'Tokyo'?
+Q.What is the population of the country whose capital is 'Tokyo'?
 SELECT C.NAME, P.POPULATION
 FROM country C 
 JOIN population P ON C.CON_CODE = P.CON_CODE
 WHERE C.CAPITAL = 'Tokyo';
 
-Which country has the lowest population? Provide the countrys name and its population.
+Q.Which country has the lowest population? Provide the countrys name and its population.
 SELECT C.NAME, P.POPULATION
 FROM country C 
 JOIN population P ON C.CON_CODE = P.CON_CODE
 ORDER BY P.POPULATION 
 LIMIT 1;
 
-List all countries along with their population.
+Q.List all countries along with their population.
 SELECT C.NAME, P.POPULATION
 FROM country C 
 JOIN population P ON P.CON_CODE = C.CON_CODE;
