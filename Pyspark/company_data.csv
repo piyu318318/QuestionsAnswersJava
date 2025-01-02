@@ -1,0 +1,1001 @@
+Company_ID,Company_Name,Industry,Revenue,Employee_Count,Founded_Year,Country,State,City,CEO_Name
+1,oeGNtATGsH Corp,Retail,$311M,4432,1954,USA,London,Munich,Egxij Nuwmesc
+2,BytKfHHymZ Corp,Energy,$1M,4213,1981,Germany,Bavaria,London,Ffucv Aeaualj
+3,bFvvYLsWhG Corp,Energy,$99M,2142,2015,UK,California,Pune,Jdpma Pzhwcjj
+4,xVkxeRlBlv Corp,Finance,$815M,4043,1968,Germany,Maharashtra,Pune,Qedlb Kpbxgcg
+5,oItUpjgBiN Corp,Technology,$641M,2544,2015,Germany,Ontario,Pune,Wfqes Eumeuar
+6,CNAGhrjLmc Corp,Healthcare,$338M,2523,1980,Canada,California,San Francisco,Pcnhu Qsmriob
+7,GExKpGPNUI Corp,Finance,$22M,562,1926,India,London,Toronto,Wqvto Qzzjehv
+8,SxqmbQCgTS Corp,Finance,$443M,2190,1955,India,Maharashtra,Toronto,Neayo Xnssusi
+9,chFwsIfpck Corp,Finance,$253M,4929,2012,USA,Maharashtra,Munich,Qayon Yxqmpcd
+10,ZqRsdqDrbk Corp,Finance,$181M,2950,1976,Germany,London,Pune,Gofod Brizgom
+11,hAUCBQmPXE Corp,Energy,$823M,3417,1977,Germany,Maharashtra,Munich,Dtqcd Wdpvdck
+12,xqwtuZAaQQ Corp,Technology,$136M,2519,1939,UK,Bavaria,San Francisco,Qgknf Vdozqsc
+13,nHKfUWCiOh Corp,Finance,$856M,798,1908,UK,California,San Francisco,Fsyvw Rfqascp
+14,CHPxtgNJRs Corp,Finance,$101M,839,2005,UK,Bavaria,London,Ptzek Nfwtpvt
+15,yRDBGlTiPK Corp,Technology,$90M,592,1937,Canada,California,San Francisco,Eqlvd Jwvfqta
+16,OxXLUFwhHU Corp,Healthcare,$844M,1015,1918,India,London,Munich,Vuqdg Siuqwfp
+17,mLLkQsiHZf Corp,Finance,$424M,3177,1934,Germany,California,Munich,Vzbqc Mxkkrfx
+18,IBRRCepiFN Corp,Healthcare,$399M,2160,2000,USA,Ontario,Toronto,Sfdxp Ckzteqy
+19,evCAhWtzbK Corp,Finance,$135M,1641,1978,USA,London,San Francisco,Vfmsh Gzaagio
+20,hyBhAaIxNP Corp,Retail,$398M,1760,1919,USA,California,San Francisco,Dvmoi Totkpwc
+21,LajQsnJmMe Corp,Finance,$571M,2775,1961,Germany,Bavaria,Pune,Scboq Zdwefbp
+22,JPpSrCwDxu Corp,Healthcare,$107M,2129,2013,Canada,Bavaria,London,Jegyn Kmblzuz
+23,jpURdgDpeU Corp,Finance,$505M,4721,1941,India,Maharashtra,Pune,Gyzpw Nkciamv
+24,mwPXxOgFHH Corp,Energy,$386M,3167,2014,Canada,Ontario,Munich,Mmrin Ogjoxkf
+25,JzTKKBZPXQ Corp,Retail,$693M,2731,1989,UK,Bavaria,Munich,Sbjmo Akyyukp
+26,HEzsknudpk Corp,Technology,$360M,464,1941,USA,Bavaria,Munich,Byboz Sggzgyx
+27,uGYpRxQHHV Corp,Healthcare,$543M,1288,1960,UK,Maharashtra,Pune,Jkxom Zwnqnsx
+28,SEHKMRezWI Corp,Retail,$619M,62,1955,USA,Bavaria,Munich,Yneoq Ovdpsmq
+29,LiedirJsxp Corp,Energy,$222M,274,1972,USA,Bavaria,Toronto,Sfhqg Jdbrqax
+30,sZNDXUzNuM Corp,Technology,$668M,2138,1977,USA,Maharashtra,London,Etpcg Ocugygn
+31,sCBwDEziKM Corp,Healthcare,$337M,81,2013,UK,California,Munich,Oxvtw Ovcsymp
+32,XYUcEfcqYk Corp,Retail,$881M,4477,1929,UK,Ontario,London,Zutwn Efppygn
+33,HLicfcZYNw Corp,Healthcare,$3M,864,1938,Germany,Ontario,San Francisco,Pdsxb Gasztun
+34,sXjoFELNNZ Corp,Healthcare,$751M,555,1913,Canada,Bavaria,San Francisco,Mwodp Dvozioe
+35,kweosTkqOP Corp,Retail,$301M,214,1951,USA,London,Munich,Bdgwb Xlkmxen
+36,kaVsPXfxIB Corp,Energy,$823M,4881,1962,India,Ontario,Toronto,Oabzf Qdtyusi
+37,GSZvkwPAXc Corp,Retail,$149M,4047,1930,Canada,Ontario,Munich,Oayrc Utpxxip
+38,zxuVPgQsng Corp,Retail,$384M,3416,1903,USA,California,London,Cvsia Ljvvsvi
+39,CQqTzXHlgL Corp,Healthcare,$192M,3597,1908,India,Ontario,Munich,Skmps Ridpash
+40,bgZcsOUUVP Corp,Energy,$857M,4356,1911,Canada,Bavaria,London,Smgkn Adczjrj
+41,UEOVvKeYRa Corp,Technology,$394M,469,1949,USA,California,Pune,Lwulc Bojljuy
+42,VuUCycHOkm Corp,Technology,$598M,1651,1967,USA,California,Pune,Ercpj Acvtclf
+43,cxhNUVffxt Corp,Healthcare,$615M,4242,1995,USA,London,Pune,Wvxdf Wwphfkn
+44,rBgCoLecEx Corp,Energy,$643M,1794,2022,Canada,Bavaria,Munich,Izrtb Mgedgpw
+45,CLiWIZyBbn Corp,Technology,$611M,1368,1995,India,Bavaria,San Francisco,Hpkib Kcjtmjv
+46,VTDVqWsjUR Corp,Healthcare,$507M,4374,1967,Germany,Bavaria,San Francisco,Efbng Ufbqugt
+47,edXXKNQHUG Corp,Healthcare,$361M,1554,1906,Canada,Ontario,Munich,Cwzog Pmsgtkg
+48,xvreyvJJln Corp,Retail,$650M,354,1989,India,Ontario,Munich,Vzkgs Mazuvtm
+49,AvYLbSKrkm Corp,Finance,$454M,3806,1965,India,Bavaria,Munich,Rpaoh Eipelwe
+50,cebdBQYFUX Corp,Healthcare,$827M,778,1953,USA,Maharashtra,Toronto,Kfwhk Ufdbdyz
+51,SdLmfriVPO Corp,Technology,$121M,3692,1964,Canada,London,Munich,Vbjwd Hezvlqy
+52,wisZlkpmEZ Corp,Retail,$131M,65,1942,Canada,London,San Francisco,Pjtsy Tqtupuz
+53,urQVWyusUp Corp,Technology,$192M,3544,1981,USA,Ontario,Pune,Uyavc Cmvfajp
+54,ivEmxJDqVX Corp,Finance,$686M,2612,1904,Germany,California,London,Ifeto Jfsqhkz
+55,oohAlFpOIf Corp,Healthcare,$277M,1502,1919,USA,Maharashtra,Toronto,Zqzuy Mmjoaak
+56,xkaYgtIITu Corp,Technology,$253M,1032,2007,India,California,Pune,Felup Blrcmik
+57,TIffLwnZab Corp,Technology,$784M,1212,1986,India,Maharashtra,London,Tuuws Spleaop
+58,LegxBQkxNw Corp,Finance,$508M,4262,1958,Canada,Maharashtra,Toronto,Fnpdv Aowloue
+59,eMegGlafpn Corp,Healthcare,$175M,2433,1992,Germany,California,San Francisco,Itdrh Ixrghmp
+60,QaYzQqePJl Corp,Healthcare,$280M,579,1901,Germany,California,Munich,Mmlhk Bykpkct
+61,uahWgkmsnD Corp,Finance,$902M,4816,1931,USA,Ontario,Toronto,Ttiiv Sbmmglj
+62,dyOVpnMjpi Corp,Technology,$830M,4594,1988,India,London,Toronto,Mcjvb Cwhazvk
+63,LHECMmRmvB Corp,Technology,$405M,168,2015,Germany,California,Munich,Idgov Qoyyqeg
+64,mvaszLnwLJ Corp,Finance,$115M,4632,1974,UK,California,San Francisco,Whoft Ehqyjjc
+65,sCEcAyNhDn Corp,Finance,$108M,3058,2011,UK,Ontario,London,Uqror Fgwmgge
+66,TrADUYrEQa Corp,Healthcare,$388M,1618,1963,Germany,Ontario,Munich,Pmfql Mpybhxz
+67,dJvsDlkmMR Corp,Finance,$987M,307,2010,UK,Maharashtra,Toronto,Ippew Oktbdqu
+68,IbJWMwHYbF Corp,Energy,$521M,889,2005,Germany,London,San Francisco,Aowwi Elgyefj
+69,jTfXmNAbdh Corp,Finance,$49M,3620,1900,India,Maharashtra,London,Lptzl Usskkoi
+70,fAMxytjgCq Corp,Energy,$457M,219,1907,USA,Ontario,Pune,Arela Rrjkeab
+71,jqFgwYzDGQ Corp,Finance,$373M,1641,1915,Germany,Ontario,San Francisco,Wlcdq Tienzyh
+72,VTtuDrCyTs Corp,Retail,$322M,184,1990,USA,California,London,Dlisd Qaiputl
+73,EihByrnXCR Corp,Finance,$837M,2233,1932,India,Maharashtra,London,Pctov Pmzmfkx
+74,aeDogBlzBY Corp,Healthcare,$33M,702,2009,Canada,Ontario,Toronto,Lymvj Zvmeapp
+75,jlKRrRFRFm Corp,Retail,$77M,2219,1981,UK,London,Munich,Zicup Fsfsbny
+76,ORkbltNZmm Corp,Healthcare,$218M,630,2005,USA,California,San Francisco,Wcefb Fsmexbz
+77,jocKJfNcmw Corp,Retail,$284M,2830,1958,Germany,Bavaria,San Francisco,Kelsn Sfsjlcj
+78,sCujxnvNHZ Corp,Technology,$405M,2495,1972,USA,Ontario,London,Zkslp Hjaipfx
+79,ZquxwkRlej Corp,Energy,$23M,3272,1943,USA,London,London,Juzvp Fwkfopq
+80,igoPxDKCjM Corp,Finance,$485M,3522,1998,USA,Ontario,Munich,Lrcbh Jdgxgdl
+81,WjyzGxHbTd Corp,Technology,$725M,3206,1950,Canada,Maharashtra,Toronto,Bkhci Rergltn
+82,EDiQvGaTas Corp,Retail,$422M,1403,1980,UK,Ontario,London,Nymrs Gxuccjd
+83,YlsKXbowVT Corp,Energy,$287M,2442,1946,UK,Bavaria,Toronto,Hcjob Kkkispa
+84,xartWJTPOe Corp,Energy,$245M,1050,2021,USA,London,Toronto,Aetqv Ukyucxf
+85,aLLGXlcxLE Corp,Technology,$63M,4882,1916,India,London,Pune,Crzuc Jtyploc
+86,hqtZtmamVe Corp,Retail,$744M,3765,1948,UK,California,London,Twsfa Gsgjdpr
+87,hgkLyXLwxh Corp,Finance,$645M,2375,1972,India,Ontario,Munich,Gnmvm Bgdunjx
+88,rfTzaZQoAZ Corp,Healthcare,$793M,4740,1937,India,Bavaria,Munich,Fvord Zdaaktq
+89,uZmkqROzgK Corp,Finance,$363M,3916,1970,USA,London,Munich,Igcni Ltxkwcu
+90,pQbCjkuIfQ Corp,Healthcare,$70M,1631,1923,Germany,London,Pune,Wrfhh Oivvpyq
+91,jSUavvpMOG Corp,Technology,$636M,1593,1993,Germany,Ontario,San Francisco,Vccbn Wwzqiuq
+92,nlglmPRQhU Corp,Retail,$794M,3130,1952,India,Ontario,San Francisco,Kpllj Jijxuag
+93,sRIGlfRXBG Corp,Finance,$365M,1655,1958,UK,Ontario,Pune,Crsbu Gvjmsxh
+94,NmEomjiraC Corp,Technology,$467M,828,1962,UK,Ontario,Munich,Ynwuc Yuajbob
+95,BMSccKjxbL Corp,Finance,$417M,4570,1909,Canada,California,London,Ryshk Aqytscy
+96,PYewDZlXmB Corp,Technology,$436M,2515,1931,Germany,Bavaria,Toronto,Zeyrt Twchudo
+97,WzcOZGjUmH Corp,Energy,$619M,148,1972,Germany,Maharashtra,Pune,Aqndg Stqgkmb
+98,BHizvlGMIB Corp,Finance,$355M,87,1967,UK,London,Toronto,Socwk Ktneoej
+99,tKmSTqqmMw Corp,Technology,$808M,3243,1944,USA,Bavaria,London,Bgbsx Chamxyq
+100,slbVnAxxPL Corp,Technology,$689M,626,1994,India,California,Munich,Adhce Poihgka
+101,hLOseMQDTP Corp,Healthcare,$816M,4610,1924,India,Maharashtra,Munich,Vzxmo Lqjxmai
+102,qjWBDNyaqX Corp,Energy,$525M,83,1962,UK,London,Munich,Evnse Tahldkt
+103,IHqYmfzICc Corp,Energy,$787M,4413,1930,Canada,London,Pune,Utpsj Vpfegpq
+104,tkhNVARRnN Corp,Energy,$756M,2056,1996,India,Bavaria,Munich,Knjzk Ahivpnw
+105,qNaqdCohMu Corp,Retail,$910M,1098,1906,USA,California,Munich,Ayngs Ggwvcbl
+106,qGMOTnRRoW Corp,Healthcare,$615M,4841,1969,USA,Maharashtra,Munich,Vsove Holcmvc
+107,CzRVfSlpUZ Corp,Energy,$661M,2037,1959,India,London,San Francisco,Ijmwt Wpiqqnn
+108,kGqiAATBSp Corp,Retail,$458M,69,1990,India,California,Munich,Nicif Ebdtlsy
+109,isQnEbFCXD Corp,Energy,$49M,4023,2006,Canada,California,London,Pbyko Bssizng
+110,LqKKREkecH Corp,Technology,$818M,1304,1912,UK,London,Toronto,Cygmp Mslaefl
+111,tNfIqcqtKf Corp,Technology,$882M,3163,1957,Canada,Bavaria,Toronto,Dnlff Lxvvgmd
+112,jKfFeFAsaV Corp,Finance,$480M,1879,2003,Canada,Ontario,Pune,Wxjpd Eeqcwvq
+113,OeGAslFPOB Corp,Healthcare,$838M,2768,1931,Germany,London,Munich,Tidjo Qljenmq
+114,fCjUpfHWRn Corp,Retail,$927M,2000,2009,Canada,Bavaria,Munich,Wufup Czqwurp
+115,UfSVBxKzNQ Corp,Finance,$823M,2672,1966,USA,California,Munich,Upfpj Btubvwx
+116,lRSbCcsDdc Corp,Technology,$353M,1280,1943,USA,California,Toronto,Pkpyb Qgowioh
+117,JBRnnRobXF Corp,Energy,$318M,2921,1928,Canada,Maharashtra,Munich,Juhjl Tcitzkg
+118,ZZoFzlMpNt Corp,Retail,$553M,4318,1952,Germany,California,London,Kovcx Lcdfigz
+119,QNVsGnuPDM Corp,Retail,$536M,2670,2000,USA,California,San Francisco,Beaiu Wcebdno
+120,NfAyZaDfZZ Corp,Technology,$692M,4901,1914,UK,California,Munich,Thskz Tzgglbw
+121,nbiRKtZFRj Corp,Retail,$498M,86,1971,India,Maharashtra,Toronto,Nldak Ddspyqa
+122,kKxhqHxUkB Corp,Retail,$748M,3922,2019,USA,Bavaria,San Francisco,Wyttl Xwwyhvl
+123,FfsssZusac Corp,Energy,$13M,1334,2006,India,Bavaria,Pune,Vuatj Tuuzoxl
+124,uolGdeMgEQ Corp,Energy,$460M,501,1930,UK,Maharashtra,Toronto,Sgtwm Nvndndh
+125,HGQbcaViqm Corp,Technology,$696M,4111,1958,USA,London,Toronto,Vleng Qjydzro
+126,jbDEOovCRB Corp,Technology,$99M,4363,1922,Germany,Ontario,Toronto,Syotp Xagfocw
+127,IaSTqSCWvC Corp,Technology,$104M,3028,2013,Germany,Maharashtra,Munich,Awpem Wrtfgny
+128,UtlNSUAvoP Corp,Finance,$918M,75,1914,USA,Ontario,London,Eporv Olgqxjm
+129,LwsuLnyVFu Corp,Energy,$277M,2355,1938,India,Bavaria,Pune,Frgwo Zotfkjf
+130,BrUXfZAfJi Corp,Finance,$263M,4719,1939,USA,Ontario,Pune,Slsea Tfiojbz
+131,WeKkaPalZS Corp,Technology,$25M,2493,1978,Germany,Bavaria,San Francisco,Lgoxu Cidjxoc
+132,wvgHRsLFCs Corp,Healthcare,$460M,1157,1940,India,Bavaria,Munich,Fhxiq Jzptmlk
+133,KYZSbeDyUP Corp,Retail,$656M,4879,1956,UK,London,Toronto,Tcdel Fnaqbnc
+134,mCoumPhhhF Corp,Retail,$652M,403,1915,India,Ontario,Munich,Mpokx Bkubwxl
+135,LvPTVpClqc Corp,Healthcare,$492M,1200,1989,USA,California,San Francisco,Lhwjc Qyuwepl
+136,BfcVFmmXiR Corp,Healthcare,$988M,4809,1924,USA,California,Munich,Jrfiz Upxufmr
+137,RHhevJGeky Corp,Retail,$576M,2890,2023,UK,Bavaria,London,Fzhei Qigdsbu
+138,zTqRtxPZiU Corp,Energy,$907M,604,1956,Germany,London,San Francisco,Bjntd Hzvepje
+139,OyxgVtmfmB Corp,Finance,$54M,1777,1904,UK,California,Pune,Vznto Alegrvs
+140,UQKNACaxnX Corp,Technology,$144M,3654,2008,Canada,California,Munich,Sqpqt Cnfalwq
+141,nWyRaXMUmC Corp,Energy,$726M,4653,1967,India,Ontario,Munich,Eaaix Vxwcdvy
+142,ZFjhpZzrUg Corp,Finance,$759M,2091,1904,USA,Maharashtra,Munich,Xtlmu Fruxchq
+143,CQrdJsyJJK Corp,Finance,$120M,2757,1961,Germany,California,San Francisco,Ldcva Yhswxbg
+144,OsTbgASKZL Corp,Retail,$770M,3048,1972,India,California,San Francisco,Arpox Crhnatk
+145,AjubBUQSMr Corp,Technology,$988M,2212,1937,UK,London,San Francisco,Icvae Ambizok
+146,hTUhddOmna Corp,Energy,$506M,1893,1959,Germany,Maharashtra,Toronto,Hkczx Kggunqz
+147,SUuCvKxtll Corp,Technology,$557M,4977,1962,India,California,Pune,Eulei Eoqxaur
+148,OiDRdrpCOn Corp,Technology,$396M,4669,1954,Canada,Ontario,Pune,Fbpws Czpanfg
+149,JFMluaMRyY Corp,Energy,$484M,3901,1939,USA,Ontario,London,Ljgze Kakwftg
+150,eQHLXdYRTk Corp,Healthcare,$594M,542,1944,Canada,Ontario,London,Uxynh Avkjieu
+151,kCdyVkxHYw Corp,Healthcare,$488M,1843,1914,Germany,Maharashtra,San Francisco,Kbxof Lxjrewq
+152,LvrJDSfElD Corp,Finance,$793M,1370,1916,UK,Bavaria,Toronto,Jigyw Xqgunzq
+153,rzMKHwbdaf Corp,Finance,$568M,3309,2018,USA,Maharashtra,London,Xzquw Nqzroky
+154,TWXlJeSFLu Corp,Energy,$833M,4082,1995,India,Maharashtra,Munich,Kmhga Ninkhee
+155,NelJnWOtLT Corp,Finance,$899M,4647,1975,USA,Ontario,Pune,Ovzsa Cybbavf
+156,MhETrMgKzh Corp,Technology,$944M,3207,2012,UK,London,London,Dfxuk Aytipkn
+157,oAOlIHxbly Corp,Healthcare,$291M,4162,1910,Canada,Bavaria,Munich,Ivyjr Gyrytsi
+158,KglOmTAqwr Corp,Healthcare,$61M,2098,1975,Canada,Bavaria,Munich,Ebihv Idcbsdq
+159,mCEhljCLNW Corp,Energy,$725M,2789,2017,Canada,London,Munich,Cklyn Hrohrcm
+160,eibmLxwMSl Corp,Technology,$85M,1036,1998,Canada,Maharashtra,Pune,Xaruh Oliekpb
+161,KeWcvjYDFH Corp,Finance,$959M,2036,1998,India,Bavaria,Toronto,Albad Gepktoc
+162,YYYaSjyLDE Corp,Technology,$3M,4992,1975,Germany,Maharashtra,Toronto,Glkae Yvhlqfj
+163,fZmBDJidOg Corp,Technology,$225M,1892,1979,Canada,London,Toronto,Boxks Bidwpep
+164,djZsfNqUic Corp,Finance,$863M,1132,1967,UK,California,Pune,Mugnx Dxifvje
+165,YvxVPOGUYo Corp,Technology,$434M,2222,1909,India,Bavaria,Pune,Rqdci Hlyyfmt
+166,xHPuinFwSN Corp,Energy,$439M,506,1969,India,Ontario,London,Fvujx Enkqjbw
+167,epcIpZkszD Corp,Energy,$245M,4324,1915,India,Bavaria,Toronto,Vaiai Yoafodk
+168,cCdhdKSuuB Corp,Energy,$60M,4009,1902,Canada,London,Toronto,Gctth Fohrrhg
+169,ejEfDFgdNQ Corp,Healthcare,$197M,2298,1978,UK,California,London,Evlwk Vpsfidu
+170,AvlLbDkVdG Corp,Healthcare,$130M,2541,1938,Canada,Bavaria,Toronto,Pogwz Bbciuep
+171,tAsfeEbVpu Corp,Energy,$570M,2123,1990,USA,London,Pune,Glnox Odseyvw
+172,AMvaCCZAJH Corp,Finance,$495M,1717,1916,Canada,Maharashtra,Toronto,Qqjie Swmycpt
+173,kcVoJSTxmE Corp,Finance,$326M,4061,2010,USA,Maharashtra,Pune,Oypbn Ycotgpi
+174,xXXoAAcVpi Corp,Retail,$886M,4577,1944,Canada,Ontario,Pune,Xovap Gscchfz
+175,KYVeWYDmDu Corp,Retail,$258M,1255,1915,UK,Ontario,London,Weorg Sjcmtyw
+176,xGZAIDfDjM Corp,Energy,$798M,1893,2010,Canada,California,Toronto,Rovnn Cqjrmyi
+177,jzqZxUZghz Corp,Energy,$287M,1742,1911,India,Ontario,Munich,Xxmye Pdukdsa
+178,BPluZeugal Corp,Technology,$722M,4236,2003,Canada,Bavaria,Munich,Ghegi Kqagxej
+179,FclAuFNMKn Corp,Technology,$995M,4783,1996,Canada,Ontario,San Francisco,Txlxr Hlijxrz
+180,AyrAnxftTR Corp,Technology,$642M,1543,1994,India,Bavaria,Pune,Wuxgg Rkcfuxm
+181,jfwqdsXXCR Corp,Healthcare,$397M,2756,2003,India,Ontario,Toronto,Rbgrl Wkmahel
+182,fOWBmEmSbp Corp,Retail,$309M,391,1904,USA,Ontario,San Francisco,Ywuzg Ussolpx
+183,KiVRUmvgIw Corp,Retail,$242M,1177,1906,USA,Bavaria,San Francisco,Dsapu Mrxoaht
+184,yrKgtENhnF Corp,Finance,$245M,2764,1967,Canada,Bavaria,Toronto,Ituge Stfzkxw
+185,mnaKNTpXnD Corp,Technology,$762M,3262,2004,Germany,London,Pune,Ooamg Ridhbyx
+186,ZYgubsEnVX Corp,Healthcare,$509M,3499,1999,India,Maharashtra,Munich,Cqzoy Pgswxrh
+187,vKmNZyrgYu Corp,Healthcare,$250M,3083,1994,USA,Maharashtra,Pune,Hsknz Zovlwge
+188,MGOOgbioEa Corp,Energy,$527M,1457,1943,India,Ontario,Pune,Rmhwc Urjfheq
+189,seDZrUPYzt Corp,Retail,$234M,2033,1958,Canada,Ontario,London,Xkdpf Octkrec
+190,YIPVQIVyxh Corp,Energy,$68M,3173,1966,India,Maharashtra,London,Kmuox Ccujjro
+191,tynDYURViY Corp,Technology,$885M,2287,2015,UK,London,Pune,Eshsg Tqxnslp
+192,SurHXfugQw Corp,Retail,$468M,4350,1999,Canada,Ontario,San Francisco,Prhxb Hdxgfjq
+193,UUahRQEyiV Corp,Energy,$201M,4919,1952,UK,California,Toronto,Vexew Zvqdmwm
+194,JoTObAHohb Corp,Healthcare,$395M,2962,1962,Germany,Bavaria,London,Sinij Ugnvasm
+195,TrCJJkkHjf Corp,Energy,$901M,252,1942,India,Maharashtra,Munich,Zaoxp Afzlvef
+196,QxmGJloVft Corp,Healthcare,$512M,3075,1995,Germany,London,Munich,Zqyng Qdgvrxk
+197,RDfHVdprgl Corp,Finance,$796M,3349,2005,USA,London,Munich,Qkvrl Vajzxxp
+198,SJQZIsTeUw Corp,Energy,$735M,1564,1948,USA,Bavaria,Pune,Jhruu Tfyamtg
+199,ywswZiEfOS Corp,Retail,$238M,4841,1993,UK,Bavaria,San Francisco,Jsgjh Qlkotvo
+200,CFuWIZzmPg Corp,Energy,$901M,2940,1922,USA,Ontario,Toronto,Tqxci Nlyotyd
+201,nrcGZptJMm Corp,Technology,$179M,1204,1971,India,Ontario,London,Acyri Inxuarv
+202,RolOpPemTV Corp,Energy,$968M,672,2014,UK,Ontario,Munich,Uxcgr Yqxfhga
+203,QtuNURAUbH Corp,Retail,$524M,4814,1976,Germany,London,London,Mzxbl Ljbwmuu
+204,pFyUljdmRr Corp,Finance,$490M,4188,1903,USA,Maharashtra,Toronto,Tyjdp Neonuua
+205,cLUAnxaCdl Corp,Finance,$336M,2987,2008,UK,Maharashtra,Toronto,Visvc Dlwlwzs
+206,pATTKIdlBZ Corp,Finance,$250M,113,1992,Germany,Ontario,Toronto,Pqogi Cjmqpcm
+207,bMaEfyjagO Corp,Energy,$627M,259,2011,India,Maharashtra,London,Gfeyg Qhbyggw
+208,uqIqBeSfBL Corp,Healthcare,$760M,3214,1975,Germany,Ontario,London,Awghu Ugdkzby
+209,yMFXjSeCPP Corp,Technology,$601M,2224,2018,USA,Maharashtra,San Francisco,Xszta Hqvfftx
+210,ZQGtlPiQPX Corp,Finance,$625M,2996,1995,USA,Maharashtra,Toronto,Llltg Wpgocyq
+211,XcjczDzsdK Corp,Retail,$373M,4356,1951,Germany,Bavaria,Munich,Kxnha Oefdptm
+212,lWLvImXttx Corp,Energy,$620M,2307,2022,UK,London,London,Jxdlr Kmocufb
+213,alnHHOvRcd Corp,Finance,$195M,690,1952,UK,Bavaria,San Francisco,Osbbe Texdkpq
+214,USOYywAgxE Corp,Retail,$786M,3723,1929,USA,Maharashtra,Pune,Qqlnc Dixaasi
+215,CTWibPSdik Corp,Retail,$847M,1804,1978,UK,California,Toronto,Kzrdz Ufovgfy
+216,fSdFOMTzbu Corp,Energy,$808M,946,2021,Germany,Maharashtra,Munich,Bpkqv Fvqeuge
+217,ZPGPCUXvRC Corp,Technology,$864M,1049,1959,India,Bavaria,Munich,Nzwty Cyvfgod
+218,NqWSotmaeF Corp,Finance,$690M,2499,1992,UK,Bavaria,Toronto,Udgjs Lajiatn
+219,vXVJjYMavP Corp,Retail,$510M,713,1924,India,California,London,Elvsk Vibedvf
+220,okzhXciRzi Corp,Finance,$272M,2223,1942,Canada,California,Pune,Kbxxb Jdrlihc
+221,YkujmnkkZh Corp,Energy,$706M,4668,1936,Germany,Maharashtra,Toronto,Xzanj Gyomyod
+222,RPHQLDjAWP Corp,Retail,$859M,4603,1959,Germany,Bavaria,Munich,Mirou Ttbumba
+223,LJDwxDcKRq Corp,Energy,$678M,3064,1969,India,Ontario,Toronto,Lsocd Egkefyu
+224,pYtlJAQdNe Corp,Retail,$401M,864,1955,UK,Ontario,Pune,Bwjta Dtyyfyf
+225,mMkAEfPQjr Corp,Energy,$780M,4680,1930,Germany,California,Munich,Xtrjt Rxdclzk
+226,kJhKTbeTGe Corp,Technology,$39M,745,1953,India,London,London,Usudp Dmkgiia
+227,BkZReCROLF Corp,Technology,$858M,4526,1988,Canada,Ontario,Pune,Nbkls Anflfkp
+228,bfmJkHFwVg Corp,Finance,$219M,246,1923,India,Maharashtra,Toronto,Hzgys Oycjfzr
+229,lZCULPAbON Corp,Finance,$353M,705,1957,Canada,California,San Francisco,Plrmh Fzsvpge
+230,eYsjLvLoit Corp,Healthcare,$753M,2791,1953,Germany,London,San Francisco,Vgfax Pwaeymu
+231,NzBQhONypd Corp,Healthcare,$357M,3305,1963,Germany,Maharashtra,London,Wkjhc Fsjwkfq
+232,IlqfjwXzIy Corp,Energy,$939M,3146,2019,Canada,Maharashtra,Pune,Ytwdd Dssssgp
+233,tJyNebMPen Corp,Energy,$230M,2294,1909,Canada,California,Pune,Ewbyp Enyhupl
+234,WPDuDuIuyk Corp,Retail,$444M,2178,1964,India,California,Pune,Cxial Jpxjjtu
+235,FyNZJSFoOS Corp,Energy,$658M,2937,2006,India,Maharashtra,Toronto,Edfmt Nyxajgz
+236,xaHnjzweyL Corp,Finance,$956M,1787,1931,Germany,California,San Francisco,Ccnhu Tbmtlwg
+237,KAReUaUMbR Corp,Finance,$635M,2755,1990,USA,Ontario,Pune,Wjsvk Dajqeaj
+238,zkfOMJGciS Corp,Finance,$846M,3068,1924,Germany,Maharashtra,Pune,Pkcel Jjnkfdb
+239,OnXEkDkqeh Corp,Retail,$447M,787,2019,Canada,Maharashtra,Toronto,Nqclx Fgiscda
+240,vnBOxoVfLK Corp,Energy,$1000M,3114,1937,Canada,Maharashtra,Pune,Swksr Cqfwvwr
+241,HIGCKVbZAA Corp,Finance,$258M,561,2007,Germany,Bavaria,London,Hvqgc Amuexag
+242,hcIKXsOxtQ Corp,Finance,$547M,4447,1912,USA,California,Munich,Oqghl Znikecp
+243,rxeaYYGkTD Corp,Retail,$81M,2833,1906,Canada,Bavaria,London,Gitkk Qxaaqoq
+244,vYZjOouycO Corp,Technology,$412M,2787,1939,Canada,Ontario,Munich,Tcbow Esmufqv
+245,wgpqeAjDwD Corp,Retail,$852M,3998,1999,Germany,California,San Francisco,Uuqsg Zxnfjlj
+246,efzcuxAkRY Corp,Energy,$807M,3337,1929,Germany,London,San Francisco,Lnzzi Yvmoxtg
+247,aKSZNaiIpl Corp,Technology,$470M,654,1962,India,California,Pune,Qccsu Mtxxtyr
+248,aPTOgPTwhU Corp,Healthcare,$355M,175,1983,India,California,London,Htnek Cyahipn
+249,zPlxVBKjxa Corp,Technology,$504M,505,1915,UK,Bavaria,San Francisco,Rjswe Xadzacg
+250,KZrDTyEDbV Corp,Healthcare,$84M,3871,1952,UK,London,San Francisco,Fxxot Eurksts
+251,OVZFtaNXeu Corp,Healthcare,$501M,1592,1984,USA,Ontario,London,Ydrbj Bmwuktv
+252,jtOjDnGNaq Corp,Energy,$687M,3997,2012,USA,Maharashtra,Munich,Yvpac Gvetznh
+253,MQzUnqjxbm Corp,Healthcare,$448M,3267,1924,India,London,London,Knacj Ofqevre
+254,RymfYslgpB Corp,Finance,$421M,3332,1952,Germany,California,Pune,Brrvk Knnlshi
+255,wVkQZKMGwI Corp,Energy,$388M,2610,1973,UK,California,San Francisco,Fmswf Zmshtfu
+256,xVTXIcCMMs Corp,Energy,$105M,4626,1915,USA,Bavaria,Pune,Asvfz Vxywuzr
+257,lTUMnIDmQx Corp,Retail,$314M,1463,1917,USA,Maharashtra,London,Epdan Dbdbhmq
+258,eKRQzqZetT Corp,Energy,$989M,727,1920,Germany,California,London,Ekeoo Zrvvxtj
+259,QYPPjMjKOP Corp,Finance,$410M,2770,2013,Germany,California,Pune,Lwlua Kzzzdse
+260,blfapSWlrE Corp,Finance,$815M,2066,1952,Canada,Ontario,Pune,Ncpdx Upxkrcq
+261,sFwlrGmLjB Corp,Technology,$919M,3701,1954,USA,Maharashtra,Munich,Isyvt Xsqtgkd
+262,tVLqkZjySB Corp,Technology,$287M,3932,2019,Canada,California,London,Cxrxr Igoxrvc
+263,zyKvIjmodY Corp,Healthcare,$335M,1107,1961,USA,California,San Francisco,Gsxrp Ryurkfr
+264,HnZfayBbhF Corp,Healthcare,$764M,1813,1964,Canada,London,Toronto,Qzfjl Vwczdpg
+265,AfuAOHbQmI Corp,Finance,$866M,2154,1905,Germany,Bavaria,Munich,Xfetk Ndzwabw
+266,ZGuBkEPBXa Corp,Retail,$460M,4777,2013,India,California,Pune,Kvqgw Frzbbkh
+267,CmhTLJzYmg Corp,Finance,$241M,3414,1996,Canada,Ontario,Munich,Cgmny Jcohsjo
+268,SfCUldPziz Corp,Finance,$878M,629,2002,UK,California,Toronto,Gbjbx Yylxelh
+269,KIKMkhWIGb Corp,Retail,$615M,4285,2012,UK,Ontario,Toronto,Pbxmu Rcvuzyr
+270,OXGXzDCsVv Corp,Energy,$585M,1607,1963,India,Bavaria,Pune,Pwsmb Oidgjvc
+271,gESMkoMnft Corp,Healthcare,$255M,4326,1945,Canada,London,London,Wpfis Ceymkxw
+272,SJkzapIESh Corp,Technology,$352M,4602,1951,UK,Maharashtra,San Francisco,Vdyvf Ffgpgty
+273,iJAcyfdwCI Corp,Healthcare,$992M,4134,1961,India,Bavaria,Toronto,Cawpf Saosqro
+274,fAUcyeycZB Corp,Energy,$240M,1580,2005,UK,Bavaria,Pune,Oqqxy Ucsydcr
+275,AgevPDVFxh Corp,Technology,$780M,4138,1955,Germany,Ontario,Pune,Kgbqk Htcaklv
+276,uoXzxQrcNJ Corp,Finance,$975M,4225,1958,UK,London,Toronto,Dbtif Ltocnpq
+277,ynGwUQRsKs Corp,Technology,$374M,2267,1971,India,California,Pune,Wbirh Lsshhwh
+278,lbgOSxbqPr Corp,Energy,$435M,2209,1982,UK,Maharashtra,Toronto,Bwjkg Zagjmmx
+279,DnVEenuNeZ Corp,Technology,$692M,898,1964,Germany,California,London,Yfjsa Jobgqih
+280,xEqJFgOjba Corp,Energy,$295M,1011,2005,USA,Maharashtra,San Francisco,Hlusf Nrgfetw
+281,WpsMLdTorD Corp,Technology,$918M,4316,1975,Canada,London,Munich,Umwfa Qpvrjpe
+282,sPZdAKaWoq Corp,Energy,$369M,1456,1993,Germany,Ontario,Toronto,Zberq Embgzru
+283,SQedWJPgnB Corp,Healthcare,$458M,4428,1939,USA,Ontario,San Francisco,Foebs Gegrqwq
+284,RYJiAlldQK Corp,Healthcare,$147M,1338,1911,India,Maharashtra,Toronto,Sodtk Plzekku
+285,RjMcZVjhHT Corp,Technology,$497M,3050,1961,India,Maharashtra,London,Clwit Cbuyfls
+286,GmbzVDyKjP Corp,Technology,$711M,2683,1973,USA,California,Munich,Aeiwf Elymnzx
+287,grJLXfLVLP Corp,Energy,$419M,136,1920,USA,Bavaria,San Francisco,Emgmk Ofvqbuc
+288,YDYhpkodkS Corp,Retail,$573M,1200,1991,USA,Ontario,San Francisco,Nljpt Tklhmby
+289,QuDXNgujBf Corp,Healthcare,$992M,4362,1959,Canada,Maharashtra,Munich,Bblli Qcdeqqg
+290,tlzRDvGHOS Corp,Energy,$98M,1247,1964,Germany,California,Toronto,Xqgbd Dkleuva
+291,vUPulaGgdq Corp,Technology,$307M,2379,1929,Germany,Maharashtra,London,Haiix Yeeboze
+292,EFUqSpSXkL Corp,Technology,$258M,4920,2012,Germany,California,Pune,Baylc Gmwiury
+293,SROHElDqIb Corp,Energy,$70M,954,1927,Germany,London,San Francisco,Gwlkp Rbwlliz
+294,kBVfARRyXR Corp,Energy,$806M,2801,1979,India,Bavaria,San Francisco,Ymchj Mwnsxhw
+295,srkYnyYTLz Corp,Healthcare,$713M,1026,1976,Germany,Maharashtra,London,Aivix Vinyepd
+296,AydOLFKreP Corp,Energy,$723M,584,2022,Canada,Maharashtra,Munich,Fjtyx Awnpuoc
+297,NfKVodSrqx Corp,Technology,$309M,166,1919,Canada,Bavaria,Pune,Tocpm Oqoxipu
+298,kNuRnVqIkB Corp,Technology,$186M,1742,1987,Germany,Ontario,Toronto,Bwrih Hwiefbi
+299,fZNydqznJn Corp,Healthcare,$766M,3148,1951,India,Bavaria,Pune,Xngdl Tfgopwx
+300,TPHtFqMAyV Corp,Technology,$365M,2212,1931,UK,Bavaria,London,Hejfk Icqttbm
+301,qkwGfPWoiE Corp,Technology,$429M,258,1969,Germany,London,San Francisco,Nlwai Cgbtbxm
+302,chGBtMcOtQ Corp,Energy,$887M,753,1938,India,London,Toronto,Trgvk Janzmmf
+303,FXfCqzPcsy Corp,Finance,$581M,3397,1918,Germany,Ontario,London,Mukcd Mjceklh
+304,MomDcpybZW Corp,Energy,$832M,905,1997,Germany,Maharashtra,London,Lpdxr Pveknho
+305,tsJmCJLcHM Corp,Energy,$351M,4888,1936,Canada,London,Toronto,Czbky Ykpthey
+306,DDQEIEnAYB Corp,Energy,$584M,1090,1937,India,Ontario,Toronto,Mergw Awhyyqf
+307,beaxpcxCwH Corp,Technology,$306M,497,2010,Germany,Bavaria,Toronto,Znets Oauruhw
+308,xVKIqNOHOp Corp,Retail,$794M,1980,1949,Germany,Maharashtra,San Francisco,Fvnno Sgaidbx
+309,vNcYwhcnxy Corp,Finance,$821M,4182,2007,India,London,Munich,Mjwdu Rgfspfx
+310,tFRvVBjZpD Corp,Healthcare,$457M,3048,1999,India,London,London,Uwbmg Igbiysn
+311,KclpZnZJeg Corp,Technology,$281M,2165,1960,Germany,London,Munich,Nbymd Bhuikja
+312,ZFBuNfBmxV Corp,Technology,$229M,4353,1917,USA,Bavaria,Munich,Vuteh Xrywjxh
+313,uBhLgfETpD Corp,Finance,$327M,1684,1918,USA,Ontario,Toronto,Uitxv Pfhgtzw
+314,bBFunQZqXz Corp,Retail,$493M,163,1941,USA,California,Pune,Gzevg Cngsdrh
+315,DZkaHuUyDY Corp,Retail,$547M,4794,1995,Canada,Maharashtra,San Francisco,Sdyxt Jnejgyd
+316,wCriAprukz Corp,Healthcare,$102M,3489,1998,USA,Maharashtra,Toronto,Xbvhj Rubrmyx
+317,eNEuhjpscr Corp,Energy,$494M,1412,1982,USA,California,Toronto,Bjhxy Hmizweb
+318,zxOSynVGsh Corp,Energy,$305M,200,1988,Germany,London,London,Omnoo Tcdfiok
+319,UZgsSlecwX Corp,Retail,$672M,3691,1990,UK,Bavaria,Pune,Fkhxv Diachmc
+320,BIRPDbklsN Corp,Retail,$476M,3209,1910,Canada,Maharashtra,Pune,Ddvxm Exczknx
+321,BoaskmtykQ Corp,Retail,$853M,3909,1966,Germany,Ontario,London,Yudqr Jgzpqgt
+322,yjYgugrvdK Corp,Retail,$662M,4532,2019,Germany,London,Munich,Zpgrx Wishtqu
+323,WqQWdtZTIK Corp,Technology,$146M,3695,2023,USA,Maharashtra,Pune,Nvbfd Dxgjuvb
+324,keVSZbOXNq Corp,Finance,$25M,4793,1959,Germany,Bavaria,Toronto,Hmquy Xxznisv
+325,dwoAjfuUYW Corp,Retail,$810M,1927,1956,UK,Ontario,London,Brdfd Gnliysl
+326,oTOSOmIQOY Corp,Energy,$32M,2508,1944,UK,Bavaria,London,Ybuwo Dywrkdg
+327,vKkEmaAZgo Corp,Energy,$577M,1443,1914,USA,London,London,Rvmpc Tewpiyn
+328,TZkvXCnedi Corp,Energy,$606M,4162,1949,India,Ontario,Munich,Xltda Mecwjws
+329,JlDRFDtbRD Corp,Energy,$673M,1808,2017,India,Bavaria,Munich,Acosn Feaplbb
+330,yIBnWldnFL Corp,Technology,$84M,3563,1952,USA,Ontario,Toronto,Fgldg Gfhrnvy
+331,GFZBjgoqyQ Corp,Technology,$501M,792,1902,Canada,Maharashtra,London,Uopgq Ffxalbt
+332,qFyDfNXNOc Corp,Retail,$26M,3006,1904,UK,California,San Francisco,Dnjnl Wfbmohh
+333,kaakbdqOHl Corp,Energy,$430M,1966,1908,Germany,London,Pune,Xoloq Nihbxup
+334,kcjmwvttHr Corp,Retail,$274M,1536,1906,Canada,London,Toronto,Bdvlo Pyngzlc
+335,ExBthMGvTq Corp,Technology,$912M,319,2002,USA,Ontario,San Francisco,Uhgko Uoecepm
+336,kawxjFkKKT Corp,Technology,$889M,3743,1949,India,Ontario,San Francisco,Dgeva Ygnmjez
+337,muzcldmBPx Corp,Energy,$716M,2470,1983,UK,Maharashtra,Toronto,Yoxzr Yhmrpoo
+338,dZxPGJcYjW Corp,Finance,$1M,705,2001,Canada,Ontario,London,Pxgvk Hnefohz
+339,gtrcPbgrae Corp,Technology,$85M,2040,1984,Canada,California,San Francisco,Owfos Pvhpjep
+340,mVRKyzmiIg Corp,Technology,$839M,2456,1999,UK,London,London,Pojrv Onxwxgk
+341,jPBWoWRXEy Corp,Technology,$14M,972,1942,India,Bavaria,Toronto,Kyrac Yjpbvbo
+342,cCtefyNRYw Corp,Healthcare,$377M,2343,1963,Germany,Maharashtra,Pune,Yxklq Kenmivw
+343,QxfRqnjTIA Corp,Technology,$165M,2568,1923,Germany,London,San Francisco,Vpypk Fmfkswt
+344,fPTnholnnV Corp,Healthcare,$686M,1481,1906,UK,Bavaria,Toronto,Vpgiu Mcspnwo
+345,oKgTmoHViM Corp,Healthcare,$961M,509,1989,Canada,California,London,Mcmum Umwjqbs
+346,qLiKtPYnoY Corp,Retail,$741M,1638,1996,Canada,Ontario,Pune,Xlnkb Pqsntwd
+347,PTGDkRrdSY Corp,Energy,$311M,4113,2014,India,California,Toronto,Incvc Nlmlivv
+348,TISjGxVxWX Corp,Finance,$181M,4776,2022,Canada,Bavaria,London,Vjhxu Fstvbut
+349,kKhGqfukMU Corp,Finance,$482M,1996,1968,USA,California,San Francisco,Ubckt Ftkapwv
+350,kxSiQtMUfc Corp,Finance,$453M,3299,1920,India,Ontario,Toronto,Hgwed Mjoxuzi
+351,tXJerpMSYa Corp,Healthcare,$195M,4318,1962,India,London,Toronto,Sqbjq Qvusfqd
+352,ursgNUZGTd Corp,Technology,$800M,4730,1915,Canada,California,Pune,Hlyut Xgfskgk
+353,OPuObRNDZZ Corp,Technology,$757M,3909,1946,UK,Bavaria,San Francisco,Whsgv Mwwlync
+354,lYfFZfLcXE Corp,Retail,$659M,1969,1937,Germany,London,Toronto,Qzoce Qdbxbdb
+355,pzsFmFlVir Corp,Finance,$832M,554,1985,India,Maharashtra,Munich,Qdzyt Skxjsej
+356,cnUMgRRZnz Corp,Retail,$752M,4547,1925,Germany,London,Toronto,Nylrj Blcchsr
+357,fxUDtHrcka Corp,Retail,$738M,1395,1959,UK,Bavaria,Pune,Silaj Otwqecg
+358,AOCSJjcwnC Corp,Healthcare,$308M,2592,1944,Germany,Ontario,London,Xuvyc Atqgxdb
+359,LjtwItXvxs Corp,Healthcare,$259M,728,2017,Germany,Ontario,London,Ajnvn Dvqaeot
+360,PfgZcaLeud Corp,Technology,$190M,858,1915,USA,Bavaria,London,Tmuzg Evrkhee
+361,kRSlWWrVZg Corp,Healthcare,$378M,497,1927,UK,London,San Francisco,Miako Onfcsmr
+362,kKLuMklBhN Corp,Energy,$526M,4308,2020,USA,London,London,Dygeg Nyftbzs
+363,PLZTUExIUJ Corp,Technology,$210M,3371,1940,Canada,Maharashtra,Munich,Kqdss Ckqjpqx
+364,TNHZTmNVnN Corp,Finance,$750M,1847,1973,Canada,London,London,Lhjon Tprkqmw
+365,pLYuIlKpFi Corp,Energy,$10M,1777,1965,India,Ontario,London,Gqipt Zdfqliv
+366,xvaUjEVLxP Corp,Technology,$264M,1175,1943,UK,Ontario,Toronto,Paxwe Ryfautw
+367,UpAhlMmvLX Corp,Retail,$918M,3114,1939,India,Maharashtra,San Francisco,Uwtbe Cmhlqfg
+368,QCTSTSVulT Corp,Energy,$554M,3624,1926,Canada,Maharashtra,Toronto,Eqhot Gkabgod
+369,mZRWVnGVyW Corp,Retail,$766M,1196,2004,USA,California,San Francisco,Lmgkv Wqlrtsa
+370,VDbYNpFAWh Corp,Finance,$468M,3281,1907,India,Maharashtra,London,Owkkg Xbzxvjz
+371,ctvaubREUA Corp,Finance,$416M,4916,1992,USA,Ontario,Pune,Tkeoq Hyusrak
+372,gJuHDywfOa Corp,Retail,$789M,4237,1911,UK,California,San Francisco,Srryj Nyhighd
+373,EbtSTyiscf Corp,Technology,$438M,2475,1964,UK,California,Munich,Rsatm Zpbbkfi
+374,MvEBwJlHuo Corp,Technology,$79M,4540,1920,UK,Ontario,Toronto,Ajcym Vhirulj
+375,ItjnfZWehY Corp,Technology,$75M,1650,1925,Canada,Maharashtra,London,Utwmb Hcklzvr
+376,dtQPMDraja Corp,Technology,$240M,4727,1978,USA,California,Pune,Ovhrw Biqkdxb
+377,HDjasQYcnt Corp,Technology,$640M,3510,1965,India,Bavaria,Pune,Oflso Zctehzv
+378,KjFcOYFkDx Corp,Finance,$145M,1189,2023,Germany,Ontario,Munich,Ecjmj Cqabtiv
+379,TDJFEOtqSu Corp,Retail,$363M,193,2005,Germany,Maharashtra,Munich,Irbee Nbenrky
+380,thcyymyfWH Corp,Healthcare,$90M,4309,1986,India,Bavaria,Pune,Mbycx Dtgslpy
+381,fVOIRAKOUi Corp,Finance,$312M,2805,1957,USA,London,London,Hnxcl Bnjaxbh
+382,WUWHmlMDQJ Corp,Healthcare,$368M,3398,1980,Germany,Bavaria,San Francisco,Bnuop Eysbsxe
+383,ASRaTJBxKh Corp,Technology,$481M,936,1968,Germany,Bavaria,London,Aioru Dsrrexd
+384,ROucSksGab Corp,Retail,$830M,1524,1957,Germany,Maharashtra,Pune,Rqzvj Gwputvb
+385,RJsCFSIphC Corp,Finance,$365M,3352,1969,India,Maharashtra,Pune,Xwdbi Wybcmeh
+386,oGFoLOTzfn Corp,Retail,$567M,558,1913,India,London,San Francisco,Aqbtn Pwdvgkj
+387,DigcaWTRRu Corp,Technology,$735M,3231,1950,Germany,Ontario,San Francisco,Zbmpo Iwgajra
+388,AWBBbbiwtl Corp,Retail,$521M,3221,2021,Germany,Ontario,Pune,Bwuju Zgaorwe
+389,nuTmatjpgH Corp,Technology,$392M,4886,2019,USA,Maharashtra,San Francisco,Hddjz Opixohk
+390,ibLBzhUPiY Corp,Finance,$226M,4396,1940,Canada,London,Munich,Qdcad Sxeckfo
+391,eCIjHhlkfa Corp,Healthcare,$16M,70,1971,USA,Maharashtra,Toronto,Twltc Skopxcc
+392,mScNZTAmWe Corp,Energy,$320M,4703,1927,USA,Maharashtra,Pune,Qxvaj Bxgutyv
+393,dZluPIfsOX Corp,Retail,$515M,3152,2000,UK,California,Toronto,Bnsaf Ulzevdq
+394,AdoHZYQIVv Corp,Technology,$857M,222,2004,Germany,London,Munich,Pxojk Emtudnn
+395,KloBkGyQYx Corp,Technology,$669M,4436,2001,UK,California,Munich,Iatbr Ywhdilb
+396,XzcqqujTAI Corp,Retail,$385M,314,1908,UK,London,Pune,Jypax Wexkgsh
+397,EhJSYLnbOW Corp,Finance,$432M,1790,2001,USA,Ontario,San Francisco,Jkpxf Tuvekhh
+398,qXJlBPQwFx Corp,Retail,$528M,4330,1944,Germany,Bavaria,Munich,Gaxpw Fxuzbxj
+399,rQCprRATGl Corp,Finance,$435M,3136,1940,USA,Ontario,Munich,Pefws Ynkcyth
+400,mEnbroOfQU Corp,Healthcare,$901M,1370,1935,UK,Maharashtra,Munich,Vtrsb Ybcryzo
+401,CavBsZIonK Corp,Energy,$817M,1316,2001,Germany,California,London,Vuzkl Gvyrgyr
+402,FNponMnRqG Corp,Technology,$786M,4531,1934,UK,London,San Francisco,Aqkhu Ujludlz
+403,APeCKWYwNo Corp,Retail,$458M,3249,2018,Canada,Maharashtra,Toronto,Ybahf Aslkhxo
+404,wuxAAwARDQ Corp,Energy,$827M,1457,2016,USA,Maharashtra,Munich,Xsawn Kuqjpnr
+405,QUiKuaPJor Corp,Healthcare,$677M,1943,1900,India,London,London,Mzuxa Lbgxorh
+406,JbiQHpTqPy Corp,Retail,$400M,1086,1998,USA,Maharashtra,London,Fwpvq Hlgygxs
+407,sJVHqvCgvK Corp,Finance,$247M,2956,1987,USA,California,London,Ruzuo Mwydrnb
+408,sABporLnRD Corp,Finance,$132M,330,2017,Germany,Bavaria,London,Tvkko Aiusyci
+409,epgKHrBzho Corp,Energy,$925M,923,1974,UK,California,San Francisco,Bqauh Vlkbgjq
+410,bpajaCYuQC Corp,Technology,$388M,4028,1978,India,California,San Francisco,Pgxfk Ceijrki
+411,BGUTqTxadE Corp,Energy,$218M,3431,1909,UK,London,Munich,Usvdq Exndcid
+412,wCxBxXCdtV Corp,Finance,$462M,3883,1930,Germany,Ontario,London,Znyvk Twlouxa
+413,lawyXSxbkT Corp,Healthcare,$138M,3557,1998,Germany,California,Pune,Ikjry Qolzfvd
+414,yGeMjhaliZ Corp,Technology,$399M,3993,1940,Germany,Ontario,Pune,Baeie Dcpwzfg
+415,uXAsFIkpgD Corp,Finance,$228M,2144,1914,Germany,California,Toronto,Rtorx Coluvow
+416,IdDvyCgRzh Corp,Retail,$121M,1085,2003,Canada,California,Munich,Jelbo Hjraogp
+417,zdjzHYuTlt Corp,Finance,$192M,2377,2012,UK,Ontario,Pune,Anksy Exlpvkv
+418,yTWPJCCSBb Corp,Technology,$151M,3017,1947,Canada,Ontario,Pune,Gtitu Ctntebk
+419,eWzWjStHPs Corp,Healthcare,$317M,4919,1920,Canada,Ontario,Munich,Swbtg Qsuuzkb
+420,vcKhFDHCbg Corp,Retail,$644M,1055,1950,India,Bavaria,Toronto,Udpyy Cdjmxcg
+421,bLiBxEUvtt Corp,Finance,$680M,3650,1935,Canada,London,Toronto,Wlawr Rlyleeb
+422,hXvfLvUBYL Corp,Technology,$972M,1281,2007,Germany,California,San Francisco,Ykcsl Pwoslwv
+423,oERHBAGolk Corp,Technology,$123M,4152,2004,India,California,Pune,Zicae Tfzryhc
+424,dtXhjXGjTE Corp,Finance,$293M,4763,1996,USA,Bavaria,Munich,Offyx Ozeddzi
+425,oXKPZNytmh Corp,Technology,$560M,1283,1922,UK,Ontario,Toronto,Dooma Pfkfxly
+426,VBYKswdaMs Corp,Technology,$266M,1743,1970,UK,Bavaria,Toronto,Bprfj Xrefkuq
+427,ARSxAIZcuo Corp,Energy,$273M,1246,1980,UK,London,San Francisco,Lamtm Edzmagf
+428,xzZipTYFDE Corp,Finance,$911M,3235,1963,India,Maharashtra,Munich,Wskum Bwyageq
+429,PQmBEiqbZb Corp,Finance,$592M,500,1919,UK,Maharashtra,London,Xyzfe Ehscmli
+430,JQVxMsWqOo Corp,Healthcare,$676M,4109,1913,USA,London,Toronto,Ahwvh Ulvxmml
+431,fmKPDyLiaY Corp,Technology,$282M,4494,1952,Germany,London,San Francisco,Smztx Ndosbic
+432,CWizlORZAH Corp,Retail,$489M,860,1989,India,London,Munich,Mpulv Anarerp
+433,uWUdqXnjSG Corp,Finance,$752M,2369,1933,Canada,Bavaria,Pune,Cuigm Zqayjxi
+434,ovpOdpipYN Corp,Energy,$154M,3928,1958,USA,London,Pune,Anxji Hydnzcc
+435,clYDUqAUro Corp,Retail,$599M,3613,2017,India,Ontario,Munich,Qkehv Lprnzwy
+436,spyIYBvdOd Corp,Technology,$867M,4896,1918,India,Ontario,Pune,Cyjcj Kkulczb
+437,lHkAWoEERj Corp,Healthcare,$412M,1095,1902,Canada,California,Munich,Vouny Zlzkmcb
+438,DMjxDZcNtT Corp,Healthcare,$150M,4409,1978,USA,Ontario,San Francisco,Dobap Nnismkd
+439,DJouBfSuuj Corp,Energy,$345M,875,1973,India,Maharashtra,Munich,Kebet Levrkrh
+440,pfHiKfHgSF Corp,Retail,$765M,4056,1928,Canada,Maharashtra,San Francisco,Phxpo Ulbzuvb
+441,vjsGXpFocy Corp,Healthcare,$559M,2283,1918,India,Maharashtra,Munich,Gvugc Fmznwsr
+442,rKWTusuMcZ Corp,Healthcare,$95M,2476,1997,USA,California,San Francisco,Zvgqp Vpyqjfr
+443,gdPyUcivOF Corp,Energy,$523M,256,2023,Canada,California,San Francisco,Wztzq Hpalbjo
+444,lLgBBELPTc Corp,Technology,$182M,2825,1970,Canada,Ontario,Toronto,Jjfyz Koveuya
+445,FMZMhdDRXo Corp,Finance,$93M,4171,1902,India,Bavaria,Munich,Ufeap Kwfnrbr
+446,fPRAquPmNA Corp,Healthcare,$336M,3133,1935,USA,Bavaria,Munich,Deekh Esvzepm
+447,AFgFNtjXge Corp,Finance,$429M,2914,1996,India,California,San Francisco,Cpeqr Dahrieb
+448,ueLufWChHX Corp,Retail,$480M,3460,1967,USA,Maharashtra,Pune,Ckxnw Vaxflxy
+449,GwvXbrPaPb Corp,Technology,$315M,3174,2021,UK,Ontario,Munich,Akfbm Awbeueq
+450,PWEcqHgqbn Corp,Retail,$741M,3421,2012,Canada,Maharashtra,San Francisco,Xgzvv Bvechvq
+451,hdoVeVnDDA Corp,Healthcare,$85M,4475,1984,UK,California,Pune,Ifgxj Garcghs
+452,RcSlMJGpVJ Corp,Healthcare,$478M,2292,1991,UK,Bavaria,Toronto,Xgwpe Vuuizii
+453,AUrGsvnYPJ Corp,Technology,$67M,1241,1905,USA,Ontario,San Francisco,Tsvpg Kpwfwhu
+454,PCJSRNkXEk Corp,Technology,$355M,4124,1920,Canada,Bavaria,Munich,Kavdm Tmxjldm
+455,lLLfVLNKbe Corp,Retail,$530M,2151,1985,USA,London,Pune,Nkmed Asiguji
+456,sfuVegojgt Corp,Finance,$247M,893,1980,UK,London,Pune,Rpnps Ftiencg
+457,XnvXyJUYwu Corp,Healthcare,$849M,446,1903,India,London,Toronto,Sbbzk Qzdmrrq
+458,mRSsvGCFeb Corp,Technology,$177M,2451,1970,India,London,Pune,Rsjej Vrqmufa
+459,IsWfcoQuhu Corp,Healthcare,$287M,1258,1938,India,California,London,Ycpos Qerznuz
+460,XUExmxsBHR Corp,Technology,$217M,3897,1934,UK,Maharashtra,Toronto,Oxalj Miogwih
+461,jFRUzZKQLN Corp,Retail,$44M,464,1998,India,California,Munich,Dafxm Motgepn
+462,KkWqWvAOKT Corp,Retail,$466M,3793,1976,USA,London,Toronto,Hjjaf Xhxilbg
+463,eVFKycNAaK Corp,Finance,$150M,3605,1974,Canada,California,San Francisco,Nmnhb Cjzhghn
+464,FlZJlHaoiM Corp,Retail,$620M,1405,1907,Canada,California,Munich,Tsbfn Zrecyci
+465,sHgqDTJnkP Corp,Technology,$376M,888,1916,Germany,California,London,Ylaiu Nkpmqcq
+466,kbMpUKzAZr Corp,Healthcare,$349M,2582,2008,Canada,Bavaria,London,Uerxc Ultpunf
+467,eBCnOzqDqZ Corp,Energy,$224M,3515,2010,Germany,London,Toronto,Fppqt Xzsiboe
+468,qxvcmIzGNQ Corp,Healthcare,$671M,239,1946,USA,California,Pune,Efkmu Nfddonf
+469,DnsCFuLXnY Corp,Finance,$81M,1154,1985,Canada,Maharashtra,Pune,Lccze Xnbnwtn
+470,KgwGVnOLAt Corp,Energy,$647M,3738,2018,Germany,Ontario,London,Zswza Zwbreci
+471,PhBSIrxJvk Corp,Retail,$579M,515,1990,Canada,London,Toronto,Ofvyq Ybksxij
+472,xPclqNUWpt Corp,Energy,$160M,4931,1928,Germany,Ontario,London,Mgovm Ebsqrog
+473,pwQxJjMKEm Corp,Energy,$985M,1476,1904,USA,California,Toronto,Lthcc Ixuzgmh
+474,PBIqGhmqzq Corp,Finance,$57M,1537,1924,UK,London,London,Nsbpa Oxhbozf
+475,UAnOGjTqvP Corp,Energy,$269M,3386,1967,UK,London,San Francisco,Bygfu Awoexbe
+476,adTXrQhXaS Corp,Healthcare,$333M,2047,1968,UK,Bavaria,Pune,Juxfs Xonfpje
+477,qVyZklyBMK Corp,Energy,$580M,3089,2004,USA,London,San Francisco,Foawp Ahvnrxe
+478,jNWEhCXerK Corp,Healthcare,$187M,1861,1913,India,London,Pune,Layba Qrrbbhy
+479,YSFKIqcFMG Corp,Finance,$828M,2972,1946,India,London,Toronto,Oamba Rsgzkwb
+480,zGUcpYbZMN Corp,Finance,$806M,2409,1923,USA,Maharashtra,Toronto,Rvnaj Xpforac
+481,hMVQGQGHmg Corp,Retail,$32M,75,1929,UK,Maharashtra,San Francisco,Njavh Mubvupr
+482,QJTbQDpCTJ Corp,Healthcare,$281M,3596,1922,India,California,Toronto,Pwlwp Noowrpo
+483,HvfwOoMhTd Corp,Retail,$912M,1423,1934,India,California,Toronto,Rzwxw Ewugbnp
+484,IigsjGKaWu Corp,Technology,$503M,4290,1915,India,Maharashtra,San Francisco,Ulzpa Hzswkzg
+485,hRlXTpOzNB Corp,Energy,$3M,3165,1913,Canada,Bavaria,Munich,Qxnlr Yqdvhhx
+486,TaPiaRprel Corp,Retail,$919M,143,2005,Germany,California,London,Przsq Aklhxgd
+487,HXJofSeqeQ Corp,Technology,$878M,239,1920,Canada,London,Pune,Cjaoe Bplxtem
+488,DbKTIibVaa Corp,Technology,$333M,1583,1944,Germany,Bavaria,Toronto,Vjdvp Amhsijb
+489,VFUEUfuGPF Corp,Retail,$467M,3218,1929,India,Maharashtra,London,Whhle Mjayzik
+490,OSUewFVKRy Corp,Technology,$453M,1884,1931,USA,Maharashtra,Pune,Fowom Kptvkfe
+491,ArKKkpiBPf Corp,Healthcare,$162M,3359,1984,USA,Maharashtra,Toronto,Muuvz Anlvepz
+492,ZwQcPRNLCL Corp,Energy,$751M,4848,1967,Canada,London,London,Bpyyt Jidsvpb
+493,AZMXqXqdFs Corp,Retail,$626M,933,2012,USA,Ontario,Toronto,Phmqr Lumqibm
+494,ZCfBcApTkX Corp,Retail,$303M,4600,1960,USA,Maharashtra,London,Vaybn Dbxqwpq
+495,bWyjsztvHo Corp,Energy,$118M,1421,1901,USA,Ontario,San Francisco,Eujbz Gqzntbe
+496,QZIuBcPtVA Corp,Energy,$147M,1306,1917,USA,London,Toronto,Iawyj Hofjjcr
+497,uuOahLXace Corp,Finance,$9M,1573,1927,India,Ontario,London,Ogelr Abivhzt
+498,DhSitYRixu Corp,Healthcare,$992M,4060,1902,UK,California,London,Zazbg Zxdvuvm
+499,FTZowHuayO Corp,Finance,$353M,843,1986,India,Bavaria,San Francisco,Plviv Kdpyymr
+500,HjGGkBbDUD Corp,Healthcare,$951M,2209,1936,Germany,London,Pune,Phncc Oqyocbu
+501,vOhPJGSRuu Corp,Healthcare,$267M,4149,2008,Canada,Ontario,Munich,Bxzdr Smzthjz
+502,TONxBeyWRa Corp,Technology,$904M,3211,1997,USA,California,Munich,Yywpn Usbiitd
+503,KXpqTzAPks Corp,Healthcare,$99M,1551,1951,UK,Bavaria,Toronto,Zctum Appccgv
+504,bSGGWAMFpn Corp,Technology,$856M,4021,1998,USA,Ontario,San Francisco,Pehfv Wnvqcot
+505,XCjlfHZfrp Corp,Energy,$887M,2963,1944,Canada,California,Pune,Kpmvd Kfsxdgm
+506,IXpuEAdsby Corp,Healthcare,$740M,1904,1949,USA,Maharashtra,Munich,Mqqra Sfxypxy
+507,nxGCAaJJyN Corp,Healthcare,$44M,4706,1952,India,California,Toronto,Qcmza Bldrufx
+508,uHUQOAAQRw Corp,Technology,$455M,3354,1932,Canada,Maharashtra,San Francisco,Bkues Fqhgjkw
+509,EZiOIATYhO Corp,Healthcare,$84M,4431,1979,Canada,California,London,Hmizl Yjswasm
+510,stRHwSeAJC Corp,Retail,$768M,4260,1947,USA,California,Pune,Dknsk Fvmgaai
+511,cmhIytMSMd Corp,Healthcare,$126M,2778,1901,India,London,Pune,Qmvjj Xcuvgqq
+512,aVFLvxnxtC Corp,Healthcare,$455M,1018,2007,Germany,Ontario,Munich,Mnywq Lmcdrzh
+513,aKTRzmrtbO Corp,Retail,$909M,1936,1926,Germany,Ontario,Pune,Medvj Coobbxn
+514,pWSFmUfuVh Corp,Healthcare,$259M,2106,1967,Germany,California,Toronto,Yrjxq Vhpnnno
+515,akRrgqViZh Corp,Healthcare,$920M,984,1992,UK,Maharashtra,Pune,Siglg Hnnkgez
+516,WIvXZyidSU Corp,Technology,$996M,3159,1906,India,Maharashtra,Munich,Xracx Teiufnj
+517,pEfAkziqws Corp,Technology,$991M,4111,1954,Germany,Bavaria,San Francisco,Dxcfv Nmsoica
+518,RloufJpNne Corp,Energy,$262M,4738,2017,Canada,London,Pune,Diogo Tactctp
+519,cyQQopevoG Corp,Retail,$706M,2965,1913,Germany,Bavaria,San Francisco,Cwolr Elikzsq
+520,DTMObYwZrN Corp,Retail,$27M,3848,1903,Canada,London,London,Akxeh Vlahhgd
+521,uNOkfYUTqS Corp,Retail,$200M,232,1985,USA,California,London,Gzpbf Sfbtdfo
+522,wfAajagQuB Corp,Finance,$126M,4562,1973,UK,London,Munich,Upqge Qdxpnju
+523,bFoRqmXLEX Corp,Finance,$447M,1427,1985,Canada,Bavaria,San Francisco,Txkyr Hbmnziw
+524,oUqqFUioaW Corp,Technology,$469M,1727,2014,India,Bavaria,Pune,Qedny Jniustg
+525,qgLbWRAwis Corp,Technology,$545M,4937,1960,Germany,Maharashtra,Toronto,Ezgnm Jaqnmcq
+526,TuityEDRAu Corp,Finance,$457M,884,1956,USA,Maharashtra,Pune,Azxmt Ffllmji
+527,fimknvoued Corp,Retail,$54M,2399,1964,Canada,Maharashtra,London,Hknbm Wffzvqa
+528,rvIwDIAkdu Corp,Retail,$200M,1462,1927,USA,London,Munich,Ofavn Zbrzgnx
+529,nlJugiuCvo Corp,Energy,$296M,774,1971,India,London,Pune,Kizmg Fosdugi
+530,NkrDtUNEoX Corp,Energy,$512M,4589,2021,USA,California,Pune,Xwnau Ncpahvn
+531,vXpaNBdBuH Corp,Technology,$373M,3336,1981,Germany,Ontario,Pune,Yefkh Expgggi
+532,KPmuoSEWfx Corp,Technology,$367M,4443,1953,UK,Ontario,San Francisco,Ofjmv Dfjewdz
+533,cfxUtDxczj Corp,Retail,$792M,910,2021,Canada,Maharashtra,London,Ceegc Aqujarq
+534,luzrXTYHCl Corp,Finance,$349M,2382,1902,Canada,California,Pune,Zwcje Nvysuqu
+535,sNkurDKcXb Corp,Finance,$474M,132,1933,Germany,London,Munich,Xaonl Yzbfblm
+536,jtIYVxnhhn Corp,Energy,$595M,4540,2012,Germany,London,Toronto,Xdfdy Dqkeedp
+537,VazvVBtzWt Corp,Technology,$699M,575,1960,UK,Maharashtra,San Francisco,Mzknk Flzunmy
+538,aPAmJoMntz Corp,Finance,$210M,2511,2018,USA,Maharashtra,London,Koxon Qaquqon
+539,pyboTTVEGw Corp,Energy,$340M,4954,1988,USA,London,Pune,Sbfmz Euvklcj
+540,oWpvgAsgLa Corp,Energy,$861M,4930,1979,Germany,California,London,Upbrm Lymyohl
+541,gXUohuUwXP Corp,Energy,$793M,4551,1959,UK,Ontario,San Francisco,Azjru Sonpbms
+542,brXdPzfDVW Corp,Retail,$85M,4891,1908,Canada,California,London,Akain Sdpipvm
+543,GRIOEWsOyz Corp,Energy,$627M,4876,1932,USA,Maharashtra,London,Yllkc Gczoxbg
+544,tpdynEGXXp Corp,Finance,$199M,4139,1937,Germany,Maharashtra,London,Peoeo Lgwsvsr
+545,BNRmQYPiPp Corp,Healthcare,$279M,697,1971,India,Bavaria,Toronto,Uedxz Zljqlmq
+546,frgzKXvOem Corp,Finance,$889M,4893,1952,Germany,London,London,Kwlpt Dfqpwpt
+547,UFLnpWASKO Corp,Finance,$738M,3370,1932,Canada,London,Munich,Hxgyp Qrxjaxi
+548,wSBsuUlTBD Corp,Energy,$430M,4257,1973,Germany,California,Pune,Pehyc Ppleijx
+549,XxVokAwMUG Corp,Healthcare,$677M,178,1963,Germany,Bavaria,Toronto,Wqjdp Fvggpjy
+550,MXDLbLNWxP Corp,Finance,$681M,3469,1988,India,California,London,Itubi Eucabay
+551,jhtjyLXkGT Corp,Technology,$55M,3172,2009,Germany,Ontario,Toronto,Ncukh Cuxghfp
+552,KHQcmTsXgC Corp,Finance,$930M,3799,1979,USA,Ontario,Toronto,Pckha Gliyujm
+553,kqWlLUwRVm Corp,Technology,$675M,1773,1951,Canada,Maharashtra,Toronto,Wjntr Lxkmcrj
+554,vLJztClLlU Corp,Technology,$811M,3591,1973,Canada,London,Toronto,Vnrpp Pnnifxp
+555,zLmQuKLKOv Corp,Energy,$724M,282,1926,Germany,London,San Francisco,Cueur Vibgehw
+556,SZwNMPBfcM Corp,Energy,$642M,1670,1995,UK,California,Toronto,Xavfv Wxqplgs
+557,VJQOYkiYzD Corp,Healthcare,$664M,848,1909,Germany,California,London,Kaicw Fyiqpxx
+558,RrXGOlkvfv Corp,Finance,$75M,2594,1905,UK,California,London,Hkqwf Nlzutqb
+559,UsZUFjhYPO Corp,Energy,$455M,1438,1953,UK,Ontario,Munich,Lqkni Drrpcfz
+560,qyObGPETMA Corp,Retail,$942M,1569,2014,Canada,Bavaria,Munich,Ckipk Tqkngws
+561,XVJmkmJZOh Corp,Retail,$518M,3903,1974,Canada,California,San Francisco,Xvvwn Pdnhsdw
+562,aumuukxvil Corp,Finance,$72M,648,1930,Germany,Ontario,San Francisco,Amvcf Wyxwklt
+563,qVHBRglFse Corp,Healthcare,$874M,4850,1957,India,Ontario,Pune,Uawle Wtpyxhc
+564,EFTZJIjLWz Corp,Retail,$34M,3188,2015,India,Bavaria,San Francisco,Fsiuv Eajkfaq
+565,uBXibwvyQd Corp,Energy,$242M,4260,1922,Canada,California,London,Opfus Rntytyg
+566,bKBiNnMbxv Corp,Healthcare,$336M,4998,1963,India,Bavaria,Pune,Wyzsk Pirsnae
+567,STKwRDOcEI Corp,Retail,$816M,779,1918,Canada,California,London,Plxaz Aqwzblp
+568,rjYGWOSzpw Corp,Retail,$823M,1658,2018,UK,Ontario,Toronto,Ysudf Sdxbkfs
+569,vFBsifhcyQ Corp,Technology,$574M,1905,1926,India,California,San Francisco,Ygihg Jciirgw
+570,xrWpsbXZao Corp,Finance,$675M,3986,1958,UK,Ontario,Toronto,Apahf Uzphpgm
+571,VfUEcehJkg Corp,Finance,$844M,3211,1970,UK,Bavaria,London,Tdnit Jjmegpl
+572,vTACHRrzME Corp,Technology,$931M,1362,1900,India,California,San Francisco,Lnllw Ubfrixz
+573,cbUIxlOEqN Corp,Finance,$54M,3807,1972,USA,California,Munich,Gjjbx Wuxehap
+574,LvOeJngQkj Corp,Healthcare,$335M,1542,1981,Canada,London,Pune,Fdhpg Cvafwct
+575,VDijmiedYA Corp,Energy,$535M,2526,1991,India,Maharashtra,Munich,Zlknn Dksuykc
+576,FhcSHfINzy Corp,Finance,$695M,3503,1968,Canada,Bavaria,Pune,Pmrhv Apwjeal
+577,DgLEbUHRgO Corp,Technology,$657M,4750,1941,Canada,Ontario,San Francisco,Cyceo Wepflqk
+578,jjEtcWdNyK Corp,Healthcare,$59M,3076,1993,USA,California,Munich,Pyppj Rgdmfnq
+579,zMgKtGMgAW Corp,Retail,$216M,108,1937,USA,Maharashtra,Pune,Tcdwg Wfbzcnw
+580,JshpSMdQkR Corp,Finance,$453M,4101,1960,Canada,Maharashtra,San Francisco,Lsxez Lfdjccd
+581,SpjnkInfLc Corp,Retail,$20M,1047,1906,USA,London,Munich,Zhzid Qvwktzc
+582,GZHKriPeLA Corp,Healthcare,$55M,1760,1922,USA,Ontario,San Francisco,Meygm Wzqiqzc
+583,XDrrmXqwQh Corp,Healthcare,$556M,57,1970,UK,Ontario,Munich,Bnuwr Jffiqnk
+584,YoDRirVCwd Corp,Healthcare,$726M,3204,1930,India,California,Toronto,Prcwr Vwdxprs
+585,crGIUrrNwN Corp,Retail,$122M,2354,1906,Canada,Bavaria,London,Mxxyd Zscstrr
+586,SYakeTbbsG Corp,Energy,$985M,2165,1948,Germany,Maharashtra,Toronto,Qksrq Hqmajla
+587,BMhYJWQJCv Corp,Energy,$61M,3991,1938,UK,Bavaria,London,Pzuhs Kehcfqj
+588,edqftpMstu Corp,Healthcare,$165M,1366,2007,Germany,Ontario,Munich,Odsdu Onjsgpc
+589,tBUqjfNxrU Corp,Finance,$684M,2037,1999,Germany,London,Toronto,Dormi Cmfocdw
+590,hKLalPfbyL Corp,Energy,$552M,4467,1955,India,Ontario,San Francisco,Kqelo Xtronzj
+591,WQKxsLxego Corp,Retail,$555M,174,1921,Germany,Ontario,Toronto,Opwoo Vlqjyse
+592,gRWGZefipO Corp,Energy,$939M,4357,1998,Canada,Bavaria,Toronto,Rnwgl Nbagnia
+593,nNXEvvuOgK Corp,Technology,$266M,1651,1922,India,London,London,Invum Wopcsxj
+594,QqKzQwNtyi Corp,Energy,$461M,3793,2011,India,Maharashtra,Toronto,Anacq Ypydxox
+595,KXBtiybukZ Corp,Energy,$618M,355,2000,Germany,Ontario,Toronto,Epids Swwlohm
+596,EgsdAfLEuU Corp,Energy,$312M,1528,2010,UK,California,Toronto,Hdxqv Qarfrnp
+597,iFNeSffCxR Corp,Retail,$807M,3655,1939,Germany,London,San Francisco,Cdtff Cowstlj
+598,AqdtOpWjqH Corp,Technology,$553M,4804,1991,Germany,London,San Francisco,Jcutc Rccgmny
+599,wdGCawqVvR Corp,Finance,$708M,1814,2022,Germany,Maharashtra,Munich,Vvkmy Lxeugjo
+600,DImIlBQcML Corp,Technology,$401M,3925,1974,USA,London,Pune,Ujeeb Dbmskud
+601,QXNycMohDp Corp,Technology,$146M,2414,1932,UK,London,Pune,Kkpmg Juryfrm
+602,ffnIrIhmAT Corp,Technology,$730M,4445,1986,USA,London,San Francisco,Tbrtd Cuiwgzj
+603,XcBICoKwQd Corp,Energy,$134M,897,1946,Germany,Ontario,Toronto,Howtn Ugnqrxp
+604,rhRXgQUbuR Corp,Energy,$289M,3275,1934,India,California,Munich,Vawgi Npmutzq
+605,AfPYUzluhx Corp,Energy,$179M,2387,1912,Germany,Bavaria,Munich,Qlmwa Rdgtton
+606,VxLriraLnE Corp,Technology,$577M,1492,1921,Germany,Ontario,Pune,Mavty Vbrpdyy
+607,XpWPxOfUzK Corp,Energy,$63M,3755,2014,Canada,Bavaria,San Francisco,Qtbxl Izypjfs
+608,KqyOsRUPBu Corp,Healthcare,$965M,260,1936,India,Bavaria,San Francisco,Ilmgl Axziksz
+609,PrPkytztnP Corp,Energy,$588M,4661,2017,India,London,Pune,Fisio Xdyeved
+610,FiplcPgdhD Corp,Finance,$273M,652,1938,Germany,Ontario,San Francisco,Galra Lryfyuw
+611,rWeThaAHhb Corp,Finance,$253M,3835,1949,Canada,Maharashtra,Munich,Yhgca Udormid
+612,Lsdsszrsah Corp,Retail,$479M,3720,2012,Canada,Maharashtra,Toronto,Topqh Qndjlsc
+613,gcvhTkOkkL Corp,Healthcare,$467M,2133,1907,Germany,Maharashtra,London,Tanro Ojjykko
+614,OlDRFYtLnz Corp,Healthcare,$899M,1046,1955,USA,Maharashtra,San Francisco,Lbenu Xjnmard
+615,KRsmIsZJMq Corp,Finance,$477M,2194,1982,India,Ontario,San Francisco,Vcrkn Halrhsi
+616,BNPaoAnEeK Corp,Finance,$418M,4973,1998,UK,London,Pune,Ypcfb Kjuflnr
+617,KHIPBvGCSW Corp,Retail,$188M,3153,1992,Germany,Maharashtra,Pune,Tbbgr Aezrgkx
+618,CMTejvvhUh Corp,Retail,$759M,3970,1985,Canada,Maharashtra,Pune,Btllj Xucmhgi
+619,GWOISDizbq Corp,Technology,$205M,2187,2013,USA,Maharashtra,San Francisco,Swkef Ctgtdwx
+620,JPmOLATpfS Corp,Healthcare,$27M,2355,1906,India,Ontario,London,Peqnh Odiwboo
+621,KRCcoscYdO Corp,Retail,$182M,3930,1986,USA,Maharashtra,Pune,Otzmo Fymaduk
+622,kZClYIUaFz Corp,Finance,$371M,886,2008,India,Bavaria,Munich,Xbpfb Czpfpkv
+623,VUwQcHjitG Corp,Energy,$840M,870,1905,Canada,Ontario,San Francisco,Zwudx Ygvfsdg
+624,cnvypNMOnS Corp,Energy,$657M,4400,1933,Canada,Ontario,Munich,Amcyy Hpgkshm
+625,UZAYNPbaNT Corp,Healthcare,$984M,1195,2004,UK,California,London,Kfxcx Uoaquuu
+626,UOfBkIFUhl Corp,Healthcare,$333M,1794,1928,Germany,California,San Francisco,Vfykn Lfcepgv
+627,iOAwAgbTLW Corp,Finance,$477M,4183,2015,USA,Maharashtra,Pune,Qauaj Warmsml
+628,USIrfdOnCF Corp,Retail,$66M,4150,1930,USA,California,Toronto,Afdfs Bzmngao
+629,PSAzKlafzR Corp,Retail,$613M,3455,2022,India,California,Pune,Wapol Buukkxt
+630,ZowScaWWiU Corp,Technology,$961M,3736,2019,Germany,Bavaria,Pune,Vqezk Gehygdj
+631,qNmrnoOZIF Corp,Energy,$549M,4475,2000,Germany,Bavaria,London,Laxee Ocxdwsh
+632,nwfnBdySeM Corp,Energy,$976M,2211,2013,UK,Bavaria,Toronto,Qajye Bnxbrwh
+633,PobyUrRbJM Corp,Healthcare,$341M,468,1991,Canada,California,Pune,Eyvhw Avybsvx
+634,ZslDnrmDyx Corp,Healthcare,$536M,656,2005,India,Bavaria,San Francisco,Uzfwu Vajnflr
+635,VWcXykIGbS Corp,Healthcare,$223M,3141,1907,USA,Maharashtra,Pune,Xsoto Vofydon
+636,DKiaLoKNTr Corp,Energy,$481M,3434,1936,India,Maharashtra,San Francisco,Fjzxj Gssozta
+637,LVmoIpMrTV Corp,Retail,$783M,903,1912,Germany,California,Toronto,Vzsnh Bcwzgdo
+638,ZDJmpTztqd Corp,Retail,$175M,748,1983,Germany,Maharashtra,London,Pxhwd Mpurqem
+639,XHLkkYhRVC Corp,Finance,$642M,4352,1917,India,Maharashtra,Toronto,Ddzej Zaijlcf
+640,HOGsHNvFwb Corp,Retail,$474M,3042,1983,Germany,Maharashtra,Munich,Bbhqn Hpadprk
+641,XlHLNqNJrU Corp,Healthcare,$966M,4711,1938,UK,Maharashtra,London,Fyfrv Pvjmpib
+642,PToPNxlJBM Corp,Energy,$415M,3110,1949,UK,Bavaria,Munich,Rqgmr Odnkerw
+643,mxnqyCKnGP Corp,Energy,$424M,1711,1997,Canada,Maharashtra,Pune,Ndafk Cmyffvf
+644,mvobVIgjkp Corp,Finance,$289M,1948,1965,India,Ontario,Toronto,Ktuyl Rxltdud
+645,SwqaeZsVQd Corp,Technology,$334M,1344,1960,UK,Bavaria,Toronto,Ppssv Pccelbl
+646,pGUFjKMQRY Corp,Energy,$683M,4481,1947,Canada,London,Pune,Cjjoi Cclrprv
+647,sjmKLruZIn Corp,Retail,$552M,3860,1937,USA,Maharashtra,San Francisco,Tisjq Fipxbgd
+648,vUjrJpnIdo Corp,Healthcare,$619M,4227,1933,Canada,Maharashtra,Pune,Lsugq Zndnmmz
+649,KXwlZmjJkG Corp,Energy,$445M,3432,1936,India,London,Munich,Czyes Gzlcnmf
+650,WglZhVOiep Corp,Healthcare,$564M,3309,1922,UK,Ontario,Munich,Xqejs Wpuiqan
+651,IfilLiBvTY Corp,Healthcare,$569M,4642,1988,Germany,California,Pune,Ipzsy Hffonnz
+652,OkInUvRtTz Corp,Energy,$687M,2950,1964,Germany,California,Pune,Zomkq Bzhowit
+653,cRgGBIAINP Corp,Healthcare,$102M,963,1960,UK,California,San Francisco,Xwzqr Ttvmurl
+654,fEaivmiVXR Corp,Retail,$894M,2691,2022,USA,London,Toronto,Scfwv Yrtpjeh
+655,wdSfLhxIZV Corp,Healthcare,$213M,140,1946,Germany,California,Toronto,Wablc Zqbfijc
+656,VfTTYsUTUn Corp,Retail,$392M,2906,2006,Canada,Ontario,Pune,Jurnc Tqkatuh
+657,AFuWECFEZA Corp,Finance,$565M,3753,1948,Germany,California,Pune,Gaxbv Hvedszo
+658,ytTkiUIVlo Corp,Technology,$135M,4411,2003,USA,Bavaria,Toronto,Wuyfe Hggyaxs
+659,YIdZxVTyWx Corp,Finance,$787M,233,1933,India,Ontario,Munich,Mmxhz Laetfel
+660,YLfNurfFPf Corp,Energy,$86M,2139,1977,Germany,California,Munich,Tvawc Phuyych
+661,tudVRgUsDY Corp,Retail,$203M,4428,2015,India,California,Pune,Iichl Hcmtlhy
+662,GdLgRxwIhD Corp,Retail,$963M,4360,1917,India,California,San Francisco,Hvmsw Amzrdsc
+663,GqYCNuaKde Corp,Finance,$363M,1465,1992,Germany,London,Pune,Znzng Ksodlmy
+664,ERRWPWqYAQ Corp,Technology,$773M,3192,1987,UK,London,Toronto,Buwnv Bnkhosx
+665,BZxabcDMMh Corp,Technology,$914M,816,1980,UK,Maharashtra,Pune,Jzmhs Jbsdkad
+666,TfMqCtWCAQ Corp,Technology,$964M,2038,1965,USA,London,London,Fevyt Duvgczh
+667,YMjqirpyIs Corp,Energy,$106M,1791,1908,Canada,Maharashtra,Munich,Enpwo Kkdiixp
+668,GDZFTbbmTm Corp,Healthcare,$700M,1033,2004,Canada,Bavaria,London,Hmtjk Vkrpdwx
+669,ehKPyvtHBK Corp,Retail,$946M,1272,2005,Canada,Ontario,Munich,Mdmrp Dukvchl
+670,rWZsrecxCO Corp,Energy,$540M,2376,1972,UK,California,Pune,Yxrew Uwouaiu
+671,ZmrwVXkefW Corp,Retail,$69M,2667,1959,Germany,London,London,Mbybi Ttnkizi
+672,iiWDEbAvbQ Corp,Retail,$766M,2305,1985,India,California,San Francisco,Nebzl Fxsxqyq
+673,GjKZyGVOLI Corp,Energy,$988M,2053,1963,UK,Maharashtra,Pune,Dzodj Bqexhin
+674,WLRMZtUbnd Corp,Energy,$562M,953,1926,UK,Ontario,London,Xtwfx Rczbovw
+675,fNVZKOdyZw Corp,Healthcare,$713M,1117,2020,UK,Ontario,Munich,Gqxxo Zhnmcdj
+676,bNoGaOfHbm Corp,Healthcare,$328M,3461,1970,USA,California,London,Zagja Yyhmhfo
+677,LuZltKNnpk Corp,Retail,$227M,4678,1926,UK,Bavaria,Toronto,Mbwtb Fwngszx
+678,PgnrDMNOcg Corp,Healthcare,$355M,1875,1915,Canada,Ontario,San Francisco,Zlnpu Zqdweeh
+679,GvPcgyBSpC Corp,Energy,$697M,4652,1948,UK,California,Pune,Wzkrz Dladbpi
+680,tVTRHNrdzP Corp,Finance,$248M,1624,1984,India,Bavaria,London,Ulkoi Upbywzt
+681,wPfLwwXBRy Corp,Healthcare,$261M,623,1910,Germany,Bavaria,Munich,Mizhr Luvdojf
+682,VqJCGDezgY Corp,Energy,$784M,1039,1919,India,London,San Francisco,Wbtiw Mqzvcwu
+683,UjqToCflbm Corp,Finance,$392M,521,1926,India,Bavaria,Munich,Wmdvj Yvybyxz
+684,AcJiUGmYlQ Corp,Finance,$467M,114,1974,USA,Ontario,Pune,Wrlzn Ydhfaes
+685,DenbPsZWKQ Corp,Healthcare,$772M,3778,1906,USA,Maharashtra,London,Wtmfq Dvbrdmr
+686,mFPyaOTnrg Corp,Healthcare,$399M,2132,1929,UK,Bavaria,Pune,Prnda Oslouum
+687,kWBOjgvbSC Corp,Technology,$936M,370,1988,USA,Maharashtra,Munich,Gicqg Fipettu
+688,nBRKIcNUOO Corp,Finance,$74M,4730,2003,India,London,Toronto,Cswzs Jpyvapc
+689,bonMgoXsTx Corp,Healthcare,$732M,4629,1905,Canada,California,Pune,Pjaxh Rezezhy
+690,agcILtrgny Corp,Retail,$228M,904,1920,India,Maharashtra,San Francisco,Ruyny Gbyuloq
+691,pkabmkACOZ Corp,Finance,$430M,1653,1913,USA,Ontario,Munich,Mswyl Dulomox
+692,lyOJLDnCbU Corp,Technology,$544M,1263,1979,India,Ontario,San Francisco,Xesso Bxvdshn
+693,EgRuSIIDzL Corp,Healthcare,$451M,3167,1931,USA,California,Toronto,Lcmib Tjqkhss
+694,QtYxDfdLhi Corp,Finance,$324M,299,1995,India,Ontario,Toronto,Botsx Wjflfgv
+695,hUyihsQkEa Corp,Technology,$626M,1354,1941,India,Maharashtra,Pune,Akrba Iqrqkyv
+696,YebKryEKDi Corp,Retail,$733M,4940,1930,UK,California,Munich,Llkus Rzzcnky
+697,rpUbBopzsn Corp,Healthcare,$11M,2483,1999,Canada,Ontario,Toronto,Eiwkp Bnbzggk
+698,RkaSEtUCeZ Corp,Energy,$927M,1832,1972,India,Maharashtra,Pune,Kelna Rnoqcyg
+699,tMRxOxDeID Corp,Finance,$478M,4268,1975,UK,Bavaria,Pune,Cyhui Wqsctqb
+700,uvQFbKwBuj Corp,Retail,$393M,2929,1917,Canada,London,Toronto,Vglei Gzatvhq
+701,AIMurxQSSA Corp,Technology,$235M,3555,1943,Germany,Ontario,San Francisco,Gqvmv Sllmdgg
+702,CEcgCcdVJt Corp,Technology,$120M,3990,1954,Canada,Bavaria,San Francisco,Exent Xepymix
+703,FSvvvzpiZw Corp,Finance,$719M,3892,2003,Canada,Ontario,London,Voybt Ajzlsbp
+704,sWpEcjbkAu Corp,Retail,$826M,2723,1955,Canada,Bavaria,San Francisco,Xnyzd Fhvdrnd
+705,IYKhssTTOh Corp,Healthcare,$193M,4473,1973,Canada,Maharashtra,Munich,Mapgv Phmcikp
+706,DOGfUcKitx Corp,Finance,$145M,1926,1964,Germany,Maharashtra,Toronto,Wmukc Qctebnh
+707,xzomMcWlkd Corp,Healthcare,$284M,2054,1949,Germany,Ontario,Munich,Bbibe Ieuwtvf
+708,SCgpHtRdbH Corp,Finance,$699M,1426,1932,India,California,Pune,Pvqjv Chbwser
+709,eSdqrzCtOJ Corp,Healthcare,$520M,4279,1936,USA,Maharashtra,San Francisco,Fsdit Eotmfmq
+710,EVlRdKqcCX Corp,Retail,$232M,1762,1921,Canada,London,Munich,Ocqzt Ldsovma
+711,TFIezIijAL Corp,Technology,$50M,1746,1946,Canada,California,Pune,Dximj Bvvxvdk
+712,zuzKlYuICS Corp,Retail,$140M,1673,2022,India,Ontario,Toronto,Egaxz Vtqvuyp
+713,OcdJzCDBLz Corp,Retail,$645M,539,1996,UK,London,San Francisco,Rqzqa Pmobzqb
+714,wpBQBPRtyr Corp,Retail,$658M,136,1989,UK,London,San Francisco,Pgfyx Bzkedfd
+715,cFCbltTakO Corp,Technology,$588M,1529,2022,Germany,Bavaria,San Francisco,Vvmxk Mjqkxtc
+716,qKCwUNXJmF Corp,Finance,$844M,3471,1964,USA,Ontario,Toronto,Synbw Mloqplp
+717,audRYsZmdf Corp,Finance,$963M,4917,1998,Germany,London,Munich,Ruhmt Srduhgr
+718,VLXbfRSYPv Corp,Healthcare,$557M,3653,2017,UK,Ontario,San Francisco,Armiq Hcrqroq
+719,GhSoUcTagp Corp,Finance,$855M,248,2002,USA,Ontario,Toronto,Qcpqx Oqburbs
+720,xvazuMTLIt Corp,Technology,$100M,3050,1998,Germany,Maharashtra,Toronto,Qrwrj Pygosyw
+721,BqdljCVnNF Corp,Retail,$792M,2005,1963,UK,California,London,Udhaf Rffzmwh
+722,ikNAKAVMTT Corp,Healthcare,$412M,1846,1918,Canada,California,Munich,Lnymw Jydwhnl
+723,kkjqIMXOMN Corp,Finance,$229M,1280,1988,Canada,London,Pune,Boqqf Iqcykfb
+724,oIrGSlzVgV Corp,Retail,$497M,4528,1983,UK,London,London,Kqgvn Xverlzc
+725,SxDqqYpTDQ Corp,Energy,$376M,3383,1953,USA,Ontario,San Francisco,Bzicj Epikuol
+726,ZrBmMxIFGX Corp,Retail,$216M,298,1996,India,Maharashtra,San Francisco,Ljloa Vwymfxs
+727,ASCQPfGgje Corp,Technology,$102M,685,1979,Canada,California,London,Tajgh Txvdqlx
+728,WghlrAkYkn Corp,Healthcare,$961M,887,1918,USA,London,Munich,Vyivw Tafyegh
+729,sPhmSKjzzb Corp,Technology,$805M,3005,1944,Germany,Maharashtra,San Francisco,Iwogl Wcxrptv
+730,cTupZXckrs Corp,Retail,$606M,1359,1968,USA,Ontario,Toronto,Vryps Ixebvcj
+731,MTIGTJBRjX Corp,Healthcare,$318M,1913,2017,USA,London,Pune,Tkani Vkzwsdu
+732,iZBCWyvgYN Corp,Healthcare,$566M,4164,1962,USA,Ontario,Pune,Haayv Tgzxrxm
+733,yVKchidgfu Corp,Retail,$819M,4698,1948,Canada,Ontario,London,Fpczi Znudbrb
+734,ZdkdqwjumP Corp,Healthcare,$940M,322,1916,India,London,Pune,Fggme Juvceyr
+735,foXUToVaka Corp,Finance,$219M,4651,1925,UK,Maharashtra,Munich,Tmjhe Rgprejf
+736,WVOLkInOrO Corp,Healthcare,$453M,880,1984,India,Maharashtra,Munich,Zmfjp Pkbgbcb
+737,rkJgNqxDnB Corp,Retail,$9M,3437,1901,USA,Bavaria,Pune,Muyyg Eiytvec
+738,ZVDBuLiCzY Corp,Finance,$872M,195,2012,Canada,Ontario,Toronto,Imiih Xmwpcpi
+739,YqzfjlKfNT Corp,Healthcare,$766M,562,1901,UK,California,Munich,Fgvis Dnrtcqh
+740,PxVDJxLTpU Corp,Finance,$694M,1149,1958,USA,Ontario,Munich,Sbfkf Rowyqfu
+741,lgMCKXRrnN Corp,Energy,$594M,648,1932,USA,London,London,Prmyb Ovaafdu
+742,DPlMjSPlDL Corp,Retail,$567M,2991,1913,India,Bavaria,San Francisco,Ducbz Zuttrhj
+743,sbMRSwXvUL Corp,Healthcare,$354M,1728,1985,UK,Ontario,Pune,Clvud Laejkcf
+744,pVvmgtirki Corp,Finance,$450M,387,1980,UK,Maharashtra,Munich,Hbixb Jhopdez
+745,JMRmftOTHC Corp,Retail,$408M,74,1974,Germany,Bavaria,Munich,Jhwxy Wjxvvau
+746,SysouQCIgd Corp,Finance,$218M,232,1946,USA,Maharashtra,Pune,Vvejv Dchggyt
+747,cVemUDSqhB Corp,Finance,$528M,349,1997,Canada,London,Pune,Bport Krfzeqw
+748,ZcIlbFjxNI Corp,Retail,$283M,3545,1988,Canada,London,San Francisco,Pocfr Hkptovf
+749,VLnCzmTdZI Corp,Energy,$669M,3524,1942,Canada,Ontario,Pune,Tqbcx Sycycoz
+750,YwwrGdnObp Corp,Retail,$888M,1902,2016,Canada,London,Toronto,Zwsyr Gqbndon
+751,GEAPfgeJnw Corp,Retail,$799M,4236,1902,Germany,Ontario,Munich,Tiabc Fxjnmlj
+752,dgizhmaGzK Corp,Technology,$382M,3494,1923,India,California,Toronto,Etesc Vhnfsje
+753,vXIiEaSDKq Corp,Healthcare,$578M,2711,1997,UK,London,San Francisco,Qppgx Vmndbiu
+754,fNsFQOpuIn Corp,Technology,$73M,4430,1932,Germany,Ontario,San Francisco,Ktgwt Pzyjatl
+755,eHHmEaZnXb Corp,Retail,$257M,934,2013,India,Ontario,London,Ztsof Jhczbtr
+756,ywQKnsLqyG Corp,Healthcare,$661M,2193,2001,UK,California,Munich,Nqqgw Zwtzyyo
+757,TABkBAfgMl Corp,Finance,$778M,3013,1912,India,London,London,Owkcv Leplpmy
+758,sUGywfisxn Corp,Retail,$685M,866,1997,USA,Maharashtra,Pune,Osuma Yhknzia
+759,NMjSrOibVm Corp,Healthcare,$645M,2796,1977,Germany,Bavaria,Pune,Brogq Rfkvmeu
+760,GPwMpXlJfa Corp,Finance,$118M,426,1900,Germany,California,Toronto,Obfac Veduwsk
+761,gUZGJkaWan Corp,Healthcare,$374M,4739,1928,UK,California,London,Qmcbq Qerzqjy
+762,vGNhmmxrEs Corp,Healthcare,$1M,2487,1960,Germany,Maharashtra,London,Hfonh Lwfxzhu
+763,ttBJBesAQw Corp,Technology,$886M,1070,1991,Germany,Ontario,Toronto,Nbnjy Phdaagd
+764,MmewJOpKpj Corp,Energy,$270M,2250,1978,India,Maharashtra,San Francisco,Ywfhy Btfgrnq
+765,ErKSXoNtap Corp,Retail,$36M,1504,1980,Germany,California,Pune,Uxvlj Pennhuf
+766,SNHOUfXiPc Corp,Technology,$685M,2747,2016,USA,California,Munich,Butcw Ojwkiyl
+767,AtInRxuFjB Corp,Healthcare,$669M,4495,1917,Germany,California,Munich,Hrqwq Ouivpeq
+768,hgivAnpBfW Corp,Finance,$416M,1477,1956,Canada,Maharashtra,London,Qdxui Vokvwal
+769,rHkBVfNhKp Corp,Technology,$302M,840,1902,USA,California,Pune,Klhwo Hsupkyi
+770,WOgMINpogG Corp,Finance,$406M,4359,1985,USA,London,Pune,Abcht Hznijns
+771,kWNwNxZjth Corp,Healthcare,$512M,702,1975,Germany,Ontario,Pune,Khmco Iwxtpzc
+772,BvZPhcoSkk Corp,Energy,$433M,1120,2000,India,London,Munich,Bqllx Rmnofpk
+773,rYpEFzXnzr Corp,Energy,$16M,3458,1913,USA,Bavaria,Munich,Zmpwt Jhvjtgc
+774,iLNZaiBNmr Corp,Technology,$512M,2454,1947,UK,Bavaria,Munich,Vodsp Jcpknuk
+775,OPIKUyUccJ Corp,Healthcare,$194M,558,1902,India,Ontario,San Francisco,Lwchy Yygopyx
+776,pCUdFcJKHl Corp,Healthcare,$703M,4431,2019,India,Bavaria,Pune,Xkycc Khnaoso
+777,zSNfwUlIBZ Corp,Retail,$429M,175,1967,UK,Ontario,Munich,Inxuf Tfmoamr
+778,hOSURarcaC Corp,Retail,$8M,4492,1939,USA,Bavaria,Toronto,Xclgs Enoezld
+779,jXFZwgtVkL Corp,Retail,$865M,1262,1956,India,Bavaria,San Francisco,Jvsyd Dektall
+780,OUyIvScxAr Corp,Retail,$549M,1004,1993,India,London,San Francisco,Htfzw Bcgcjmu
+781,qRvgSJqUan Corp,Healthcare,$103M,3313,1927,Canada,California,London,Brznt Xxtjram
+782,dNqiimDudc Corp,Healthcare,$651M,3112,1951,India,Ontario,San Francisco,Xoghw Hdjxaii
+783,BABAXXDMZs Corp,Healthcare,$660M,3767,1922,USA,London,London,Vwscn Tjwsjrt
+784,WPtLQVfqfj Corp,Technology,$651M,4910,1917,UK,Bavaria,London,Asykz Oeqcvvd
+785,ILRdvELaOb Corp,Energy,$41M,2313,1942,Germany,California,Munich,Zvypo Zyefzwo
+786,vRBHzZzRdX Corp,Finance,$840M,1240,1938,UK,London,San Francisco,Nikqm Ceaqluu
+787,aYCJPdijgd Corp,Energy,$332M,1211,1964,UK,Bavaria,Toronto,Itqxe Alolmcf
+788,HgBqaQcUiK Corp,Energy,$741M,1404,1971,India,Ontario,San Francisco,Senxr Lfvcipq
+789,YjKygXcMUr Corp,Finance,$785M,3103,1957,Germany,California,Munich,Jwmkw Hdkqxrz
+790,xXOZZKEeKI Corp,Finance,$12M,662,1936,Germany,Ontario,London,Hbmpm Voyrahc
+791,iGWxbXwSJX Corp,Technology,$888M,3057,1997,Canada,London,Munich,Zhknb Klnvpgr
+792,OqufBdoIeh Corp,Finance,$321M,1732,1965,UK,Ontario,Pune,Bkwxh Ancbkkf
+793,wHMcusyMSW Corp,Energy,$103M,2348,1932,India,Maharashtra,Munich,Fcytq Rwyzolw
+794,WHEFekrjxn Corp,Technology,$663M,2669,2005,Germany,Ontario,Pune,Rkcem Khhhoke
+795,wkGovfGXVi Corp,Healthcare,$253M,2230,1950,India,London,London,Lszku Wftlllt
+796,rmrXaQFSnJ Corp,Finance,$141M,4572,1916,USA,California,Pune,Rvnvx Dajpnyk
+797,JciNNwkoeQ Corp,Finance,$901M,609,1960,India,Maharashtra,Munich,Jxzix Nppfsxs
+798,GhuPkxwWlK Corp,Energy,$622M,1186,1958,India,London,London,Bixaa Fyghabx
+799,TRjjyiUweT Corp,Energy,$324M,3776,1951,USA,Bavaria,Pune,Vdlhy Uppekdx
+800,RWZbwSOnKq Corp,Healthcare,$681M,1017,2023,Germany,Bavaria,Pune,Nukoy Psqoyjb
+801,rfsFYNVWQX Corp,Finance,$567M,4576,2013,India,California,Munich,Kpiao Ffrohfi
+802,jTTHpykJip Corp,Finance,$133M,1883,1951,Germany,Ontario,San Francisco,Ntckl Wzwrljw
+803,fBVFvLSSmG Corp,Retail,$229M,827,1950,Canada,London,Toronto,Ehunt Thtsnlp
+804,yvOeiyuahB Corp,Retail,$11M,1285,1949,USA,Ontario,Munich,Iejfr Lbpktit
+805,vXwoDOvfgM Corp,Technology,$650M,609,1946,USA,Maharashtra,Pune,Oznkj Xjudlfu
+806,brlscqKLgR Corp,Technology,$773M,871,2010,India,Ontario,Munich,Endbz Alchnun
+807,iRHyxVmQPu Corp,Retail,$86M,1980,1952,UK,Bavaria,San Francisco,Xhiwt Grllqkt
+808,ODUwYMlUqH Corp,Healthcare,$160M,1314,1990,UK,Ontario,London,Vpjzk Hfpugdr
+809,cAyrhPMgHT Corp,Healthcare,$443M,4152,1952,Germany,California,San Francisco,Avovo Payvzee
+810,MRvkLDeGsa Corp,Finance,$224M,1728,1942,India,California,London,Ciimn Pjzffgk
+811,AjyrYvNlHC Corp,Finance,$640M,2935,1925,Canada,Ontario,London,Hdytf Yknsndm
+812,fdFeRGxBKm Corp,Technology,$725M,3197,1928,India,Maharashtra,Toronto,Dktpk Xacdtoc
+813,UzyHzsleUh Corp,Retail,$857M,1824,1967,UK,London,San Francisco,Fcuxu Mqnjbwe
+814,jGEHjCXSET Corp,Energy,$582M,2291,1948,India,California,Pune,Wspry Ylproqj
+815,ulxVNYWTKV Corp,Healthcare,$687M,1050,1910,UK,London,San Francisco,Jdsmq Gxoyzij
+816,uLDojDIzZr Corp,Technology,$295M,1295,1967,Germany,London,London,Gqbfq Hfdkeua
+817,WxjRGrdpto Corp,Retail,$977M,922,2010,India,Bavaria,San Francisco,Hmxnz Wkmsipv
+818,SysqIMkXgJ Corp,Energy,$429M,4035,1961,USA,Maharashtra,Toronto,Ovxic Imdrjqf
+819,aAOSNwcyqQ Corp,Retail,$92M,2038,2013,Canada,Bavaria,San Francisco,Uakkw Vqulkzd
+820,ooECtKLneM Corp,Technology,$211M,744,1939,India,Bavaria,Toronto,Itlxe Xcgzhuk
+821,uFkGMgaVhc Corp,Healthcare,$575M,1724,1934,UK,Maharashtra,Toronto,Bqfds Yofqaxa
+822,qlHJZJKkid Corp,Technology,$343M,3672,2015,Canada,Ontario,Toronto,Pppha Zulocbu
+823,ZnAaXyIhnz Corp,Finance,$51M,4969,1959,UK,California,London,Mjctl Iacywkh
+824,rBarsGHJog Corp,Finance,$789M,3807,1977,UK,Ontario,Toronto,Apgdl Qmqywky
+825,DYJgQvXWbH Corp,Healthcare,$910M,1709,1929,USA,London,London,Bhwdp Qmuzcdu
+826,VQpBCNCIqW Corp,Energy,$108M,1153,1954,Canada,Ontario,Munich,Qrjyf Buanikk
+827,sVMMRVjemj Corp,Retail,$289M,1881,1988,USA,California,Toronto,Adyam Kakktfu
+828,QKDRjahGrh Corp,Finance,$90M,1359,2005,UK,Bavaria,Pune,Ywdjh Wtmzhwc
+829,zhOOLZmbAK Corp,Healthcare,$910M,2675,1944,UK,Ontario,Toronto,Dujtc Ozitexx
+830,grkQhxGIzZ Corp,Retail,$192M,3833,2006,Canada,Bavaria,London,Rpqtz Hznzbhk
+831,WajqOJBbid Corp,Healthcare,$339M,2987,2012,India,London,San Francisco,Itnvy Ebagqbx
+832,suFVvigRYu Corp,Healthcare,$792M,4849,1961,USA,London,San Francisco,Npfnq Jmzvdqb
+833,yfUteMFvem Corp,Retail,$319M,2117,1914,USA,Maharashtra,Toronto,Nxkio Obtwacx
+834,AaEJxbrYui Corp,Energy,$358M,619,1993,Germany,Maharashtra,Pune,Qahgj Dhcaovh
+835,AksYqJBwRP Corp,Healthcare,$282M,4136,1941,Germany,Maharashtra,San Francisco,Xbwfj Xmzmkmv
+836,kPSvtSjmvD Corp,Energy,$738M,748,1945,Canada,Maharashtra,Pune,Yqedz Pxazgkg
+837,wxphJssoAW Corp,Healthcare,$343M,3772,2004,Germany,London,Pune,Zbfwq Dwkxtyj
+838,fjrUntnQlO Corp,Retail,$845M,3790,1930,India,Bavaria,London,Alqaj Xxfmcpy
+839,CqZcQsSoht Corp,Technology,$59M,3610,1974,Germany,Ontario,Pune,Jyrpk Hallulq
+840,ZarogdeMiv Corp,Energy,$891M,2667,1994,UK,Bavaria,London,Fqxxp Ertnrvg
+841,oHOBawDbYK Corp,Retail,$781M,4262,1979,Germany,London,Munich,Ulfhe Yorzglj
+842,qkDPdVSfMq Corp,Retail,$518M,3688,1918,Germany,Maharashtra,Munich,Igxlm Eosbnof
+843,CSfPsQiHLW Corp,Finance,$168M,1617,1976,UK,Maharashtra,San Francisco,Euoqu Xcvpltn
+844,qbPhMRzCeK Corp,Energy,$263M,991,2009,Germany,California,Munich,Mxmib Kslsqyl
+845,hPmUdqIPgR Corp,Healthcare,$37M,445,1961,India,Bavaria,Pune,Armsv Kpuzdxf
+846,zgCNruxieq Corp,Technology,$597M,277,1964,UK,Bavaria,Toronto,Ojecm Siuravq
+847,amaSfsnEUr Corp,Technology,$576M,1320,2012,Canada,Bavaria,San Francisco,Vssyn Ijeltpr
+848,rGEAiiGpXX Corp,Healthcare,$355M,2107,1961,Germany,Maharashtra,Toronto,Rywnc Pkxxefm
+849,OFnkPbSNEP Corp,Retail,$819M,2517,1995,UK,Ontario,Pune,Xljmn Gctggvv
+850,QJVsAsdODQ Corp,Finance,$899M,730,2002,Germany,London,Pune,Kvxfl Hgibuer
+851,EbZVJxobWu Corp,Technology,$121M,1086,1994,Germany,Ontario,San Francisco,Lwdfk Wcbekea
+852,yTPwAMGghQ Corp,Technology,$431M,2924,1942,Canada,Ontario,Pune,Uxeqf Ckdpwbm
+853,WhnxsHrsdJ Corp,Finance,$678M,187,1913,Germany,Ontario,Pune,Sstnr Nqxghcn
+854,rpipbnuZhv Corp,Retail,$404M,4001,1937,Canada,London,Pune,Rucag Bosczac
+855,YcPfNQnfvL Corp,Technology,$547M,264,1945,Canada,Maharashtra,Munich,Wykgx Qvytcyu
+856,vArZjNTebI Corp,Retail,$571M,3202,1945,Germany,Ontario,Pune,Zecat Djsybtt
+857,jxyweKAnwh Corp,Technology,$94M,4806,1921,USA,Maharashtra,Munich,Ppvvq Mihgpkn
+858,KJWkLtBRhs Corp,Technology,$936M,4070,2001,Canada,Bavaria,Toronto,Wswaj Ssafkkn
+859,JHyAZPHuJD Corp,Healthcare,$554M,4084,1984,USA,London,London,Elukg Uaxigky
+860,iBjqutprnS Corp,Energy,$553M,2116,1984,UK,Bavaria,Munich,Ggyhn Femhghh
+861,pvdoOPjgzs Corp,Energy,$810M,4617,1903,India,Ontario,Munich,Cpcab Jdhvkta
+862,ZoJLtySiAh Corp,Technology,$380M,1119,2008,USA,London,Pune,Nqszj Ukxamaj
+863,ocYVLpAvMJ Corp,Technology,$224M,4738,1915,Canada,Bavaria,Munich,Zcxgn Ngplsfl
+864,srQMFPeIHE Corp,Retail,$807M,2098,1944,Canada,Maharashtra,San Francisco,Prhpx Dtzrxdk
+865,BKJjZJxiMB Corp,Energy,$586M,2880,2016,Canada,California,Toronto,Yweje Mrcdvam
+866,DMSRxKdZOI Corp,Energy,$737M,4425,1930,USA,Ontario,San Francisco,Adysw Qlroclh
+867,eqropyJbCs Corp,Healthcare,$663M,4647,2005,Germany,Bavaria,London,Dunnv Vubrjel
+868,zSoVjJYhAq Corp,Energy,$800M,4191,1958,USA,Ontario,Pune,Mhwsj Saqlwjm
+869,vJKuvYvCUa Corp,Retail,$347M,1466,1952,India,Maharashtra,London,Xqypt Ggjplyf
+870,rffaOTEVHQ Corp,Finance,$714M,146,1939,Germany,Maharashtra,San Francisco,Addom Dmxedhu
+871,OXqCrDCRbx Corp,Technology,$185M,4662,1946,India,California,San Francisco,Syanv Mrkoueh
+872,csGaznaVKI Corp,Healthcare,$886M,2361,1918,Canada,California,Toronto,Vvrkd Lnbflvz
+873,ppRAnMnTti Corp,Healthcare,$816M,2614,2018,UK,London,Munich,Obqtg Xblnxlq
+874,HpFgmclVWZ Corp,Retail,$310M,4454,2022,Germany,California,Pune,Nfhzq Hisqnzp
+875,DeibjfwZtQ Corp,Energy,$223M,1478,2022,USA,California,San Francisco,Whduz Zbtpqek
+876,kCNdbKCmsZ Corp,Technology,$554M,3962,1981,UK,London,San Francisco,Irrpf Ckgvlfy
+877,uQAFnOeUGQ Corp,Healthcare,$890M,1487,1904,Canada,Bavaria,Toronto,Uxgjf Ntywraf
+878,eUMdavaKrc Corp,Retail,$995M,1785,1994,Germany,Maharashtra,San Francisco,Gpqkv Fbfuqzy
+879,veRySBEntS Corp,Technology,$967M,1639,1948,Canada,Bavaria,Toronto,Rurga Fezwpwg
+880,gPDkriFJat Corp,Retail,$659M,1736,1941,USA,London,San Francisco,Cddey Dojbnhn
+881,QzKlHuTMMT Corp,Finance,$339M,3775,1956,Germany,California,Toronto,Xfklq Qhxhhth
+882,PueewpKDPy Corp,Technology,$203M,853,1997,USA,Ontario,Pune,Vlbdy Vgfxcqe
+883,QPyjpIZqpe Corp,Energy,$671M,4758,1900,Canada,Bavaria,Toronto,Pnpmm Tmjdzfx
+884,ShmFEIcSez Corp,Energy,$5M,4209,1997,Germany,Ontario,Toronto,Zuqkn Dcviqnq
+885,tFxdniPCVr Corp,Energy,$734M,1325,1925,Canada,Bavaria,Munich,Ofuyq Hmubabo
+886,HulcbVgsiE Corp,Retail,$801M,4645,1996,UK,London,Toronto,Vejoz Nqcbhpy
+887,kYEteAHiXa Corp,Retail,$782M,3755,1922,India,London,Pune,Swfzy Bdrpcyg
+888,QEDzCiNthu Corp,Finance,$503M,4183,1943,UK,Maharashtra,Munich,Xovae Wbleolk
+889,jdCvZHnMbf Corp,Healthcare,$639M,693,1988,UK,Maharashtra,London,Rcngr Ywleaqz
+890,RJTcovSnRH Corp,Energy,$302M,4437,1940,India,Bavaria,Munich,Zizeq Mrwnygd
+891,bDINptFHiy Corp,Energy,$132M,4897,1932,USA,Bavaria,San Francisco,Bpmys Ixcavfm
+892,ZOEJkiNjie Corp,Energy,$634M,909,1998,India,Bavaria,Toronto,Cpykv Snpfqnb
+893,VCdijBZTGL Corp,Technology,$367M,3429,1930,USA,Maharashtra,London,Wnwqj Faptocp
+894,AKRhGzBzdS Corp,Healthcare,$259M,1892,1932,India,Bavaria,London,Phjbw Rzbctcj
+895,MFyYdxfGKz Corp,Technology,$287M,4134,1941,India,Ontario,London,Jtayv Kzyvztu
+896,fEZjMguZQq Corp,Retail,$717M,604,1978,India,California,Munich,Gdefb Sqzents
+897,emGvCuRCCE Corp,Finance,$767M,1528,1951,UK,Bavaria,San Francisco,Oipnf Eivvjbu
+898,IIFsFdgdJX Corp,Retail,$189M,4690,1916,Canada,California,Toronto,Vjlqk Kctuvik
+899,QjjDXIeYmg Corp,Energy,$703M,2915,1973,Germany,California,Toronto,Spijf Mzlulvb
+900,vcurfLBNCa Corp,Healthcare,$260M,1520,1980,Germany,California,Pune,Jvhbd Lwvldrb
+901,qxsTKJRIxG Corp,Finance,$504M,1203,2004,USA,Maharashtra,Toronto,Mkbdp Vrgalmc
+902,CnwIRzNlUy Corp,Technology,$200M,2424,1921,UK,Ontario,Toronto,Ighaz Ghbftbu
+903,agFfmyvqUD Corp,Finance,$343M,1111,2008,India,Maharashtra,Pune,Zvege Nferowl
+904,mOGtuemOxR Corp,Technology,$654M,2195,2020,India,Ontario,San Francisco,Vamhb Lmubbyx
+905,TLoiOPQgQu Corp,Healthcare,$60M,4433,2020,UK,California,San Francisco,Hldlz Opgbwpj
+906,DtqlbzNAcl Corp,Technology,$816M,830,1981,UK,Maharashtra,Pune,Mgcem Rttfdbu
+907,UmUFavPguD Corp,Healthcare,$484M,134,1978,UK,Ontario,Toronto,Cevaq Fgzbrjl
+908,YaojOooSan Corp,Healthcare,$671M,4255,1986,India,Maharashtra,San Francisco,Evzhi Izszpsg
+909,VYWNpGleVD Corp,Energy,$553M,2816,1970,USA,Maharashtra,Toronto,Gaucf Fsitony
+910,nDmgdvtpPw Corp,Retail,$617M,1927,1951,Germany,California,Toronto,Rmizu Yoxqjyj
+911,YwslMgJkEr Corp,Retail,$676M,3676,1980,India,Bavaria,Toronto,Wantp Xlklpfl
+912,gglSJXatdG Corp,Energy,$730M,4812,1977,USA,California,Munich,Pfeaf Lwdczrw
+913,zqABVzdwNh Corp,Healthcare,$131M,1483,1939,USA,Maharashtra,Munich,Dafqd Ixzjrcc
+914,vZCvsbejiq Corp,Finance,$592M,140,2001,India,California,Toronto,Kezdg Jamfooc
+915,zGIwEzdHDC Corp,Technology,$570M,1910,1969,USA,Ontario,Pune,Ejisc Egojrhy
+916,OxIoLZTGdR Corp,Technology,$24M,1562,1962,Germany,California,Pune,Hewwf Kyrsekz
+917,FbvmQQqYeh Corp,Retail,$527M,441,2012,UK,Maharashtra,Munich,Jopum Qzkwpqc
+918,ROGuWZANzB Corp,Healthcare,$664M,1304,1977,USA,Bavaria,Toronto,Yjdsd Lgbuumf
+919,VvnoalxmGl Corp,Finance,$303M,4138,1985,USA,Bavaria,Toronto,Nphwo Mgkmtie
+920,DgFmxDTDnX Corp,Technology,$449M,4757,1923,Germany,Maharashtra,London,Jqred Pfxayzs
+921,FuPJWGugnF Corp,Finance,$546M,1855,1995,Canada,California,San Francisco,Dyivu Toduttx
+922,WwBJsSDcul Corp,Healthcare,$487M,1359,1959,Canada,California,San Francisco,Ngxpk Szaznuz
+923,xalBGnsghJ Corp,Retail,$644M,2411,1957,USA,California,Pune,Mbxij Flvcrxh
+924,tlngkOoUss Corp,Retail,$219M,3563,1929,UK,London,San Francisco,Iszzr Jdmistm
+925,WSbcAsYVJF Corp,Energy,$222M,3499,1970,Canada,Ontario,San Francisco,Dkwxd Plbfccs
+926,vxDabfYmAx Corp,Energy,$340M,274,2017,Germany,Bavaria,San Francisco,Fnljx Hlziilh
+927,qGEzwxTWAp Corp,Energy,$807M,1821,2013,USA,Bavaria,London,Ppjit Fzxszhk
+928,proGkqgMSs Corp,Retail,$471M,1879,1907,UK,London,San Francisco,Cjxyz Ztelucs
+929,yuFyIOKHlL Corp,Energy,$662M,3651,1997,USA,Bavaria,Pune,Ydyhh Vdgonlh
+930,oetchesBnE Corp,Healthcare,$135M,2694,1924,Germany,Maharashtra,London,Mtntr Lfpfmsg
+931,gYmIAeYhyu Corp,Retail,$171M,3024,1927,India,Maharashtra,Pune,Zkdas Waatbql
+932,peClPYLLkb Corp,Retail,$153M,2312,1944,Canada,Maharashtra,London,Bijkx Teegjdj
+933,iOxsYBZgRl Corp,Healthcare,$546M,4617,1947,India,Ontario,London,Wyvzd Ymfebls
+934,LGDiGXMqxS Corp,Finance,$583M,1989,1981,Canada,Ontario,London,Oiyuo Lmmpiaj
+935,aTIIlZCZvb Corp,Healthcare,$34M,3643,1980,Germany,London,Munich,Cmnwc Finsgeo
+936,JbOtHPtXaH Corp,Finance,$851M,389,1902,India,Ontario,Pune,Mrlcs Iceurnc
+937,JcFCzilVwz Corp,Energy,$999M,2583,1917,Germany,Bavaria,London,Xlxfy Rkpgacw
+938,xMeZrernsd Corp,Energy,$201M,3597,1914,Canada,Ontario,London,Hoeck Bttbulr
+939,KefHCtWWdo Corp,Technology,$106M,1347,1900,India,California,Pune,Ugtvb Ytnncse
+940,CUsfXGewTN Corp,Finance,$979M,4974,2019,USA,Maharashtra,Munich,Mapqy Bdwysre
+941,LCGiLMMuvQ Corp,Retail,$930M,872,1928,UK,California,Pune,Biwfx Shemuhj
+942,QQEjoJWWZE Corp,Energy,$478M,4488,2020,USA,London,Toronto,Hepzl Fkeiqbw
+943,laWAIkYNtm Corp,Finance,$980M,1828,2002,India,Bavaria,Toronto,Akfru Rjnhgxp
+944,QEgOqxTPep Corp,Energy,$975M,2106,1957,UK,Maharashtra,Munich,Kksmi Wacnwsg
+945,ZiKtbvdKiP Corp,Retail,$46M,744,1947,Canada,California,London,Gsaxc Uddckgn
+946,TFroMDJiBP Corp,Energy,$116M,4628,1968,Canada,London,San Francisco,Pvtjq Jqqhvhj
+947,YDhSaXqdts Corp,Retail,$375M,3461,1947,Canada,Bavaria,Munich,Gtuwt Sxdwuoj
+948,vHtNOUbmSg Corp,Technology,$618M,4888,1975,UK,Bavaria,London,Netyl Hpoebax
+949,dfbCqSQYgJ Corp,Healthcare,$686M,2047,1938,Germany,Bavaria,Munich,Easep Daxaraq
+950,nELClosyId Corp,Energy,$689M,57,1941,Canada,Maharashtra,Pune,Rctje Lttpcjm
+951,OUkZmBmkso Corp,Technology,$646M,884,1922,Germany,Bavaria,Pune,Vmtxq Hlkwkfu
+952,EFiOfHGGWf Corp,Healthcare,$978M,4607,1936,USA,California,London,Vhayn Zslzhgu
+953,cYAEPFVvwN Corp,Energy,$677M,354,1900,Canada,London,Pune,Cirfo Pdboxpw
+954,IVgDCHXxtw Corp,Technology,$329M,3834,2017,India,Maharashtra,Munich,Betrn Iyuqjji
+955,ICdFYJTiPt Corp,Energy,$536M,1661,1950,India,Maharashtra,Pune,Fopsp Zwqkyyc
+956,fCdUaOMbXV Corp,Energy,$240M,1637,1911,India,Maharashtra,Munich,Gjucl Gbcatuv
+957,rhWyRuChWR Corp,Healthcare,$407M,1086,1909,USA,Maharashtra,London,Kxaao Zilawwh
+958,kGMDrFffmf Corp,Healthcare,$591M,1997,1980,Canada,London,London,Zjscl Ysntcvm
+959,TYAYgXIJCz Corp,Energy,$553M,501,1939,UK,Bavaria,San Francisco,Xwvkz Apkdfhn
+960,qTZHSdZzgI Corp,Healthcare,$169M,250,1974,UK,Ontario,London,Fivmf Kkasjfx
+961,SBkzfOADwh Corp,Finance,$732M,1931,1979,USA,California,Pune,Kwcgg Veniiky
+962,uLvBMvtnaS Corp,Technology,$65M,1991,1924,UK,Bavaria,San Francisco,Lvvoe Qvfyora
+963,ZAAniGrLnx Corp,Energy,$280M,3371,2019,Canada,Maharashtra,San Francisco,Ariua Wuvtqja
+964,njoqZxKMTL Corp,Finance,$317M,2911,1924,India,Ontario,San Francisco,Xayrg Hoopiye
+965,uSPonrKfFC Corp,Technology,$956M,3277,1922,UK,California,Toronto,Tvzge Dgyisla
+966,eLhMEBHFlh Corp,Energy,$569M,2694,1987,UK,Maharashtra,Toronto,Dhddt Pxtncsw
+967,BOXestJPzM Corp,Technology,$311M,3111,1971,USA,Bavaria,San Francisco,Ahefe Wrntebk
+968,bjIDtyEWea Corp,Technology,$371M,3059,1974,Germany,Maharashtra,Pune,Dzuhs Mpvsdtv
+969,eRhhUFWwvO Corp,Finance,$69M,3331,2020,India,California,Munich,Tljak Cfirpcq
+970,uUulsncyzK Corp,Energy,$492M,525,2023,India,London,Munich,Dyiui Zqdnxxg
+971,HVRIRSlugJ Corp,Energy,$746M,3381,2002,UK,Bavaria,Munich,Szieo Exblkjb
+972,kxheSvjuaQ Corp,Technology,$314M,3399,1966,USA,California,Munich,Jqwvr Khhsldl
+973,wXbrxLWooL Corp,Finance,$577M,1974,1968,UK,Bavaria,San Francisco,Stbpi Tkqawsl
+974,jhcuZEfBhw Corp,Energy,$925M,3697,2003,Canada,London,Munich,Elzxw Wiyzoqw
+975,MtougtcaPf Corp,Healthcare,$138M,221,1902,India,Bavaria,Toronto,Mkzrw Wiiirph
+976,JyTQcRHhbt Corp,Retail,$227M,2005,2021,UK,Bavaria,Toronto,Eldsm Mbvqhla
+977,ntDIhswXHy Corp,Energy,$681M,3742,1915,UK,California,Pune,Wbzfb Vhbigjn
+978,HciEJQQAHu Corp,Energy,$376M,3130,2016,UK,Maharashtra,Munich,Gonsj Wxacbpk
+979,ualKIGJZyg Corp,Finance,$577M,4728,2004,India,Bavaria,Munich,Qeukx Ihxzuhc
+980,MzTRwCEFnv Corp,Healthcare,$634M,1905,2002,UK,Maharashtra,Munich,Ixgae Eowmbtg
+981,WCQvcINPNf Corp,Retail,$477M,2268,1933,Canada,Maharashtra,Pune,Jrbjk Vgzyygv
+982,UOPfHwoipV Corp,Healthcare,$868M,3196,1933,India,Bavaria,London,Qtoyd Alaalaf
+983,iPyKyafNSU Corp,Retail,$895M,888,1935,UK,California,San Francisco,Cacad Idsstqb
+984,UvBDdMRfGH Corp,Finance,$300M,2086,1926,UK,Maharashtra,Pune,Pguxs Hlxxvvr
+985,wyNrMrpyMz Corp,Retail,$793M,1271,1943,India,Maharashtra,San Francisco,Boiaa Izinabl
+986,AIDDDHTFJh Corp,Finance,$294M,4052,1960,India,Maharashtra,London,Zmxlq Ijekjgv
+987,AYaNzGDnzU Corp,Finance,$575M,2827,1995,UK,London,London,Dluqy Ilxskqa
+988,fFGVURfZSG Corp,Healthcare,$913M,1832,1910,India,California,Pune,Aubet Uhekgjd
+989,cNhOpYZruJ Corp,Finance,$908M,404,1969,India,Maharashtra,Pune,Ujann Hkwcydr
+990,nJEZRfMAaL Corp,Healthcare,$69M,297,2021,Canada,Bavaria,Toronto,Scnav Egguoap
+991,EZAPypVVBs Corp,Technology,$869M,2863,1909,UK,Bavaria,San Francisco,Mjvna Dvnqzrk
+992,SiHgkWaFuY Corp,Energy,$140M,2686,1948,USA,Maharashtra,Pune,Exfjr Xjwrlmg
+993,GOMLVQFtvJ Corp,Finance,$726M,4359,1919,UK,London,San Francisco,Qhtwf Gyttuig
+994,KEKrKMSPBW Corp,Energy,$215M,4946,2021,Canada,Ontario,London,Xqzlq Rddbuzy
+995,BkSPjCPUiv Corp,Technology,$376M,436,2012,India,Maharashtra,London,Gobdc Bdjvuhv
+996,sORJlyaMJO Corp,Technology,$21M,1525,1997,Germany,California,Munich,Vjsnn Cbakabp
+997,XYdVxYRgIh Corp,Technology,$248M,3884,1945,Canada,California,Munich,Wzige Tadbeyb
+998,KdAQgVYgek Corp,Energy,$903M,877,1941,India,Ontario,Toronto,Qrtmb Cociflm
+999,rWJpPDbSkh Corp,Healthcare,$343M,3894,2012,India,London,Pune,Azqyd Hnxwnfv
+1000,qQWggKzcZd Corp,Technology,$98M,3278,1959,Canada,Maharashtra,San Francisco,Vyhwe Vywubga
