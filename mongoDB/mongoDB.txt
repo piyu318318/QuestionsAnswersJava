@@ -39,7 +39,8 @@ Indexes can be created to improve query performance.
 Point 7:High Performance
 MongoDB is optimized for high write and read performance, especially for unstructured or semi-structured data.
 
-******************************************************************************************************************************************
+************************************************************************************************************************************************************************
+
 Step 1: Create an database 
 In MongoDB, a database is created automatically when you insert data into it. For example, to create a database called piyush, simply switch to it:
 use piyush
@@ -81,7 +82,7 @@ db.students.deleteMany({})
 
 
 
-*********************
+************************************************************************************************************************************************************************
 Helpful Commands
 
 Show all databases:
@@ -96,10 +97,19 @@ db.books.drop()
 Drop a database:
 db.dropDatabase()
 
-****************************
+************************************************************************************************************************************************************************
 
 
+Feature	                           MongoDB	                                                            Relational Databases
+Data Storage	            JSON-like documents (BSON)	                                            Tables with rows and columns
+Schema	                  Schema-less or dynamic	                                                Fixed schema with predefined structure
+Relationships	            Embedded documents and references                                       Foreign keys and joins	
+Scalability               Horizontally scalable (sharding)                                        Vertically scalable (limited by hardware)	
+Query Language            MongoDB Query Language (MQL)		                                        SQL
+Best Use Cases            Big Data, real-time analytics, IoT applications		                      Structured data with relationships
 
+
+************************************************************************************************************************************************************************
 
 
 
