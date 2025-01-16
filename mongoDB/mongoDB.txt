@@ -1,0 +1,108 @@
+***MONGODB***
+
+MongoDB is a NoSQL database designed for modern application development. Unlike traditional relational databases (like MySQL or PostgreSQL), 
+MongoDB stores data in a document-oriented format, making it highly flexible, scalable, and efficient for working with large datasets.
+
+Key Features of MongoDB
+Document-Oriented Storage
+Data is stored in JSON-like documents called BSON (Binary JSON), making it easy to work with nested or hierarchical data.
+{
+  "name": "Alice",
+  "age": 25,
+  "skills": ["Python", "MongoDB", "AWS"]
+}
+
+
+Schema Flexibility
+Unlike relational databases, MongoDB does not enforce a strict schema. Each document in a collection can have a different structure.
+Example
+// Document 1
+{ "name": "Alice", "age": 25 }
+// Document 2
+{ "name": "Bob", "skills": ["Python", "SQL"] }
+
+
+Collections, Not Tables
+MongoDB uses collections instead of tables.
+Collections are groups of documents, similar to tables grouping rows in relational databases.
+
+
+Horizontal Scalability
+MongoDB supports sharding, meaning it can distribute data across multiple servers for load balancing and high availability.
+
+Rich Query Language
+MongoDB supports powerful query operations such as filtering, sorting, aggregations, and text searches.
+
+Indexing
+Indexes can be created to improve query performance.
+
+High Performance
+MongoDB is optimized for high write and read performance, especially for unstructured or semi-structured data.
+
+
+Step 1: create an database 
+In MongoDB, a database is created automatically when you insert data into it. For example, to create a database called piyush, simply switch to it:
+use piyush
+
+Step 2: Create a Collection and Insert Data
+Collections are created when you insert the first document. Let’s create a collection named students and insert some data into it:
+db.students.insertOne({
+   name: "John Doe",
+   age: 25,
+   course: "Computer Science"
+})
+
+
+To insert muyultiple document at a time use command 
+db.students.insertMany([
+   { name: "Alice", age: 22, course: "Data Science" },
+   { name: "Bob", age: 24, course: "Machine Learning" },
+   { name: "Charlie", age: 23, course: "Artificial Intelligence" }
+])
+
+
+Step 3: Retrieve Data
+To view the data in the students collection, use the find() method:
+db.students.find()
+
+
+Step 4: Update Data
+db.students.updateOne(
+   { name: "Alice" },  // Filter
+   { $set: { age: 23 } }  // Update
+)
+
+
+Step 5: Delete Data
+To delete a specific document
+db.students.deleteOne({ name: "Bob" }) 
+To delete all documents in a collection:
+db.students.deleteMany({}) 
+
+
+
+*********************
+Helpful Commands
+
+Show all databases:
+show dbs
+
+Show all collections:
+show collections
+
+Drop a collection:
+db.books.drop()
+
+Drop a database:
+db.dropDatabase()
+
+****************************
+
+
+
+
+
+
+
+
+
