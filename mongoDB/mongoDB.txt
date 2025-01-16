@@ -3,8 +3,8 @@
 MongoDB is a NoSQL database designed for modern application development. Unlike traditional relational databases (like MySQL or PostgreSQL), 
 MongoDB stores data in a document-oriented format, making it highly flexible, scalable, and efficient for working with large datasets.
 
-Key Features of MongoDB
-Document-Oriented Storage
+********Key Features of MongoDB********
+Point 1:Document-Oriented Storage
 Data is stored in JSON-like documents called BSON (Binary JSON), making it easy to work with nested or hierarchical data.
 {
   "name": "Alice",
@@ -13,7 +13,7 @@ Data is stored in JSON-like documents called BSON (Binary JSON), making it easy 
 }
 
 
-Schema Flexibility
+Point 2:Schema Flexibility
 Unlike relational databases, MongoDB does not enforce a strict schema. Each document in a collection can have a different structure.
 Example
 // Document 1
@@ -22,25 +22,25 @@ Example
 { "name": "Bob", "skills": ["Python", "SQL"] }
 
 
-Collections, Not Tables
+Point 3:Collections, Not Tables
 MongoDB uses collections instead of tables.
 Collections are groups of documents, similar to tables grouping rows in relational databases.
 
 
-Horizontal Scalability
+Point 4:Horizontal Scalability
 MongoDB supports sharding, meaning it can distribute data across multiple servers for load balancing and high availability.
 
-Rich Query Language
+Point 5:Rich Query Language
 MongoDB supports powerful query operations such as filtering, sorting, aggregations, and text searches.
 
-Indexing
+Point 6:Indexing
 Indexes can be created to improve query performance.
 
-High Performance
+Point 7:High Performance
 MongoDB is optimized for high write and read performance, especially for unstructured or semi-structured data.
 
-
-Step 1: create an database 
+******************************************************************************************************************************************
+Step 1: Create an database 
 In MongoDB, a database is created automatically when you insert data into it. For example, to create a database called piyush, simply switch to it:
 use piyush
 
