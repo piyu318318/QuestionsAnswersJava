@@ -1,0 +1,30 @@
+
+
+
+"""
+1.what is maximum object that we can store into s3?
+5TB
+
+2.what is versioning in s3?
+S3 versioning is a feature in Amazon Simple Storage Service (S3) that allows you to keep multiple versions of an object in the same bucket.
+This helps in accidental deletion protection, rollback, and recovery of data.
+example i have uploaded abc.txt in my bucket and i have made changes in abc.txt on local and uploaded it to the same bucket. this will overwrite the abc.txt
+now after few days i want the file when i had uplaoded abc.txt first time on s3 to recover this versioning is very useful.
+
+3.what is pre-signed URL in AMAZON s3?
+if you want to give temp access to a user for specific object (file) for specific time.
+select the file on s3 and click on actions and click on share with presigned url.
+
+4.can wwe use amazon s3 to host static website
+yes
+
+5.how can you tranfer the data into and out of s3?
+aws cli
+boto3 python liabrrary
+aws console
+
+6.what are storage classes in AWS s3?
+i)glacier storage
+ii)standerd storage
+
+"""
