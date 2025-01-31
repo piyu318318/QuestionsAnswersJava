@@ -1,0 +1,26 @@
+1.what is ec2 instance?
+ec2 machines are virtal machines in cloud and scale them as needed
+
+2.what is instnace ?
+an instance is virtual server launched in cloud it includes computer capacity, memory , storagee.
+
+3.how to you chose right instace for your application ?
+you should consider cpu , memory , storage , and network requirenments 
+
+4.what is AMI?
+operating system of your systems example linux, windows , ubuntu 
+
+5.how can you secure your ec2 machines ?
+you can secure ec2 machines by securing your security group inbound and out bbound rules and firewall trafiv.
+you can create iam roles to controll permissions 
+
+6.what is elastic ip address ?
+whenever we launched ec2 instance by default we get public ip address this public ip address will change if we start and stip instance if you dont want this 
+to be happened we can use elatic ip address.
+
+7.how can you scale ec2 instance based on demand ?
+you can use auto scaling up or scaling down EC2 instance 
+
+8.what is ec2 instance metadata ?
+instance metadata that you can use to configure and managing running instance.
+
