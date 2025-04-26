@@ -2,13 +2,52 @@
 CREATE A DATABASE IN SNOWFLAKE 
 ************************************************************************************************************************************************
 -- Create a database from the share.
-create database snowflake_sample_data from share sfc_samples.sample_data;
+syntx :
+create schema piyush_snowflake.my_schema;
+use  schema piyush_snowflake.my_schema;
+
+use database piyush_snowflake;
+use schema my_schema;
+create or replace table emp (
+    id integer,
+    name string,
+    department string,
+    salary number(10,2)
+);
+
+
+insert into emp (id, name, department, salary) values
+(1, 'Alice', 'HR', 60000.00),
+(2, 'Bob', 'Finance', 70000.00),
+(3, 'Charlie', 'Engineering', 90000.00),
+(4, 'Diana', 'Marketing', 65000.00),
+(5, 'Ethan', 'Engineering', 85000.00),
+(6, 'Fiona', 'Finance', 72000.00),
+(7, 'George', 'HR', 58000.00),
+(8, 'Hannah', 'Sales', 63000.00),
+(9, 'Ian', 'Sales', 61000.00),
+(10, 'Jane', 'Engineering', 95000.00);
+
 
 -- Grant the PUBLIC role access to the database.
 -- Optionally change the role name to restrict access to a subset of users.
-grant imported privileges on database snowflake_sample_data to role public;
+grant imported privileges on database piyush_snowflake to role public;
 
 Using grant command You are allowing all users (because of the PUBLIC role) to access the shared database and its objects, using the privileges that were imported from the provider.
+
+
+
+1. Database 📦
+A Database in Snowflake is like a big container.
+It stores schemas, tables, views, functions, etc.
+Think of a database as a library — it holds many collections (schemas).
+You must create or use a database before you can create tables, views, etc.
+
+
+2. Schema 🗂️
+A Schema is a sub-container inside a database.
+It organizes objects like tables, views, procedures, etc.
+A database can have many schemas.
 
 ************************************************************************************************************************************************
 
