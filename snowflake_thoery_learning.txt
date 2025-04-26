@@ -1,1 +1,18 @@
-abc
+
+CREATE A DATABASE IN SNOWFLAKE 
+************************************************************************************************************************************************
+-- Create a database from the share.
+create database snowflake_sample_data from share sfc_samples.sample_data;
+
+-- Grant the PUBLIC role access to the database.
+-- Optionally change the role name to restrict access to a subset of users.
+grant imported privileges on database snowflake_sample_data to role public;
+
+Using grant command You are allowing all users (because of the PUBLIC role) to access the shared database and its objects, using the privileges that were imported from the provider.
+
+************************************************************************************************************************************************
+
+
+
+
+
