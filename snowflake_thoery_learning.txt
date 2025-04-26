@@ -53,5 +53,41 @@ A database can have many schemas.
 
 
 
+SNOWFLAKE ARCHITECHTURE 
+************************************************************************************************************************************************
+
+There are three layesrs of snowflake 
+1.cloud services - brain of the system . This is the layer where we manage the infra structure. manages security , metadata,query optimization this is all done in cloud services.
+2.query processing (warehouses )- muscles of the systems because it provides the actual compute power to execute the querires. these are virtual computer resources that are used to process queries and all of the operation we are executing.These warehouses can also perforrm masisve parellel processing which makes them more efficient. we can like also combine multiple queries and process them at the same time.
+3.storage - this is where actual data is getting stored , its hybrid columnar storage saved in blobs , the data is getting stored in columns so when we query the data we fetch the d those blobs , it makes more efficinent to store the data and for better performnace for analytical .
+
+
+
+WAREHOUSES
+
+warehouses are virtual compute instances of servers that are use to process the queries .
+Warehoiuses provides the compute capacity 
+
+sizes of warehouse 
+xs- extra small - it has only one server (1 server)
+s- small - if our queries are comples we can use small  (2 servers)
+m- medium - if queries get more complex it would be good to fast the queries (4 servers)
+L- large  -(8 servsers)
+XL - (16 servsers)
+
+MULTICLUSTERING  WAREHOUSE IN SNOWFLAKE 
+Snowflake offers multi clustering this menas that one warehouse for example of size s contains the query load additional clusters can be activated and they can be clusetred togetther into one warehouse 
+
+multicluster warehouse below 
+______________________
+|   small cluser █    |
+|   small cluser █    |
+|   small cluser █    |
+_______________________
+
+************************************************************************************************************************************************
+
+
+
 
 
