@@ -88,6 +88,9 @@ _______________________
 To create a warehouse in snowflake you need to have admin access 
 To create warehouse in snowflake we need accountadmin role and securityadmin role is second most powerful after accountadmin.
 Sysadmin role usually manages the warehouses.
+For every warehouse we can have multiple features a)auto suspend the warehouse if it is inactive for specific period to save the cost b)auto resume is the most recomendded feature 
+when we execute the query the specific warehouse will start automatically so we dont need to turn on manually.
+Another feature is multi cluster featuers you can simply increase and decrease the speciffc clusters while creating a warehouse.
 
 
 ************************************************************************************************************************************************
