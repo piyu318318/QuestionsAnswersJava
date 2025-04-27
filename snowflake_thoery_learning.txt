@@ -92,6 +92,7 @@ For every warehouse we can have multiple features a)auto suspend the warehouse i
 when we execute the query the specific warehouse will start automatically so we dont need to turn on manually.
 Another feature is multi cluster featuers you can simply increase and decrease the speciffc clusters while creating a warehouse.
 
+<img width="1718" alt="Image" src="https://github.com/user-attachments/assets/3063b1fa-5566-47de-bfaf-23146bc9fe25" />
 
 ************************************************************************************************************************************************
 
