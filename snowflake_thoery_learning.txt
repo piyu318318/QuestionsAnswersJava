@@ -90,7 +90,7 @@ To create warehouse in snowflake we need accountadmin role and securityadmin rol
 Sysadmin role usually manages the warehouses 
 
 
-
+<img width="1718" alt="Image" src="https://github.com/user-attachments/assets/e8eb9bd2-0511-4752-a1b7-2dff35dd539e" />
 
 ************************************************************************************************************************************************
 
