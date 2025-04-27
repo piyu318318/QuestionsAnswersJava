@@ -85,14 +85,32 @@ ______________________
 |   small cluser █    |
 _______________________
 
+
+Create Warehouse using snowflake UI
+
 To create a warehouse in snowflake you need to have admin access 
 To create warehouse in snowflake we need accountadmin role and securityadmin role is second most powerful after accountadmin.
 Sysadmin role usually manages the warehouses.
 For every warehouse we can have multiple features a)auto suspend the warehouse if it is inactive for specific period to save the cost b)auto resume is the most recomendded feature 
 when we execute the query the specific warehouse will start automatically so we dont need to turn on manually.
 Another feature is multi cluster featuers you can simply increase and decrease the speciffc clusters while creating a warehouse.
+While creating warehosue there are 2 types of warehosue 1)standerd warehouse - it is one we use in most cases 2)snowpark optimized warehouse - its litte different type of warehouse it offers the larger memory if we want to perform memory intension operations snowpark optimized warehouse comes in the picture, moslty used in machine learning.
+query accelerator -> while creating the warehouse we can enable the query accelerator which will benifitd to fast the querires , also additionly if we enable thisit will cost more accoring to snowflake team plan.
 
-<img width="1718" alt="Image" src="https://github.com/user-attachments/assets/3063b1fa-5566-47de-bfaf-23146bc9fe25" />
+create warehouse using SQL commandS.
+
+CREATE OR REPLACE WAREHOUSE SECOND_WH
+WITH
+WAREHOUSE SIZE = XSMALL 
+SCALING_POLICY = 'ECONOMY'
+AUTO_SUSPEND = 300
+MIN_CLUSTER_COUNT = 1
+MAX_CLUSTER_COUNT = 2
+INITIALLY_SUSPENDED = TRUE
+COMMENT = 'THIS IS OUR FIRST WAREHOUSE'
+
+
+ 
 
 ************************************************************************************************************************************************
 
