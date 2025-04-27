@@ -85,6 +85,11 @@ ______________________
 |   small cluser █    |
 _______________________
 
+To create a warehouse in snowflake you need to have admin access 
+To create warehouse in snowflake we need accountadmin role and securityadmin role is second most powerful after accountadmin.
+Sysadmin role usually manages the warehouses 
+
+
 ************************************************************************************************************************************************
 
 
