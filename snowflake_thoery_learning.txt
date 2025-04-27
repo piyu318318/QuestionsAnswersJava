@@ -109,11 +109,63 @@ MAX_CLUSTER_COUNT = 2
 INITIALLY_SUSPENDED = TRUE
 COMMENT = 'THIS IS OUR FIRST WAREHOUSE'
 
+We can also alter the warehouse using SQL commands bewlow 
 
- 
+1)ALTER WAREHOUSE SECOND_WH RESUME 
+2)ALTER WAREHOUSE SECOND_WH SUSPEND
+3)ALTER WAREHOUSE SECOND_WH RESUME SET  WAREHOUSE_SIZE = 'SMALL'
+4)ALTER WAREHOUSE SECOND_WH RESUME SET  AUTO_SUSPEND = 60
+5)DROP WAREHOUSE SECOND_WH
 
 ************************************************************************************************************************************************
 
+
+SCALING POLICIES IN SNOWFLAKE 
+************************************************************************************************************************************************
+For exmaple we have multi cluster and at then same time on one warehouse use has executed multiple queries so to process multiple queries user will have to wait for long time so the solution is to scale up the depending on work dynamically on cluster in mulsti cluster warehouse. by using this we can redistribute the load of the queries on multi clusters.
+
+use case of multi cluster  -> when we have more work load means we have more queries for example we have times when we have more users for exmaple we have peak hours in the afternoon then we have more users and more queries and thi is excly use case when we use multi cluster becasue in this case its very efficient for hanfling more workload so more queries and more users good use case is not when we have more complex queries.
+
+use case of scaling up the cluster size : 
+when we have more complex queries running on warehouse threfore we need more compute to increase the size of cluster instead of spinning up the addional cluster.
+
+
+scaling policies types 
+
+A)Standard Scaling Policy
+Fast to add more compute power when needed.
+starts the cluster immidiately when needed.
+Fast to shut down extra compute when not needed.
+Good for: workloads where you care about speed and performance more than cost.
+Example: If many users suddenly run queries at once, Snowflake quickly adds more clusters to handle it.
+
+B)Economy Scaling Policy
+Slower to add or remove compute.
+Prioritizes saving money over being super fast.
+Good for: workloads where you’re okay with slower scaling to save costs.
+Example: Snowflake waits a bit longer before adding new clusters even if queries pile up, hoping the load will go down soon and avoid paying for more clusters.
+
+Super simple difference:
+Standard = fast scaling for performance.
+Economy = slower scaling for cost savings.
+************************************************************************************************************************************************
+
+
+TYPES OF DATABASES IN SNOWFLAKE 
+************************************************************************************************************************************************
+
+1. Standard (User-Created) Database
+This is a regular database that you create to store your own data (tables, views, etc.).
+
+2. System Databases
+(Built-in by Snowflake, you don't create them)
+SNOWFLAKE ➔ Holds metadata, billing, account usage info
+SNOWFLAKE_SAMPLE_DATA ➔ Free public sample datasets (like TPCH_SF1).
+
+3. Share Database (Shared via Data Sharing)
+This is not your own — it’s shared with you from another Snowflake account.
+You can't change the shared data, but you can query it like your own.
+Used for: getting real-time data from partners/vendors without copying it.
 
 
 
