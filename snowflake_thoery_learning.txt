@@ -168,5 +168,90 @@ You can't change the shared data, but you can query it like your own.
 Used for: getting real-time data from partners/vendors without copying it.
 
 
+LOAD DATA INTO SNOWFLAKE 
+************************************************************************************************************************************************
+
+step 1 : create a buckety on s3 location and while creating a bucket make publically accessible so snowflake can will able to use  KEEP BUCKET NAME bucketsnowflakes3.
+
+
+step 2: create database and tables 
+
+CREATE DATABASE OUR_FIRST_DB; 
+
+CREATE TABLE "OUR_FIRST_DB"."PUBLIC"."LOAN_PAYMENT" (
+  "Loan_ID" STRING,
+  "loan_status" STRING,
+  "Principal" STRING,
+  "terms" STRING,
+  "effective_date" STRING,
+  "due_date" STRING,
+  "paid_off_time" STRING,
+  "past_due_days" STRING,
+  "age" STRING,
+  "education" STRING,
+  "Gender" STRING);
+  
+  
+ //Check that table is empy
+ USE DATABASE OUR_FIRST_DB;
+
+ SELECT * FROM LOAN_PAYMENT;
+
+ 
+ //Loading the data from S3 bucket
+  
+ COPY INTO LOAN_PAYMENT
+    FROM s3://bucketsnowflakes3/Loan_payments_data.csv
+    file_format = (type = csv 
+                   field_delimiter = ',' 
+                   skip_header=1);
+    
+
+//Validate
+ SELECT * FROM LOAN_PAYMENT;
+
+
+
+
+
+
+
+WHAT IS DATA WAREHOSUE 
+************************************************************************************************************************************************
+
+purpose of warehouse is consolidate and integrate  different datasources and use them and optimize them for reporting and data analysis.
+datawarehouse is always a database foor analytics purposes.
+
+
+                raw data 
+
+hr data       ---------------------->
+
+sales data    ---------------------------------->     ETL PROCESS -----------------> STORE INTO WAREHOUSE --------------------> ANALYSIS 
+
+finanance data ---------------------->
+
+
+ETL
+extract the raw data and store it in seperate database or schema on snowflake , then transformation is to apply busniness logic , and store the trnasformed data into snowflkae 
+
+
+
+
+
+DIFFERENT LAYES 
+
+
+    ________________________                        ________________                        ________________
+|                            |                 |                        |                |                    |
+|           RAW DATA         |                 |    DATA INTEGRATION    |                |   ACCESS LAYER     |
+|                            |     --->        |                        |  ---->         |                    |
+| __________________________ |                 |    _________________   |                |  ________________  |
+
+STAGING AREA                                     DATA TRANFORMING                         
+
+
+
+
 
 
