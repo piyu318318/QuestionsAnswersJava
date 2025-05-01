@@ -252,6 +252,102 @@ STAGING AREA                                     DATA TRANFORMING
 
 
 
+WHAT IS CLOUD COMPUTING
+************************************************************************************************************************************************
 
+
+Historically it was necessary to have a data center if oragnisation wants to work with the data , to store a large amount of data physically in a data center room,this can cause tedius task since we hahve to maintain infrastructre , reponsible for security server has to be cool which can increase electricity , monitor all this is hectic task.
+In snowflake we just have to create account all the stuff will be maintained by the snowflake itself 
+
+
+coloud computing -
+application --> we are only responsible for only  application means a creating databases , tables and just implementing our databases and tables according to our needsand all of the other isuue and responsibilities snowflake is dealing with .
+
+physical machines , vritual machines and physical storage --> the cloud providers are taking care of. so this would be  AWS  , azure of gcp.
+
+oprating system , data , software ---> snowflake deals with oprating system , data , software and metadata .
+
+
+
+
+
+DIFFRENT EDITIONS OF SNOWFLAKE 
+************************************************************************************************************************************************
+
+STANDERD EDITION ------> introducoty level
+ENTERPRISE EDITION ------> additional features for needs of large scale enterprises 
+BUSINESS CRITICAL EDITION ------> if your organization working with sensitive data this edition is more useful since it provides a high data protection 
+VIRTUAL PRIVATE ------> if we are dealing with highly sensitive data for example governance of finincial institutiono then we have virtual private edition, to set this up we nned to directly reach out snowflka team this cannot be setup just by using website since it has our own dedicated environment.
+
+
+
+STANDERD EDITION
+1.COMPLETE DWH
+2.Automatic data encryption
+3.broad support for standered and special data type.
+4.time travel up to 1 day . this allow us travel back and query historical data that is not anymore available in the database and this can be done upto one day in the past.
+5.disaster recovery for 7 days beyond time travel.
+6.newwortk policies 
+7.secure data share
+8.SSO
+
+ENTERPRISE EDITION 
+1.multi cluster warehouse 
+2.time travel upto 90 days 
+3.materialized views
+4.search optiization
+5.column level security - we can show and hide some specific columns based on the roles of the users.
+
+BUSINESS CRITICAL EDITION
+1.all enterprise features.
+2.additional security features.
+3.support for data specific regulations.
+4. database fail over and failback disaster recovery.
+
+
+virtiual private 
+1.all business critical edition 
+2.dedicated virtual servers which is complely isolates frmo snowflake accounts.
+
+
+
+
+
+SNOWFLAKE PRICING 
+************************************************************************************************************************************************
+
+
+TWO BLOCKS OF PRICE IN SNOWFLAKES ARE 
+
+                1.COMPUTE             2.STORAGE 
+
+thsese two main blovks are decoupled means they are independt of each other when we need storage we can simply increase the storage we dont need to pay any additional compute , pay only for what we need snowflake leverages extranal cloud providers like aws, azure .
+
+
+compute 
+Its seperated in three parts 
+a)active warehouse ---> we only pay for warehouse which are active it has standerd cost for query processing .
+b)cloud services -> for cloud service task like need to use s3 from aws this is mamanged fully by snowflake.
+c)serverless --> automatic reclustering , search optimization , and snowpipe . for example in snowpipe we have some data which uploads on s3 and snowflake ppipeline gets triggered after uploading file on s3.
+
+Snowflake Charges 
+charged for active warehouse per hour 
+billed by seconds - time 
+depends on size of warehouse 
+chared not in dollars and rupees but in credits in snowflake.
+its also depend on the region of your snowflake account 
+
+DATA TRANSFER COSTS
+************************************************************************************************************************************************
+
+There is monthly fee depending how much data we stored  so this is calculated ddaily average basis, the cost is based on region of the snowflake account.
+we are not charged for uploading the data into snowflake this is because extrnal cloud providers also dont charges the for data ingress but if dhe data out of the snowflake means means data egress then it is charged we have costs for this.
+also for storing the data it costs accoring to the data.
+
+
+Monitor the cost management 
+1.go to snowflake acocunt
+2.click on admin 
+3.click on cost mamagement 
 
 
