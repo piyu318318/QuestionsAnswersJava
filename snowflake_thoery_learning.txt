@@ -350,4 +350,47 @@ Monitor the cost management
 2.click on admin 
 3.click on cost mamagement 
 
+Resource Monitor in Snowflake
+************************************************************************************************************************************************
+
+A Resource Monitor in Snowflake is a tool used to track and control how much compute (credits) is used.
+
+Simple Explanation:
+What it does: Watches how many credits your virtual warehouses (compute) use.
+
+Why it's useful: Helps you avoid unexpected high costs.
+
+What you can do with it:
+
+Set limits (e.g., 100 credits per day).
+
+Choose actions when a limit is reached:
+
+Notify only
+
+Suspend the warehouse
+
+Suspend immediately
+
+Example:
+You create a resource monitor for 200 credits/month. If usage hits 80% (160 credits), it can send a warning. At 100%, it could automatically stop the warehouse to avoid extra charges.
+
+
+LOADING DATA INTO SNOWFLAKE
+************************************************************************************************************************************************
+
+1.BULK LOADING 
+a.most frequent method 
+b.uses warehouse.
+c.loading from stages
+d.copy command 
+e.transformation possible.
+
+
+2.CONTINOUS LOADING
+a.designed to load small amount of data.
+b.Automatically once they are added to the stages 
+c.lates result for analysis 
+d.Snowpipe (serverless feature)
+
 
