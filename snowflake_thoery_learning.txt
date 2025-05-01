@@ -393,4 +393,29 @@ b.Automatically once they are added to the stages
 c.lates result for analysis 
 d.Snowpipe (serverless feature)
 
+UNDERSTANDING OF STAGES
+************************************************************************************************************************************************
+
+stages in snowflakle is location of data files where data can be laoded from so here stage object we create basically contains the location from where data can be loaded from.
+for example AWS bucket  and in the stage object we just store the location so this database object is called stage has properties assosiated to it, one of those properties example location , there can be other properties like the credential so access to the location so we can easily load data from extrnal location.
+
+There are 2 tyoes of stages 
+1.External Stages       
+Extrnal cloud provider 
+s3
+google cloud platform 
+azure
+database object created in schema 
+create stage (URL, access settings)
+
+
+2.Internal Stage
+local storage maintained by snowflake 
+
+
+
+2.Internal Stages 
+
+
+
 
