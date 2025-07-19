@@ -1,0 +1,98 @@
+bash are mostly used for 
+1.monitoring tools
+2.enhansed security (supports encrypt and decrypt)
+3.task automations
+
+
+Bash scripts are files containing commands that you run in the terminal. They automate tasks and make your work more efficient.
+bash script does not supports oops 
+
+
+
+To create a script, start with the shebang #! followed by the path to Bash, usually /bin/bash. Make sure your script has execute permissions.
+#!/bin/bash
+#you can comment using hashtag in bash file 
+echo "hello world"
+
+
+
+*Using Variables in Scripts
+variable sare used to store a value in bash 
+Variables in Bash are used to store data that can be used and manipulated throughout your script or command-line session. Bash variables are untyped, meaning they can hold any type of data.
+
+
+#!/bin/bash
+name = "piyush"
+echo "heelo $name"
+
+
+!/bin/bash
+name = "piyush"
+age = 12
+echo "my name is $name and my age is $age"
+
+
+*Environment variables in bash script 
+Environment variables are special variables that affect the way processes run on your system. They are often used to store system-wide values like the location of executables or the default editor.
+
+!/bin/bash
+echo "environment variables are $PATH"
+
+
+
+
+*local variables  vs global variables in bash 
+local variables score is in the withi the block of code means in the function you cannot ue out side of a function
+global variables are used outside of the function as well.
+
+!/bin/bash
+name = "madhav"  #global variable
+function() {
+name = "piyush"#local variable
+echo "name is $name"
+}
+echo "my name is $name" #will porint global variable 
+
+*concatenation of variables 
+firstname = "piyush"
+lastname = "dixit"
+echo "$firstname$lastname"
+
+
+
+*addition of variabels 
+num1 = 10
+num2 = 10
+echo $(num1 + num2)
+
+*data types in bash script 
+1.strings are sequence of characters
+name = "piyush"
+
+2.numbers in bash are used for the arithmatic operations.
+num1 = 100
+num2 = 200
+
+sum=$((num1 + num2))
+difference=$((num2 - num1))
+product=$((num1 * num2))
+quotient=$((num2 / num1))
+
+
+
+3.Arrays are used to store multiple values in a single variable. Each element in an array is accessed using an index. You can iterate over arrays and modify elements.
+fruits = ("apple","banana","mango")
+for fruit in "{$fruits[@]}";do
+echo fruit
+done
+
+4.Associative Arrays An associative array (or hash map) lets you use string keys instead of just numeric indexes (like normal arrays).
+
+declare -A my_array  
+my_array["name"]="Piyush"
+my_array["role"]="Admin"
+my_array["location"]="India"
+
+echo "${my_array["name"]}" 
+
+
