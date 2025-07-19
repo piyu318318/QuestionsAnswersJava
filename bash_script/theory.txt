@@ -95,4 +95,6 @@ my_array["location"]="India"
 
 echo "${my_array["name"]}" 
 
+4.Bash does not support floating-point arithmetic natively. For such operations, consider using external tools like bc or awk.
+
 
