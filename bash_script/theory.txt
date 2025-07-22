@@ -98,3 +98,38 @@ echo "${my_array["name"]}"
 4.Bash does not support floating-point arithmetic natively. For such operations, consider using external tools like bc or awk.
 
 
+
+**************operators in bash script 
+
+*comparison operators 
+
+equal to -> -eq
+not equal to -> -ne
+less than -> -lt
+less than or equal to -> -le
+greater tahn -> -gt
+greater than equal to -> -ge
+
+
+string comparison operators
+=: Equal to
+!=: Not equal to
+<: Less than, in ASCII alphabetical order
+>: Greater than, in ASCII alphabetical order
+
+
+arithmatic operators 
+addition -> +
+subtraction -> -
+division -> /
+modulos -> 5
+multiplication -> *
+
+Logical operators 
+and &&
+or ||
+not !
+
+
+
+
