@@ -131,5 +131,124 @@ or ||
 not !
 
 
+File test operators 
+-e checks file exists or not
+-d chheck directory exists or not
+-r checks the file is reguler or not 
+-s checks file is not empty
+
+
+
+**** if statement 
+If statements allow you to execute code based on a condition. If the condition is true, the code block will run.
+The condition is enclosed in square brackets [ ] and the statement ends with fi, which is if spelled backward, marking the end of the if block.
+
+
+#if statememnt 
+num = 15
+if [ num -gt 10 ];then
+echo "Number is greater than 10"
+fi
+
+
+#if else loop
+If...else statements provide a way to execute one block of code if a condition is true and another block if it is false.
+The else keyword introduces the alternative block, and the statement ends with fi.
+
+num = 6
+if [ num -gt 10]; then
+  echo "number is greater than 10"
+else
+  echok "number is less than 10"
+
+
+
+Using Loops in Bash
+for loop in bash script 
+For loops allow you to iterate over a list of items or a range of numbers. They are useful for repeating tasks a specific number of times.
+The for keyword is followed by a variable name, a range of values, and a do keyword, which marks the start of the loop block.
+
+for i in {1..5} ;do
+  echo "iteration $i"
+done
+
+
+
+while loop 
+They are useful for tasks that need to repeat until a certain condition changes.
+The condition is enclosed in square brackets [ ], and the loop ends with done.
+count = 1
+while [ $count -le 1 ];do
+  echo "$count is count"
+  ((count++))
+done
+
+
+Until loop 
+How until works
+while runs while the condition is true.
+until runs until the condition is true (i.e., it runs while the condition is false).
+
+
+number  = 0
+
+until [ $count is -gt 5]
+do
+  echo "$count is count"
+  ((count++))
+done
+
+
+break statement 
+Stops the entire loop immediately.
+Control jumps to the next command after the loop.
+
+
+#!/bin/bash
+for i in {1..10};do
+  if [$i -eq 3];then
+      break
+  fi
+echo $i
+
+
+
+Continue  statement
+
+#!/bin/bash
+for i in {1..10};do
+  if [$i -eq 5];then
+    continue
+  else
+    echo "$i"
+    
+
+***functions in bash script 
+There are two valid ways to define a function in Bash:
+
+#type 1
+
+function myfunction()
+{
+echo "hii"
+}
+
+
+#type 2
+myfunction()
+{
+echo "hi"
+}
+
+
+caling a function 
+myfunction  #just call a function
+
+
+
+
+
+
+
 
 
