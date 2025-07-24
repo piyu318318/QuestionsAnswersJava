@@ -246,9 +246,26 @@ myfunction  #just call a function
 
 
 
+functions with argument 
+greet()
+{
+echo "hello $1"
+}
 
+greet "piyush"
 
+#output -> hello piyush
 
+functions with returningn values 
+Bash functions can’t “return” strings directly — they return an exit status (0 = success, non-zero = error).
+
+add() {
+  result = $(($1 + $2))
+  echo "$result"
+}
+
+sum =  (add 3,4)
+echo "$sum is sum "
 
 
 
