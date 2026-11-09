@@ -110,5 +110,38 @@ select * , rank() over (partition by department ORDER BY salary DESC) as ranking
 
 
 
+DENSE_RANK() in SQL
+
+DENSE_RANK() is a window function used to assign ranks to rows based on a specified column.
+
+Important: If two employees have the same salary, they get the same rank. Unlike RANK(), it does not skip the next rank.
+
+
+Question 1: Rank all employees based on salary (highest first).
+
+select * , DENSE_RANK() over(order by salaryd desc ) as ranking from employee;
+
+
+Question 1: display only the employee with the maximum salary (highest salary) using DENSE_RANK():
+
+select * from (
+select *, DENSE_RANK() over(order by salary desc ) as ranking from employee
+) 
+as temp where ranking = 1;
+
+
+*************************************************************************************************************************************************
+
+
+ROW_NUMBER
+
+ROW_NUMBER() is a window function that assigns a unique sequential number to each row based on the specified ordering.
+
+Even if two employees have the same salary, they will get different row numbers.
+
+
+select *, row_number() over(order by salary) as hisghestsalary from employee;
+*************************************************************************************************************************************************
+
 
 
