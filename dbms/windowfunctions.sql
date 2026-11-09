@@ -94,4 +94,21 @@ select * from employee order by salary desc ;
 
 
 
+RANK():
+RANK() is a window function used to assign a rank to each employee based on their salary.
+
+Question 1: Find the highest-paid employee using RANK()
+
+select * , rank() over(order by salary desc ) as rankedsalary from employee;
+
+Question 2: Rank employees according to salary within each department.
+
+select * , rank() over (partition by department ORDER BY salary DESC) as ranking  from employee;
+
+
+************************************************************************************************************************************************************************************************
+
+
+
+
 
