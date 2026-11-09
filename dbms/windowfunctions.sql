@@ -69,7 +69,29 @@ Display each employees salary and the number of employees in their department.
 
 select emp_id , emp_name ,department, count(*) over(partition by department) as totalcount from employee;
 
+
+
 ************************************************************************************************************************************************************************************************
+
+
+3.ORDER BY
+
+ORDER BY is used to sort the records in ascending or descending order.
+
+
+
+Question 1: Display employees in ascending order of salary.
+
+select * from employee order by salary;
+
+#for desceding order 
+select * from employee order by salary desc ;
+
+
+
+************************************************************************************************************************************************************************************************
+
+
 
 
 
