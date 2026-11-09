@@ -41,6 +41,35 @@ SQL calculates the total salary of all employees, but keeps every employee's row
 - Total salary = 60000
 
 
+****************************************************************************************************************************************************************************************************************************************************************
+2.PARTITION BY
 
-2.
+The PARTITION BY clause in SQL divides a querys result set into smaller groups (partitions) to perform calculations. It is always used inside the OVER() clause alongside window functions (like SUM(), AVG(), ROW_NUMBER(), or RANK())
+
+
+Question: Display the number of employees in each department along with employee details.
+
+
+select emp_id,emp_name, department ,count(*) over(partition by department) as total_emp from employee ;
+
+
+
+Find the highest salary in each department and display all employee details.
+
+select department, max(salary) from employee group by (department);
+
+select emp_id, emp_name, department , max(salary) over(partition by department) as max_salary from employee;
+
+Display each employees salary and the total salary of their department.
+
+select emp_id, emp_name, department,  sum(salary ) over(partition by department) as sumsalary from employee;
+
+
+Display each employees salary and the number of employees in their department.
+
+select emp_id , emp_name ,department, count(*) over(partition by department) as totalcount from employee;
+
+************************************************************************************************************************************************************************************************
+
+
 
