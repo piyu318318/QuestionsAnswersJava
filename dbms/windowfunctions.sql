@@ -1,4 +1,6 @@
-1.OVER():The OVER() clause is used with window functions to calculate values across rows without combining them into a single row.
+1.OVER()  Window Function in SQL:
+
+The OVER() clause is used with window functions to calculate values across rows without combining them into a single row.
 
   1. Imagine this employee table
 Employee	Salary
@@ -9,7 +11,7 @@ Priya	30000
 Total salary = 60000
 
 Now suppose you want to display each employee's salary AND the total salary.
-2. Without OVER()
+ Without OVER()
 SELECT SUM(salary)
 FROM employee;
 
@@ -42,7 +44,7 @@ SQL calculates the total salary of all employees, but keeps every employee's row
 
 
 ****************************************************************************************************************************************************************************************************************************************************************
-2.PARTITION BY
+2.PARTITION BY Window Function in SQL:
 
 The PARTITION BY clause in SQL divides a querys result set into smaller groups (partitions) to perform calculations. It is always used inside the OVER() clause alongside window functions (like SUM(), AVG(), ROW_NUMBER(), or RANK())
 
@@ -74,7 +76,7 @@ select emp_id , emp_name ,department, count(*) over(partition by department) as 
 ************************************************************************************************************************************************************************************************
 
 
-3.ORDER BY
+3.ORDER BY Window Function in SQL:
 
 ORDER BY is used to sort the records in ascending or descending order.
 
@@ -94,7 +96,7 @@ select * from employee order by salary desc ;
 
 
 
-RANK():
+RANK() Window Function in SQL:
 RANK() is a window function used to assign a rank to each employee based on their salary.
 
 Question 1: Find the highest-paid employee using RANK()
@@ -110,7 +112,7 @@ select * , rank() over (partition by department ORDER BY salary DESC) as ranking
 
 
 
-DENSE_RANK() in SQL
+DENSE_RANK() Window Function in SQL:
 
 DENSE_RANK() is a window function used to assign ranks to rows based on a specified column.
 
@@ -133,7 +135,7 @@ as temp where ranking = 1;
 *************************************************************************************************************************************************
 
 
-ROW_NUMBER
+ROW_NUMBER Window Function in SQL:
 
 ROW_NUMBER() is a window function that assigns a unique sequential number to each row based on the specified ordering.
 
@@ -141,9 +143,6 @@ Even if two employees have the same salary, they will get different row numbers.
 
 
 select *, row_number() over(order by salary) as hisghestsalary from employee;
-*************************************************************************************************************************************************
-
-
 
 
 
