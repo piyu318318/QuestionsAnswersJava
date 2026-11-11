@@ -145,3 +145,53 @@ select *, row_number() over(order by salary) as hisghestsalary from employee;
 
 
 
+
+
+****************************************************************************************************************************
+LEAD() Window Function in SQL
+
+The LEAD() function is a window function in SQL that allows you to access the value from the next row without performing a self-join.
+
+syntax :
+LEAD(column_name, offset, default_value)
+OVER (
+    PARTITION BY column_name
+    ORDER BY column_name
+);
+
+
+The LEAD() function is a window function in SQL that allows you to access the value from the next row without performing a self-join.
+
+Q1. Display each students name, marks, and the next students marks.
+
+select * , marks,  lead(marks) over() as next_student_marks  FROM student_marks;
+
+
+Q2. Display each students name, marks, and the two rows ahead  students marks.
+
+select *, lead(marks,2 ) over() as next_2_students_salary from student_marks;
+
+Q3. Display each students name, marks, and the two rows ahead  students marks also replace null values to 0
+
+select *, lead(marks,2,0 ) over() as next_2_students_salary from student_marks;
+
+****************************************************************************************************************************
+
+
+LAG() Window Function in SQL
+The LAG() function is a SQL window function that allows you to access the value from the previous row without performing a self-join.
+
+Q4. Display each students name, marks, and previous students marks
+
+select * , marks, lag(marks) over() as previous_student_marks from student_marks;
+
+Q5. Display each students name, marks, and previous 2 students marks
+
+select * , lag(marks, 2) over() as previou_2_student_marks from student_marks;
+
+Q6. Display each students name, marks, and previous 2 students marks also replace null values to 0
+
+select * , lag(marks, 2, 0) over() as previou_2_student_marks from student_marks;
+
+
+****************************************************************************************************************************
