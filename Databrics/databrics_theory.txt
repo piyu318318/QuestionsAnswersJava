@@ -25,3 +25,153 @@ cleaning room        catalog       external location (aws ,azure)
 youu can govern files, views , tables , functions and 
 external location (aws ,azure)-> you can access the data resides in aws and azure.  
 unity catelog is unified governance layer .
+
+
+****       Databricks Hierarchy
+                Metastore
+                    ↓
+                Catalog  sales_catalog
+                    ↓
+                Schema  raw
+                    ↓
+                Tables  customers
+
+
+
+1.create a catalog 
+2.write catalog name 
+3.choose one from below 
+
+Catalog type	Meaning
+Standard ->	Regular catalog for organizing schemas, tables and views.
+Foreign->	Provides access to data managed by an external system through a foreign catalog.
+Shared->	Catalog made available through Delta Sharing.
+
+
+when you create a catalog in databrics it ceates a metastore under which you catalog is created at.
+
+
+
+Databrics Volume 
+In Databricks, a Volume is used to store and manage files such as CSV, JSON, Parquet, images, PDFs, and other unstructured data.
+Metastore
+   |
+   └── Catalog (sales_catalog)
+          |
+          └── Schema (sales_db)
+                 |
+                 ├── Tables
+                 |
+                 └── Volumes
+                       |
+                       ├── customers.csv
+                       ├── orders.json
+                       └── sales.xlsx
+2. Types of Volumes
+
+Type	Meaning
+Managed Volume	Databricks manages the storage location.
+External Volume	Files are stored in an external cloud storage location, such as AWS S3 or Azure Data Lake.
+
+Catalog → Organizes schemas.
+Schema → Organizes tables and volumes.
+Table → Stores structured data.
+Volume → Stores files.
+
+
+Databrics Architecture 
+There are five important components:
+1. Control Plane – Manages the Databricks workspace, jobs, notebooks and clusters.
+2. Compute Plane – Executes Spark jobs and processes data.
+3. Storage Layer – Stores data in cloud storage such as AWS S3, Azure Data Lake or Google Cloud Storage.
+4. Unity Catalog – Manages data governance, permissions and access control.
+5. Delta Lake – Provides reliable storage with ACID transactions and data versioning.
+
+
+
+1. What is a Data Lake?
+data lake is centralized storage location where we store large amounts of raw data in different formats. 
+For example:
+- CSV files, JSON files , Parquet files, Images, Logs, XML files 
+Example: AWS S3, Azure Data Lake Storage and Google Cloud Storage.
+
+
+2. What is Delta Lake?
+Delta Lake is an open-source storage framework that adds reliability to data lakes.
+It provides:
+ACID transactions
+Time Travel (access previous versions of data)
+Schema enforcement
+Schema evolution
+UPDATE, DELETE and MERGE operations
+
+It stores data in Parquet files and maintains a transaction log in the _delta_log directory.
+
+
+
+What is a Delta Table in Databricks?
+
+A Delta Table is a table that stores data in Delta Lake format (Parquet files + transaction log).
+It provides reliable data storage and supports:
+- ACID Transactions – Safe and consistent data operations.
+- UPDATE / DELETE – Modify or delete existing records.
+- MERGE – Insert and update records together.
+- Time Travel – Access previous versions of data.
+- Schema Enforcement – Prevent invalid data structures.
+
+In Databricks, Delta transaction Log (_delta_log) is used to track all changes and operations performed on a Delta Table.
+
+Think of it as a history book of your table. It records what happened to the data.
+
+
+
+example
+Let's take a simple Bank Customer Data example in Databricks.
+Step 1: Create a DataFrame
+data = [(1, "Rahul", 5000),(2, "Amit", 8000),(3, "Priya", 10000)]
+
+columns = ["id", "name", "balance"]
+
+df = spark.createDataFrame(data, columns)
+
+Step 2: Create a Delta Table
+df.write.format("delta").mode("overwrite").saveAsTable("customers")
+
+
+Now customers is a Delta table.
+
+Step 3: Read the Delta Table
+SELECT * FROM customers;
+
+Output:
+id	name	balance
+1	Rahul	5000
+2	Amit	8000
+3	Priya	10000
+
+Step 4: Update existing data
+Suppose Rahul's balance changes from 5000 to 7000.
+UPDATE customers SET balance = 7000 WHERE id = 1;
+
+Step 5: Delete a record
+DELETE FROM customers WHERE id = 2;
+
+Step 6: Time Travel
+Check the previous version of the table:
+
+SELECT * FROM customers VERSION AS OF 0;
+
+This retrieves the original data if version 0 is still retained.
+
+
+What happened here?
+Operation	What Delta Table provides
+Create	Stores data in Delta format
+Read	Reads Delta table
+Update	Modifies existing records
+Delete	Deletes records
+Time Travel	Accesses previous versions
+
+
+
+
