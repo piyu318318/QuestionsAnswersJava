@@ -1,0 +1,27 @@
+databrics starting -> https://www.youtube.com/watch?v=6ZodbPtp2Fs&t=287s
+
+databrics ->
+
+nothing but managed solution of which built on top of apache spark 
+introduced notebooks to spark clusters that simply submit to clusters this was basic idea behind databrics .
+apache spark is framework databrics is soltion built on top of apache spark .
+
+what is unity catalog and unity metastore?
+with unity catalog we get the centralized governnace
+metastore is a place where you store all metadata (data about data) 
+metastore means basically it stores information about your catalogs, schemas , tables  and you need to put everything underr metastore, its centrallized storage.
+
+
+
+                 unity    metastore 
+     ↓                  ↓                 ↓
+cleaning room        catalog       external location (aws ,azure) 
+                        ↓
+                      schema
+     ↓              ↓          ↓            ↓          ↓
+
+    Volume        Views        Tables   functions    models
+
+youu can govern files, views , tables , functions and 
+external location (aws ,azure)-> you can access the data resides in aws and azure.  
+unity catelog is unified governance layer .
