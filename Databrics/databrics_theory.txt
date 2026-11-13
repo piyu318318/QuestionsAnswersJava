@@ -279,5 +279,46 @@ Good for periodic ingestion	                        Good for continuous or sched
 
 
 
+BDUTILS
+DBUTILS is is packages of modules that databrics has created for all developers 
+dbutils (Databricks Utilities) is a collection of built-in utilities used to interact with files, secrets, notebooks, and other Databricks resources.
+just like os python module 
+Method	Use
+dbutils.fs	Manage files and directories
+dbutils.fs.ls()	List files and folders
+dbutils.fs.cp()	Copy files
+dbutils.fs.mv()	Move files
+dbutils.fs.rm()	Delete files
+dbutils.fs.mkdirs()	Create directories
+dbutils.secrets	Access stored secrets
+dbutils.secrets.get()	Retrieve a secret
+dbutils.widgets	Create notebook input parameters
+dbutils.widgets.text()	Create a text input widget
+dbutils.widgets.get()	Retrieve widget values
+dbutils.notebook.run()	Run another notebook
+dbutils.notebook.exit()	Exit a notebook and return a value
+dbutils.library	Manage notebook libraries (legacy utility)
 
+
+
+
+medallion architecture
+
+aws s3      ------------------------->              
+
+azure blob -------------------------> databrics               ---------->power bi , ai agents 
+
+SQL database ------------------------->
+
+
+
+
+bronze layer -> this is a layer that we use to litrally dump our data in as it form , why do i do that so that i also own the data which is avaialble on source side 
+we call this broze layer.
+
+silver layer (transformations)-> here the data will be cleaned , data will be de duplicated (removes duplicate data ), data will be created in a kind of separate structure that we eant to use that our organization want to use in short data will be cleaned.
+
+gold layer -> data will be available in the final layer or final structure here you can create models , dimenstional data models fact table , dimensions tables . in short we can coonnect our data to gold layer 
+
+it is journey of data , data will be clean and reliable as it moves forward on line. 
 
