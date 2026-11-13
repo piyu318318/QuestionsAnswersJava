@@ -172,6 +172,112 @@ Update	Modifies existing records
 Delete	Deletes records
 Time Travel	Accesses previous versions
 
+lakeflow connect 
+lakeflow connect is the way to ingest your data within our  databrics 
+
+saas connectors 
+saas connectors  in databrics is used to to extract, ingest, and synchronize data from third-party enterprise software applications directly into the Databricks Lakehouse
+mysql , weorkday ,google drive ,sap , postresql 
+
+
+File connectors in databrics 
+In Databricks, file connectors are used to connect to different file sources and ingest data into Databricks for processing.
+For example, you may receive files from AWS S3, Azure Data Lake, Google Cloud Storage or local uploads.
+
+File source	Purpose
+AWS S3	Connect to Amazon cloud storage
+Azure Data Lake Storage (ADLS)	Connect to Azure storage
+Google Cloud Storage (GCS)	Connect to Google cloud storage
+SFTP	Fetch files from remote servers
+Unity Catalog Volumes	Access and manage files in Databricks
+Local upload	Upload CSV, JSON, Excel files
+
+
+
+pyspark code is a best way to fetch the data from file connectors.
+
+
+
+COPY INTO in Databricks
+COPY INTO is a SQL command in Databricks used to incrementally load data from files into a Delta table.
+It loads new files and keeps track of files that have already been processed, helping avoid loading the same files repeatedly.
+
+1. Practical example
+Suppose you have an AWS S3 folder containing customer CSV files:
+s3://mybucket/customers/
+       |
+       ├── customers_jan.csv
+       ├── customers_feb.csv
+       └── customers_mar.csv
+
+You want to load these files into a Delta table in Databricks.
+
+2. Create a target Delta table
+CREATE TABLE mycatalog.default.customers (
+    customer_id INT,
+    customer_name STRING,
+    city STRING
+);
+COPY INTO mycatalog.default.customers
+FROM 's3://mybucket/customers/'
+FILEFORMAT = CSV
+FORMAT_OPTIONS ('header' = 'true');
+
+COPY INTO maintains file-processing metadata so previously loaded files are not loaded again during normal subsequent executions.
+
+
+
+Important features
+Feature	Meaning
+Incremental loading	Loads newly detected files
+File tracking	Tracks processed files
+Idempotency	Avoids reloading previously processed files
+Multiple formats	Supports CSV, JSON, Parquet and others
+Schema handling	Supports schema options
+
+7. Interview answer
+"COPY INTO is an incremental data ingestion command in Databricks. It loads new files from cloud storage into Delta tables and tracks previously processed files to avoid duplicate file ingestion."
+Practice question
+Suppose 100 CSV files are present in S3. You execute COPY INTO. Tomorrow, 10 new CSV files arrive. When you execute COPY INTO again, how many files will normally be loaded?
+Answer: 10 new files, assuming the original 100 were successfully processed and file-tracking metadata is
+
+
+
+
+Autoloader in databrics 
+s3 bucket                         streaaming 
+🪣                           ------------------>       Databrics 
+
+
+if the files stored under s3 bucket you want to fwtch the data and use this data as soon as possible what you will use spark streaming  for which you need to take care of idempotency, checkpoints , offsets
+but spark streaming does not managed this things we do not have built in solution but auto loader is kind of managed spark structure streaming solution created by databrics .
+if new file arrives in s3 bucket it will be automatically will go in databrics with idempotency, checkpoints , offsets along with schema evolution. 
+
+1. Auto Loader syntax using PySpark
+df = (spark.readStream
+    .format("cloudFiles")
+    .option("cloudFiles.format", "csv")
+    .option("header", "true")
+    .option("cloudFiles.schemaLocation", "/checkpoints/schema")
+    .load("s3://my-bucket/health-data/")
+)
+(df.writeStream
+    .format("delta")
+    .option("checkpointLocation", "/checkpoints/health")
+    .outputMode("append")
+    .toTable("mycatalog.default.health_data")
+)
+
+
+COPY INTO	                                        Auto Loader
+SQL-based ingestion                             	Spark-based ingestion
+Simple incremental loading	                        Scalable incremental ingestion
+Tracks processed files	                            Tracks file discovery and processing state
+Run the command repeatedly	                        Commonly used with streaming jobs
+Good for periodic ingestion	                        Good for continuous or scheduled ingestion
+
+
+
 
 
 
