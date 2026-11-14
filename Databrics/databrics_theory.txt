@@ -398,9 +398,58 @@ How to refresh a Materialized View in Databricks
 
 REFRESH MATERIALIZED VIEW city_sales_mv;
 
- A Materialized View generally consumes more storage than a Normal View.
+A Materialized View generally consumes more storage than a Normal View.
 
 Q: Why would you use a Materialized View instead of a normal View?
 If I have complex SQL queries involving multiple joins and aggregations on large datasets, I prefer a Materialized View because it stores precomputed results. This can improve query performance and reduce repeated computation. A normal View is useful when I want reusable SQL logic without storing another copy of the results
 
+also in databrics materilized view cached its results so in its memory and every time it will run the query it wil not reprocess the entire query it will only process the new data.it cached result for fast access.
 
+Streaming tables in databrics 
+A Streaming Table in Databricks is a table designed to process data incrementally as new data arrives.
+In simple words:
+Instead of reading and processing the entire dataset again and again, a Streaming Table processes new incoming data and maintains the results.
+
+Practical real-world example
+Imagine you are working on an e-commerce application.
+Every time a customer places an order, a new record arrives in an S3 bucket.
+
+orders.csv
+
+order_id	customer	amount
+1	        Rahul	    500
+2	        Amit	    1000
+3	        Priya	    700
+
+You ingest these records into a Databricks Streaming Table.
+Tomorrow, two new records arrive:
+
+order_id	customer	amount
+    4	    Sneha	    1200
+    5	    Akash	    800
+
+
+The Streaming Table processes the new data incrementally.
+It doesn't need to reprocess all previously ingested files.
+
+
+Important concepts to remember
+Auto Loader: Detects and incrementally ingests new files.
+Streaming Table: Stores incrementally processed records.
+Materialized View: Stores precomputed query results.
+
+Databricks Asset Bundles (DAB)
+DAB stands for Databricks Asset Bundles. They are now also referred to as Declarative Automation Bundles in newer Databricks terminology.
+DAB is used to develop, deploy, and manage Databricks projects across different environments such as Development, Testing and Production.
+Imagine you have developed a Databricks ETL pipeline in your Dev environment. Now you want to deploy the same pipeline to Production.
+
+
+                                    Local Development
+                                Python / SQL / Notebooks / YAML
+
+                  ↓                           ↓                       ↓
+                 DEV                         TEST                   PROD
+               Workspace                   Workspace               Workspace
+
+
+               
