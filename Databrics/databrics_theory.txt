@@ -322,3 +322,85 @@ gold layer -> data will be available in the final layer or final structure here 
 
 it is journey of data , data will be clean and reliable as it moves forward on line. 
 
+
+
+                                                                                Metastore
+                                                                        Top-level governance container
+
+                                                                                    ↓
+                                                                             Catalog: my_catalog
+                                                                    Organizes data by domain or environment
+
+                                                                                      ↓
+
+                                                                bronze              silver                  gold
+                                                                  ↓                    ↓                      ↓
+                                                                Schema              Schema                  Schema
+
+
+1. Bronze layer
+- Ingest raw customer data.
+- Ingest raw order data.
+- Preserve original records.
+
+
+2. Silver layer
+- Remove duplicate customers.
+- Handle NULL values.
+- Convert date and amount columns to correct data types.
+- Validate records.
+
+
+3. Gold layer
+- Calculate total sales.
+- Calculate monthly revenue.
+- Generate region-wise sales reports.
+
+
+
+lakeflowjobs
+This is not part of part of medallion architecture but this completes the medallion architecture why  because data orchestration.
+
+Data orchestration is the automated coordination, scheduling, and management of data pipelines and workflows across multiple siloed systems, databases, and tools and this is responsible to built the data jobs.
+
+This is responsible to uilt the data jobs and we always built the jobs for orchestration.
+
+
+LDP in Databricks (Lakeflow Declarative Pipelines)
+LDP stands for Lakeflow Declarative Pipelines. It is a Databricks framework used to build, manage, and maintain batch and streaming data pipelines.
+In simple words, LDP helps you build Bronze, Silver and Gold pipelines without manually managing every execution step.
+
+
+Materialized View
+
+
+The main difference is:
+- View: Stores the SQL query, not the actual query result.
+- Materialized View: Stores precomputed query results physically.
+
+Practical example: What happens when source data changes?.
+
+Initially:
+City	Sales
+Pune	1200
+Mumbai	1300
+
+Now a new order arrives:
+City	Sales
+Pune	500
+
+New total Pune sales = 1700.
+- View: The next query reads the updated source and returns 1700.
+- Materialized View: Its stored result must be refreshed to reflect the new source data.
+
+
+How to refresh a Materialized View in Databricks
+
+REFRESH MATERIALIZED VIEW city_sales_mv;
+
+ A Materialized View generally consumes more storage than a Normal View.
+
+Q: Why would you use a Materialized View instead of a normal View?
+If I have complex SQL queries involving multiple joins and aggregations on large datasets, I prefer a Materialized View because it stores precomputed results. This can improve query performance and reduce repeated computation. A normal View is useful when I want reusable SQL logic without storing another copy of the results
+
+
