@@ -452,4 +452,57 @@ Imagine you have developed a Databricks ETL pipeline in your Dev environment. No
                Workspace                   Workspace               Workspace
 
 
-               
+
+In Databricks, before running an Auto Loader or streaming ingestion Job, you will often create two important folders:
+1._metadata – Stores metadata related to ingestion and schema information, depending on the implementation.
+2._checkpoints – Stores streaming progress and recovery information.
+
+
+
+
+_metadata is a special file metadata column provided by Databricks when reading files.
+schemaLocation is a folder where Auto Loader stores schema information.
+- checkpointLocation is a folder where Spark stores streaming progress and recovery information.
+
+
+
+
+This SQL command enables Change Data Feed (CDF) on your Bronze Delta table in Databricks.
+ALTER TABLE mycatalog.bronzeschema.transaction
+SET TBLPROPERTIES (
+    delta.enableChangeDataFeed = true
+);
+
+
+1. What is Change Data Feed (CDF)?
+Change Data Feed allows you to track changes made to a Delta table.
+It records:
+- INSERT: New records inserted into the table.
+- UPDATE: Existing records updated.
+- DELETE: Records deleted from the table
+
+Instead of reading the entire Bronze table every time, you can read only the changes made since a particular version.
+
+2. Practical example in your pipeline
+Suppose your Bronze table receives three CSV files:
+File	Records	Operation
+transactions_01.csv	2,000	INSERT
+transactions_02.csv	2,000	INSERT
+transactions_03.csv	2,000	INSERT
+
+3. How to read CDF data
+After enabling CDF, you can read changes using PySpark:
+df = (
+    spark.read
+    .format("delta")
+    .option("readChangeFeed", "true")
+    .option("startingVersion", 1)
+    .table("mycatalog.bronzeschema.transaction")
+)
+
+display(df)
+CDF provides additional columns:
+Column	Meaning
+_change_type	insert, update_preimage, update_postimage, delete
+_commit_version	Delta table version where the change occurred
+_commit_timestamp	Timestamp of the commit
