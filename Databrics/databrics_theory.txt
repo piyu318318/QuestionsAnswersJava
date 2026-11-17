@@ -299,7 +299,14 @@ dbutils.notebook.run()	Run another notebook
 dbutils.notebook.exit()	Exit a notebook and return a value
 dbutils.library	Manage notebook libraries (legacy utility)
 
+Types of tables in Databricks
 
+Table type	                                    Description
+Delta table	                                    Stores data in Delta format (Parquet + transaction log).
+Managed table	                                Databricks manages both data and metadata.
+External table	                                Data is stored at an external location; Databricks manages metadata.
+Hive/Parquet table	                            Tables using formats such as Parquet without Delta transaction capabilities.
+Iceberg table	                                Uses Apache Iceberg table format.
 
 
 medallion architecture
