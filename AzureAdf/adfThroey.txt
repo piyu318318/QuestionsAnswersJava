@@ -1,0 +1,47 @@
+
+flowchart TD
+    A["Data Sources"]
+
+    A1["On-Premises SQL Server"]
+    A2["MySQL / Oracle"]
+    A3["Azure SQL Database"]
+    A4["AWS S3 / Cloud Storage"]
+    A5["SaaS Applications"]
+
+    A --> A1
+    A --> A2
+    A --> A3
+    A --> A4
+    A --> A5
+
+    A1 --> B["Integration Runtime"]
+    A2 --> B
+    A3 --> B
+    A4 --> B
+    A5 --> B
+
+    B --> C["Azure Data Factory"]
+
+    C --> D["Pipeline"]
+    D --> E["Activities"]
+    E --> E1["Copy Activity"]
+    E --> E2["Data Flow"]
+    E --> E3["Databricks Notebook"]
+    
+    E1 --> F["Azure Data Lake Storage Gen2"]
+    E2 --> F
+    E3 --> F
+
+    F --> G["Bronze Layer"]
+    G --> H["Silver Layer"]
+    H --> I["Gold Layer"]
+
+    I --> J["Azure Synapse Analytics"]
+    I --> K["Power BI"]
+
+    L["Triggers / Schedule / Event"] --> D
+
+    style C fill:#0078D4,color:#fff
+    style B fill:#008272,color:#fff
+    style F fill:#0078D4,color:#fff
+    style I fill:#D97706,color:#fff
